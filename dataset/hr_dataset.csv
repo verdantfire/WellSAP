@@ -1,0 +1,312 @@
+Employee_ID,Employee_Name,MaritalStatusID,Sex,DeptID,PerfScoreID,FromDiversityJobFairID,Salary,Termd,Position,DOB,CitizenDesc,HispanicLatino,RaceDesc,DateofHire,DateofTermination,ManagerID,EngagementSurvey,EmpSatisfaction,SpecialProjectsCount,DaysLateLast30,Absences,Age,Age_Group
+1,"Adinolfi, Wilson  K",0,M,5,4,0,62506,0,Production Technician I,1983-07-10,US Citizen,No,White,7/5/2011,,22.0,4.6,5,0,0,1,34,21 to 35
+2,"Ait Sidi, Karthikeyan   ",1,M,3,3,0,104437,1,Sr. DBA,1975-05-05,US Citizen,No,White,3/30/2015,6/16/2016,4.0,4.96,3,6,0,17,42,36 to 50
+3,"Akinkuolie, Sarah",1,F,5,3,0,64955,1,Production Technician II,1988-09-19,US Citizen,No,White,7/5/2011,9/24/2012,20.0,3.02,3,0,0,3,28,21 to 35
+4,"Alagbe,Trina",1,F,5,3,0,64991,0,Production Technician I,1988-09-27,US Citizen,No,White,1/7/2008,,16.0,4.84,5,0,0,15,28,21 to 35
+5,"Anderson, Carol ",2,F,5,3,0,50825,1,Production Technician I,1989-09-08,US Citizen,No,White,7/11/2011,9/6/2016,39.0,5.0,4,0,0,2,27,21 to 35
+6,"Anderson, Linda  ",0,F,5,4,0,57568,0,Production Technician I,1977-05-22,US Citizen,No,White,1/9/2012,,11.0,5.0,5,0,0,15,40,36 to 50
+7,"Andreola, Colby",0,F,4,3,0,95660,0,Software Engineer,1979-05-24,US Citizen,No,White,11/10/2014,,10.0,3.04,3,4,0,19,38,36 to 50
+8,"Athwal, Sam",4,M,5,3,0,59365,0,Production Technician I,1983-02-18,US Citizen,No,White,9/30/2013,,19.0,5.0,4,0,0,19,34,21 to 35
+9,"Bachiochi, Linda",0,F,5,3,1,47837,0,Production Technician I,2070-02-11,US Citizen,No,Black or African American,7/6/2009,,12.0,4.46,3,0,0,4,52,More than 51
+10,"Bacong, Alejandro ",2,M,3,3,0,50178,0,IT Support,1988-01-07,US Citizen,No,White,1/5/2015,,7.0,5.0,5,6,0,16,29,21 to 35
+11,"Baczenski, Rachael  ",1,F,5,3,1,54670,1,Production Technician I,1974-01-12,US Citizen,Yes,Black or African American,1/10/2011,1/12/2017,14.0,4.2,4,0,0,12,43,36 to 50
+12,"Barbara, Thomas",1,M,5,3,1,47211,1,Production Technician I,1974-02-21,US Citizen,Yes,Black or African American,4/2/2012,9/19/2016,20.0,4.2,3,0,0,15,43,36 to 50
+13,"Barbossa, Hector",2,M,3,4,1,92328,0,Data Analyst,1988-07-04,US Citizen,No,Black or African American,11/10/2014,,4.0,4.28,4,5,0,9,29,21 to 35
+14,"Barone, Francesco  A",0,M,5,3,0,58709,0,Production Technician I,1983-07-20,US Citizen,No,Two or more races,2/20/2012,,18.0,4.6,4,0,0,7,34,21 to 35
+15,"Barton, Nader",2,M,5,3,0,52505,1,Production Technician I,1977-07-15,US Citizen,No,White,9/24/2012,4/6/2017,22.0,5.0,5,0,0,1,40,36 to 50
+16,"Bates, Norman",0,M,5,3,0,57834,1,Production Technician I,1981-10-18,US Citizen,No,White,2/21/2011,8/4/2017,18.0,5.0,4,0,0,20,35,21 to 35
+17,"Beak, Kimberly  ",1,F,5,4,0,70131,0,Production Technician II,2066-04-17,US Citizen,No,White,7/21/2016,,18.0,4.4,3,0,0,16,48,36 to 50
+18,"Beatrice, Courtney ",0,F,5,3,0,59026,0,Production Technician I,2070-10-27,Eligible NonCitizen,No,White,4/4/2011,,16.0,5.0,5,0,0,12,53,More than 51
+19,"Becker, Renee",0,F,3,3,0,110000,1,Database Administrator,1986-04-04,US Citizen,Yes,White,7/7/2014,9/12/2015,4.0,4.5,4,5,0,8,31,21 to 35
+20,"Becker, Scott",0,M,5,3,0,53250,0,Production Technician I,1979-04-06,US Citizen,No,Asian,7/8/2013,,,4.2,4,0,0,13,38,36 to 50
+21,"Bernstein, Sean",0,M,5,3,0,51044,0,Production Technician I,2070-12-22,US Citizen,Yes,White,4/2/2012,,11.0,5.0,3,0,0,13,53,More than 51
+22,"Biden, Lowan  M",2,F,5,3,0,64919,0,Production Technician I,2058-12-27,US Citizen,No,Asian,8/19/2013,,19.0,4.2,3,0,0,2,41,36 to 50
+23,"Billis, Helen",1,F,5,4,0,62910,0,Production Technician I,1989-09-01,US Citizen,No,White,7/7/2014,,12.0,5.0,3,0,0,19,27,21 to 35
+24,"Blount, Dianna",0,F,5,2,0,66441,0,Production Technician II,1990-09-21,US Citizen,No,White,4/4/2011,,22.0,2.0,3,0,2,3,26,21 to 35
+25,"Bondwell, Betsy",0,F,5,3,0,57815,1,Production Technician II,2067-01-16,US Citizen,No,White,1/10/2011,4/4/2014,16.0,4.8,5,0,0,5,49,36 to 50
+26,"Booth, Frank",0,M,3,3,0,103613,1,Enterprise Architect,2064-07-30,US Citizen,No,Black or African American,2/17/2014,2/19/2016,4.0,3.5,5,7,0,2,47,36 to 50
+27,"Boutwell, Bonalyn",1,F,1,3,1,106367,0,Sr. Accountant,1987-04-04,US Citizen,No,Black or African American,2/16/2015,,3.0,5.0,4,3,0,4,30,21 to 35
+28,"Bozzi, Charles",0,M,5,3,0,74312,1,Production Manager,2070-03-10,US Citizen,No,Asian,9/30/2013,8/7/2014,2.0,3.39,3,0,0,14,52,More than 51
+29,"Brill, Donna",1,F,5,3,0,53492,1,Production Technician I,1990-08-24,US Citizen,No,White,4/2/2012,6/15/2013,14.0,3.35,4,0,0,6,26,21 to 35
+30,"Brown, Mia",1,F,1,3,1,63000,0,Accountant I,1987-11-24,US Citizen,No,Black or African American,10/27/2008,,1.0,4.5,2,6,0,14,29,21 to 35
+31,"Buccheri, Joseph  ",0,M,5,3,0,65288,0,Production Technician II,1983-07-28,US Citizen,No,White,9/29/2014,,,3.19,3,0,0,9,34,21 to 35
+32,"Bugali, Josephine ",3,F,5,3,1,64375,0,Production Technician I,2069-10-30,US Citizen,No,Black or African American,11/11/2013,,20.0,3.5,5,0,0,17,52,More than 51
+33,"Bunbury, Jessica",1,F,6,3,0,74326,1,Area Sales Manager,2064-06-01,Eligible NonCitizen,No,Black or African American,8/15/2011,8/2/2014,17.0,3.14,5,0,1,19,46,36 to 50
+34,"Burke, Joelle",0,F,5,3,0,63763,0,Production Technician II,1980-03-02,US Citizen,No,Black or African American,3/5/2012,,11.0,4.51,4,0,0,3,37,36 to 50
+35,"Burkett, Benjamin ",1,M,5,3,0,62162,0,Production Technician II,1977-08-19,US Citizen,No,White,4/4/2011,,19.0,3.25,5,0,0,15,39,36 to 50
+36,"Cady, Max ",0,M,4,3,0,77692,0,Software Engineering Manager,2066-11-22,US Citizen,No,White,8/15/2011,,5.0,3.84,3,5,0,4,49,36 to 50
+37,"Candie, Calvin",0,M,5,4,0,72640,0,Production Manager,1983-08-09,US Citizen,No,White,1/28/2016,,2.0,5.0,3,0,0,14,33,21 to 35
+38,"Carabbio, Judith",0,F,4,3,0,93396,0,Software Engineer,1987-04-05,US Citizen,No,White,11/11/2013,,10.0,4.96,4,6,0,3,30,21 to 35
+39,"Carey, Michael  ",0,M,5,3,0,52846,0,Production Technician I,1983-02-02,US Citizen,No,Black or African American,3/31/2014,,18.0,4.43,3,0,0,14,34,21 to 35
+40,"Carr, Claudia  N",0,F,3,3,0,100031,0,Sr. DBA,1986-06-06,US Citizen,No,Black or African American,6/30/2016,,4.0,5.0,5,6,0,7,31,21 to 35
+41,"Carter, Michelle ",0,F,6,3,0,71860,0,Area Sales Manager,2063-05-15,US Citizen,No,White,8/18/2014,,17.0,5.0,5,0,0,7,45,36 to 50
+42,"Chace, Beatrice ",0,F,5,3,0,61656,0,Production Technician I,2051-01-02,US Citizen,No,White,9/29/2014,,22.0,5.0,4,0,0,11,33,21 to 35
+43,"Champaigne, Brian",1,M,3,3,0,110929,0,BI Director,1972-02-09,US Citizen,No,White,9/6/2016,,5.0,4.5,5,7,0,8,45,36 to 50
+44,"Chan, Lin",0,F,5,3,0,54237,0,Production Technician I,1979-02-12,US Citizen,No,White,5/12/2014,,16.0,3.3,4,0,0,11,38,36 to 50
+45,"Chang, Donovan  E",0,M,5,3,0,60380,0,Production Technician I,1983-08-24,US Citizen,No,White,7/8/2013,,,3.8,5,0,0,4,33,21 to 35
+46,"Chigurh, Anton",0,M,6,3,0,66808,0,Area Sales Manager,2070-06-11,Eligible NonCitizen,No,Black or African American,5/14/2012,,21.0,3.0,5,0,0,17,52,More than 51
+47,"Chivukula, Enola",0,F,5,3,0,64786,1,Production Technician I,1983-08-27,US Citizen,No,White,6/27/2011,11/15/2015,11.0,4.3,4,0,0,3,33,21 to 35
+48,"Cierpiszewski, Caroline  ",0,F,5,3,0,64816,0,Production Technician I,1988-05-31,Non-Citizen,No,Black or African American,10/3/2011,,19.0,3.58,5,0,0,3,29,21 to 35
+49,"Clayton, Rick",0,M,3,3,0,68678,0,IT Support,1985-09-05,US Citizen,No,White,9/5/2012,,6.0,4.7,3,6,0,2,31,21 to 35
+50,"Cloninger, Jennifer",1,F,5,3,0,64066,1,Production Technician II,1981-08-31,US Citizen,No,White,5/16/2011,1/7/2013,12.0,4.2,5,0,0,9,35,21 to 35
+51,"Close, Phil",1,M,5,3,0,59369,1,Production Technician II,1978-11-25,US Citizen,No,White,8/30/2010,9/26/2011,14.0,4.2,4,0,0,6,38,36 to 50
+52,"Clukey, Elijian",1,M,5,4,0,50373,0,Production Technician I,1980-08-26,US Citizen,No,White,7/6/2016,,12.0,4.1,4,0,0,5,36,36 to 50
+53,"Cockel, James",0,M,5,3,0,63108,0,Production Technician I,1977-09-08,US Citizen,No,White,7/8/2013,,14.0,4.4,5,0,0,3,39,36 to 50
+54,"Cole, Spencer",0,M,5,2,0,59144,1,Production Technician I,1979-08-12,US Citizen,No,Black or African American,7/11/2011,9/23/2016,20.0,2.0,3,0,5,16,37,36 to 50
+55,"Corleone, Michael",2,M,5,2,0,68051,0,Production Manager,1975-12-17,US Citizen,No,White,7/20/2010,,2.0,4.13,2,0,3,3,41,36 to 50
+56,"Corleone, Vito",0,M,5,4,0,170500,0,Director of Operations,1983-03-19,US Citizen,No,Black or African American,1/5/2009,,2.0,3.7,5,0,0,15,34,21 to 35
+57,"Cornett, Lisa ",1,F,5,3,0,63381,0,Production Technician I,1977-03-31,US Citizen,Yes,White,1/5/2015,,18.0,4.73,5,0,0,6,40,36 to 50
+58,"Costello, Frank",1,M,3,3,0,83552,0,Data Analyst,1986-08-26,US Citizen,No,White,3/30/2015,,4.0,3.04,3,6,0,2,30,21 to 35
+59,"Crimmings,   Jean",0,F,5,3,0,56149,0,Production Technician I,1987-04-10,US Citizen,No,White,7/6/2016,,22.0,4.12,5,0,0,15,30,21 to 35
+60,"Cross, Noah",0,M,3,3,0,92329,0,Sr. Network Engineer,2065-09-09,US Citizen,No,White,11/10/2014,,7.0,5.0,3,4,0,5,48,36 to 50
+61,"Daneault, Lynn",0,F,6,3,0,65729,0,Sales Manager,1990-04-19,US Citizen,No,White,5/5/2014,,15.0,4.62,4,0,0,8,27,21 to 35
+62,"Daniele, Ann  ",1,F,3,3,0,85028,0,Sr. Network Engineer,2052-01-18,US Citizen,No,White,11/10/2014,,7.0,3.1,5,8,0,19,34,21 to 35
+63,"Darson, Jene'ya ",1,F,5,3,0,57583,0,Production Technician I,1978-11-05,US Citizen,No,White,7/2/2012,,16.0,5.0,3,0,0,1,38,36 to 50
+64,"Davis, Daniel",0,M,5,3,0,56294,0,Production Technician II,1979-09-14,Eligible NonCitizen,No,Two or more races,11/7/2011,,20.0,3.96,4,0,0,6,37,36 to 50
+65,"Dee, Randy",1,M,6,1,0,56991,0,Production Technician I,1988-04-15,US Citizen,No,White,7/9/2018,,12.0,4.3,4,3,2,2,29,21 to 35
+66,"DeGweck,  James",1,M,5,3,0,55722,1,Production Technician I,1977-10-31,US Citizen,No,White,5/16/2011,6/8/2016,39.0,5.0,4,0,0,14,39,36 to 50
+67,"Del Bosque, Keyla",0,F,4,3,0,101199,0,Software Engineer,1979-07-05,US Citizen,No,Black or African American,1/9/2012,,10.0,3.79,5,5,0,8,38,36 to 50
+68,"Delarge, Alex",0,M,6,1,0,61568,0,Area Sales Manager,1975-11-02,US Citizen,No,Two or more races,9/29/2014,,17.0,1.93,3,0,6,5,41,36 to 50
+69,"Demita, Carla",3,F,5,3,0,58275,1,Production Technician II,2051-02-25,US Citizen,No,Black or African American,4/4/2011,11/4/2015,18.0,4.62,5,0,0,1,33,21 to 35
+70,"Desimone, Carl ",1,M,5,1,0,53189,0,Production Technician I,2067-04-19,US Citizen,No,White,7/7/2014,,11.0,1.12,2,0,4,9,49,36 to 50
+71,"DeVito, Tommy",0,M,3,3,0,96820,0,BI Developer,1983-09-04,US Citizen,No,White,2/15/2017,,13.0,3.01,5,7,0,15,33,21 to 35
+72,"Dickinson, Geoff ",0,M,5,3,0,51259,0,Production Technician I,1982-11-15,US Citizen,No,White,5/12/2014,,19.0,4.3,4,0,0,1,34,21 to 35
+73,"Dietrich, Jenna  ",0,F,6,1,0,59231,0,Area Sales Manager,1987-05-14,US Citizen,Yes,White,2/20/2012,,17.0,2.3,1,0,2,17,30,21 to 35
+74,"DiNocco, Lily ",1,F,5,2,0,61584,0,Production Technician I,1978-12-02,US Citizen,No,Black or African American,1/7/2013,,12.0,3.88,4,0,0,6,38,36 to 50
+75,"Dobrin, Denisa  S",0,F,5,3,0,46335,0,Production Technician I,1986-10-07,US Citizen,Yes,White,4/2/2012,,14.0,3.4,5,0,0,15,30,21 to 35
+76,"Dolan, Linda",1,F,3,3,0,70621,0,IT Support,1988-07-18,US Citizen,No,White,1/5/2015,,7.0,4.11,4,6,0,16,29,21 to 35
+77,"Dougall, Eric",0,M,3,4,0,138888,0,IT Manager - Support,2070-07-09,US Citizen,No,Black or African American,1/5/2014,,5.0,4.3,5,5,0,4,53,More than 51
+78,"Driver, Elle",0,F,6,4,0,74241,0,Area Sales Manager,1988-11-08,US Citizen,No,White,1/10/2011,,21.0,4.77,5,0,0,14,28,21 to 35
+79,"Dunn, Amy  ",0,F,5,3,0,75188,0,Production Manager,1973-11-28,US Citizen,No,White,9/18/2014,,2.0,4.52,4,0,0,4,43,36 to 50
+80,"Dunne, Amy",1,F,5,3,0,62514,0,Production Technician I,1973-09-23,US Citizen,No,White,4/26/2010,,19.0,2.9,3,0,0,6,43,36 to 50
+81,"Eaton, Marianne",1,F,5,3,0,60070,1,Production Technician I,1991-09-05,US Citizen,No,White,4/4/2011,6/6/2017,20.0,5.0,3,0,0,7,25,21 to 35
+82,"Engdahl, Jean",0,M,5,3,0,48888,0,Production Technician I,1974-05-31,US Citizen,No,White,11/10/2014,,18.0,4.7,5,0,0,8,43,36 to 50
+83,"England, Rex",1,M,5,3,0,54285,0,Production Technician I,1978-08-25,US Citizen,No,White,3/31/2014,,18.0,4.2,3,0,0,3,38,36 to 50
+84,"Erilus, Angela",3,F,5,1,0,56847,0,Production Technician II,1989-08-25,US Citizen,No,White,7/7/2014,,22.0,3.0,1,0,2,5,27,21 to 35
+85,"Estremera, Miguel",0,M,5,2,0,60340,1,Production Technician I,1983-09-02,US Citizen,No,White,4/2/2012,9/27/2018,22.0,5.0,4,0,5,16,33,21 to 35
+86,"Evensen, April",0,F,5,2,0,59124,1,Production Technician I,1989-05-06,US Citizen,No,White,2/17/2014,2/25/2018,16.0,2.3,3,0,5,19,28,21 to 35
+87,"Exantus, Susan",1,F,4,2,0,99280,1,Software Engineer,1987-05-15,US Citizen,No,Black or African American,5/2/2011,6/5/2013,10.0,2.1,5,4,4,19,30,21 to 35
+88,"Faller, Megan ",1,F,5,3,0,71776,0,Production Technician II,1978-09-22,US Citizen,No,Black or African American,7/7/2014,,16.0,4.4,5,0,0,17,38,36 to 50
+89,"Fancett, Nicole",0,F,5,3,0,65902,0,Production Technician II,1987-09-27,US Citizen,No,Black or African American,2/17/2014,,,4.0,4,0,0,7,29,21 to 35
+90,"Ferguson, Susan",1,F,5,3,0,57748,1,Production Technician I,2055-04-14,US Citizen,No,White,11/7/2011,5/17/2016,39.0,3.13,3,0,0,16,37,36 to 50
+91,"Fernandes, Nilson  ",1,M,5,1,0,64057,0,Production Technician I,1989-10-18,US Citizen,No,White,5/11/2015,,11.0,1.56,5,0,6,15,27,21 to 35
+92,"Fett, Boba",0,M,3,1,0,53366,0,Network Engineer,1987-06-18,US Citizen,No,White,3/30/2015,,7.0,1.2,3,6,3,2,30,21 to 35
+93,"Fidelia,  Libby",1,F,5,3,0,58530,0,Production Technician I,1981-03-16,US Citizen,No,White,1/9/2012,,12.0,5.0,5,0,0,19,36,36 to 50
+94,"Fitzpatrick, Michael  J",0,M,5,3,0,72609,1,Production Technician II,1981-10-01,US Citizen,Yes,White,5/16/2011,6/24/2013,11.0,4.76,5,0,0,20,35,21 to 35
+95,"Foreman, Tanya",1,F,5,3,0,55965,1,Production Technician II,1983-11-08,US Citizen,No,White,4/4/2011,1/9/2013,19.0,3.66,3,0,0,6,33,21 to 35
+96,"Forrest, Alex",1,M,6,3,0,70187,1,Area Sales Manager,1975-07-07,US Citizen,No,White,9/29/2014,8/19/2018,21.0,2.0,5,0,4,7,42,36 to 50
+97,"Foss, Jason",0,M,3,4,0,178000,0,IT Director,1980-07-05,US Citizen,No,Black or African American,4/15/2011,,5.0,5.0,5,5,0,15,37,36 to 50
+98,"Foster-Baker, Amy",1,F,1,3,0,99351,0,Sr. Accountant,1979-04-16,US Citizen,no,White,1/5/2009,,9.0,5.0,3,2,0,3,38,36 to 50
+99,"Fraval, Maruk ",0,M,6,3,0,67251,0,Area Sales Manager,2063-08-28,US Citizen,No,Black or African American,9/6/2011,,21.0,4.3,3,0,2,7,46,36 to 50
+100,"Galia, Lisa",0,F,3,3,0,65707,0,IT Support,2068-07-06,US Citizen,No,White,5/1/2010,,6.0,4.7,4,5,0,1,50,36 to 50
+101,"Garcia, Raul",0,M,5,3,0,52249,0,Production Technician I,1985-09-15,US Citizen,Yes,White,3/30/2015,,14.0,4.5,3,0,0,5,31,21 to 35
+102,"Gaul, Barbara",0,F,5,3,0,53171,0,Production Technician I,1983-12-02,US Citizen,Yes,Black or African American,5/16/2011,,18.0,4.2,4,0,0,12,33,21 to 35
+103,"Gentry, Mildred",1,F,5,3,0,51337,0,Production Technician I,1990-10-01,US Citizen,No,Black or African American,3/30/2015,,22.0,3.73,3,0,0,19,26,21 to 35
+104,"Gerke, Melisa",2,F,5,3,1,51505,1,Production Technician I,2070-05-15,US Citizen,No,Black or African American,11/7/2011,11/15/2016,16.0,4.24,4,0,0,2,52,More than 51
+105,"Gill, Whitney  ",4,F,6,3,0,59370,1,Area Sales Manager,1971-07-10,US Citizen,No,Black or African American,7/7/2014,9/5/2015,17.0,3.97,4,0,0,7,46,36 to 50
+106,"Gilles, Alex",1,M,5,2,1,54933,1,Production Technician I,1974-08-09,US Citizen,No,Black or African American,4/2/2012,6/25/2015,39.0,3.97,4,0,3,15,42,36 to 50
+107,"Girifalco, Evelyn",0,F,5,4,0,57815,0,Production Technician I,1980-05-08,US Citizen,Yes,Two or more races,9/29/2014,,11.0,3.9,4,0,0,3,37,36 to 50
+108,"Givens, Myriam",0,F,6,3,0,61555,0,Area Sales Manager,1989-09-22,US Citizen,No,White,2/16/2015,,21.0,4.5,5,0,0,20,27,21 to 35
+109,"Goble, Taisha",0,F,3,3,0,114800,1,Database Administrator,1971-10-23,US Citizen,No,White,2/16/2015,3/15/2015,4.0,4.6,4,4,0,10,45,36 to 50
+110,"Goeth, Amon",1,M,3,3,0,74679,0,IT Support,1989-11-24,US Citizen,Yes,White,3/30/2015,,7.0,4.3,5,7,0,20,27,21 to 35
+111,"Gold, Shenice  ",0,F,5,3,0,53018,0,Production Technician I,1992-06-18,US Citizen,Yes,White,11/11/2013,,19.0,4.3,5,0,0,7,25,21 to 35
+112,"Gonzalez, Cayo",2,M,5,4,1,59892,0,Production Technician I,2069-09-29,US Citizen,No,Black or African American,7/11/2011,,12.0,4.5,4,0,0,1,52,More than 51
+113,"Gonzalez, Juan",1,M,5,1,1,68898,1,Production Technician II,2064-10-12,US Citizen,No,Black or African American,4/26/2010,5/30/2011,12.0,3.0,3,0,3,10,47,36 to 50
+114,"Gonzalez, Maria",3,F,3,3,0,61242,0,IT Support,1981-04-16,US Citizen,Yes,White,1/5/2015,,7.0,4.61,4,5,0,11,36,36 to 50
+115,"Good, Susan",1,F,5,3,0,66825,0,Production Technician II,1986-05-25,US Citizen,No,White,5/12/2014,,14.0,4.6,3,0,0,20,31,21 to 35
+116,"Gordon, David",1,M,5,3,0,48285,0,Production Technician I,1979-05-21,US Citizen,No,White,7/2/2012,,14.0,5.0,3,0,0,2,38,36 to 50
+117,"Gosciminski, Phylicia  ",3,F,5,3,0,66149,0,Production Technician II,1983-12-08,US Citizen,No,American Indian or Alaska Native,9/30/2013,,20.0,4.4,5,0,0,1,33,21 to 35
+118,"Goyal, Roxana",1,F,5,3,0,49256,0,Production Technician I,1974-10-09,US Citizen,No,Asian,8/19/2013,,20.0,4.1,5,0,0,3,42,36 to 50
+119,"Gray, Elijiah  ",2,M,5,3,0,62957,0,Production Manager,1981-07-11,US Citizen,No,White,6/2/2015,,2.0,4.63,3,0,0,2,36,36 to 50
+120,"Gross, Paula",2,F,5,3,0,63813,1,Production Technician I,1983-05-21,US Citizen,No,White,2/21/2011,1/11/2014,18.0,5.0,5,0,0,17,34,21 to 35
+121,"Gruber, Hans",1,M,3,3,0,99020,0,BI Developer,1989-06-30,US Citizen,No,Black or African American,4/20/2017,,13.0,4.2,5,5,0,8,28,21 to 35
+122,"Guilianno, Mike",0,M,6,3,0,71707,1,Area Sales Manager,2069-02-09,US Citizen,No,Two or more races,3/7/2012,10/31/2014,17.0,4.5,5,0,0,20,51,More than 51
+123,"Handschiegl, Joanne",1,F,5,3,0,54828,0,Production Technician I,1977-03-23,US Citizen,No,White,11/28/2011,,22.0,4.2,4,0,0,13,40,36 to 50
+124,"Hankard, Earnest",0,M,5,3,0,64246,0,Production Technician II,1988-08-10,US Citizen,Yes,White,11/11/2013,,18.0,5.0,3,0,0,20,28,21 to 35
+125,"Harrington, Christie ",0,F,5,3,0,52177,1,Production Technician I,2052-08-18,US Citizen,No,White,1/9/2012,12/15/2015,39.0,4.64,4,0,0,8,35,21 to 35
+126,"Harrison, Kara",1,F,5,4,0,62065,0,Production Technician I,1974-05-02,US Citizen,No,White,5/12/2014,,11.0,4.76,4,0,0,5,43,36 to 50
+127,"Heitzman, Anthony",0,M,5,3,0,46998,0,Production Technician I,1984-01-04,US Citizen,No,White,8/13/2012,,19.0,4.17,4,0,0,1,33,21 to 35
+128,"Hendrickson, Trina",0,F,5,3,0,68099,1,Production Technician II,1972-08-27,US Citizen,No,White,1/10/2011,6/18/2013,18.0,5.0,3,0,0,15,44,36 to 50
+129,"Hitchcock, Alfred",1,M,6,3,0,70545,0,Area Sales Manager,1988-09-14,US Citizen,No,American Indian or Alaska Native,8/18/2014,,17.0,3.6,5,0,0,9,28,21 to 35
+130,"Homberger, Adrienne  J",1,F,5,3,0,63478,1,Production Technician II,1984-02-16,Non-Citizen,No,White,8/15/2011,4/7/2012,30.0,3.03,5,0,0,16,33,21 to 35
+131,"Horton, Jayne",0,F,3,3,0,97999,0,Database Administrator,1984-02-21,US Citizen,No,White,3/30/2015,,4.0,4.48,5,6,0,4,33,21 to 35
+132,"Houlihan, Debra",1,F,6,3,0,180000,0,Director of Sales,2066-03-17,US Citizen,No,White,5/5/2014,,2.0,4.5,4,0,0,19,48,36 to 50
+133,"Howard, Estelle",1,F,1,3,0,49920,1,Administrative Assistant,1985-09-16,US Citizen,No,Black or African American,2/16/2015,4/15/2015,1.0,3.24,3,4,0,6,31,21 to 35
+134,"Hudson, Jane",0,F,5,3,0,55425,0,Production Technician I,1986-06-10,US Citizen,No,White,2/20/2012,,19.0,4.8,4,0,0,4,31,21 to 35
+135,"Hunts, Julissa",0,F,5,3,0,69340,0,Production Technician II,1984-03-11,US Citizen,No,White,6/6/2016,,16.0,3.0,5,0,0,4,33,21 to 35
+136,"Hutter, Rosalie",3,F,5,3,0,64995,0,Production Technician II,1992-05-07,US Citizen,No,White,6/5/2015,,,4.5,3,0,0,6,25,21 to 35
+137,"Huynh, Ming",2,F,5,3,0,68182,1,Production Technician II,1976-09-22,US Citizen,No,White,2/21/2011,4/1/2013,11.0,3.72,3,0,0,18,40,36 to 50
+138,"Immediato, Walter",1,M,5,2,0,83082,1,Production Manager,1976-11-15,US Citizen,No,Asian,2/21/2011,9/24/2012,2.0,2.34,2,0,3,4,40,36 to 50
+139,"Ivey, Rose ",0,F,5,3,0,51908,0,Production Technician I,1991-01-28,US Citizen,No,White,8/19/2013,,12.0,3.99,3,0,0,14,26,21 to 35
+140,"Jackson, Maryellen",0,F,5,3,0,61242,0,Production Technician I,1972-09-11,US Citizen,No,Black or African American,11/5/2012,,14.0,4.1,3,0,0,7,44,36 to 50
+141,"Jacobi, Hannah  ",2,F,5,3,0,45069,0,Production Technician I,2066-03-22,US Citizen,No,White,9/30/2013,,20.0,4.3,5,0,0,7,48,36 to 50
+142,"Jeannite, Tayana",2,F,5,4,0,60724,0,Production Technician II,1986-11-06,US Citizen,No,American Indian or Alaska Native,7/5/2011,,19.0,4.6,4,0,0,11,30,21 to 35
+143,"Jhaveri, Sneha  ",3,F,5,3,0,60436,0,Production Technician I,2064-04-13,US Citizen,No,White,1/6/2014,,18.0,5.0,5,0,0,9,46,36 to 50
+144,"Johnson, George",1,M,5,4,0,46837,1,Production Technician I,2059-08-19,US Citizen,No,White,11/7/2011,4/29/2018,22.0,4.7,4,0,0,9,42,36 to 50
+145,"Johnson, Noelle ",1,F,3,3,0,105700,0,Database Administrator,1986-11-07,US Citizen,No,Asian,1/5/2015,,4.0,3.75,3,5,0,2,30,21 to 35
+146,"Johnston, Yen",0,F,5,4,0,63322,0,Production Technician II,2069-09-08,US Citizen,No,White,7/7/2014,,12.0,4.3,3,0,0,1,52,More than 51
+147,"Jung, Judy  ",1,F,5,3,0,61154,1,Production Technician I,1986-04-17,US Citizen,No,Black or African American,1/10/2011,4/1/2016,16.0,4.0,4,0,0,4,31,21 to 35
+148,"Kampew, Donysha",0,F,6,3,0,68999,1,Sales Manager,1989-11-11,US Citizen,No,White,11/7/2011,4/24/2014,15.0,4.5,5,0,0,2,27,21 to 35
+149,"Keatts, Kramer ",0,M,5,3,0,50482,0,Production Technician I,1976-01-19,US Citizen,No,White,9/30/2013,,22.0,3.07,4,0,0,10,41,36 to 50
+150,"Khemmich, Bartholemew",0,M,6,3,0,65310,0,Area Sales Manager,1979-11-27,US Citizen,No,White,8/19/2013,,21.0,4.3,5,0,0,13,37,36 to 50
+151,"King, Janet",1,F,2,3,0,250000,0,President & CEO,2054-09-21,US Citizen,Yes,White,7/2/2012,,9.0,4.83,3,0,0,10,37,36 to 50
+152,"Kinsella, Kathleen  ",1,F,5,3,0,54005,1,Production Technician I,1973-12-08,US Citizen,No,White,9/26/2011,6/4/2015,39.0,3.6,5,0,0,16,43,36 to 50
+153,"Kirill, Alexandra  ",1,F,5,3,0,45433,1,Production Technician I,2070-10-08,US Citizen,No,White,9/26/2011,1/9/2014,11.0,3.49,4,0,0,6,53,More than 51
+154,"Knapp, Bradley  J",0,M,5,3,0,46654,0,Production Technician I,1977-11-10,US Citizen,No,Black or African American,2/17/2014,,19.0,3.1,3,0,0,3,39,36 to 50
+155,"Kretschmer, John",1,M,5,3,0,63973,0,Production Technician I,1980-02-02,US Citizen,No,Asian,1/10/2011,,12.0,3.38,3,0,0,17,37,36 to 50
+156,"Kreuger, Freddy",0,M,6,3,1,71339,0,Area Sales Manager,2069-02-24,US Citizen,Yes,Black or African American,3/7/2011,,17.0,3.65,5,0,0,20,51,More than 51
+157,"Lajiri,  Jyoti",1,M,3,3,0,93206,0,Sr. Network Engineer,1986-04-23,US Citizen,No,White,11/10/2014,,7.0,4.46,5,6,0,7,31,21 to 35
+158,"Landa, Hans",1,M,5,3,0,82758,1,Production Manager,1972-07-01,US Citizen,No,White,1/10/2011,12/12/2015,2.0,4.78,4,0,0,9,45,36 to 50
+159,"Langford, Lindsey",2,F,5,3,0,66074,1,Production Technician II,1979-07-25,US Citizen,No,Asian,1/7/2013,3/31/2014,14.0,4.52,3,0,0,20,38,36 to 50
+160,"Langton, Enrico",1,M,5,3,0,46120,0,Production Technician I,1986-12-09,US Citizen,No,White,7/9/2012,,14.0,5.0,5,0,0,13,30,21 to 35
+161,"LaRotonda, William  ",2,M,1,3,0,64520,0,Accountant I,1984-04-26,US Citizen,No,Black or African American,1/6/2014,,1.0,5.0,4,4,0,3,33,21 to 35
+162,"Latif, Mohammed",1,M,5,3,0,61962,1,Production Technician II,1984-05-09,US Citizen,No,White,4/2/2012,4/15/2013,20.0,4.9,3,0,0,20,33,21 to 35
+163,"Le, Binh",0,F,3,3,0,81584,0,Senior BI Developer,1987-06-14,US Citizen,No,Asian,10/2/2016,,13.0,4.1,5,7,0,2,30,21 to 35
+164,"Leach, Dallas",0,F,5,3,0,63676,1,Production Technician I,1979-01-17,US Citizen,No,Asian,9/26/2011,8/19/2018,20.0,4.88,3,0,0,17,38,36 to 50
+165,"LeBlanc, Brandon  R",1,M,1,3,0,93046,0,Shared Services Manager,1984-06-10,US Citizen,No,White,1/5/2016,,2.0,4.1,4,0,0,20,33,21 to 35
+166,"Lecter, Hannibal",1,M,5,3,0,64738,0,Production Technician I,1982-09-02,US Citizen,No,Asian,5/14/2012,,16.0,4.1,3,0,0,10,34,21 to 35
+167,"Leruth, Giovanni",3,M,6,3,0,70468,0,Area Sales Manager,1988-12-27,US Citizen,No,Black or African American,4/30/2012,,17.0,4.53,3,0,0,16,28,21 to 35
+168,"Liebig, Ketsia",1,F,5,4,0,77915,0,Production Manager,1981-10-26,US Citizen,No,White,9/30/2013,,2.0,4.1,3,0,0,11,35,21 to 35
+169,"Linares, Marilyn ",1,F,5,3,0,52624,1,Production Technician I,1981-03-26,US Citizen,No,White,7/5/2011,9/26/2018,22.0,3.18,4,0,0,16,36,36 to 50
+170,"Linden, Mathew",1,M,5,3,0,63450,0,Production Technician II,1979-03-19,US Citizen,No,White,7/8/2013,,18.0,4.0,3,0,0,7,38,36 to 50
+171,"Lindsay, Leonara ",0,F,3,4,1,51777,0,IT Support,1988-10-05,US Citizen,Yes,Black or African American,1/21/2011,,6.0,4.64,4,5,0,14,28,21 to 35
+172,"Lundy, Susan",4,F,5,3,0,67237,1,Production Technician II,1976-12-26,US Citizen,No,White,7/8/2013,9/15/2016,22.0,4.65,4,0,0,15,40,36 to 50
+173,"Lunquist, Lisa",0,F,5,4,0,73330,0,Production Technician II,1982-03-28,US Citizen,No,Black or African American,8/19/2013,,16.0,4.2,4,0,0,19,35,21 to 35
+174,"Lydon, Allison",1,F,5,3,0,52057,0,Production Technician I,1975-10-22,US Citizen,No,Black or African American,2/16/2015,,16.0,5.0,3,0,0,6,41,36 to 50
+175,"Lynch, Lindsay",0,F,5,4,1,47434,1,Production Technician I,1973-02-14,US Citizen,Yes,Black or African American,11/7/2011,11/14/2015,39.0,5.0,4,0,0,17,44,36 to 50
+176,"MacLennan, Samuel",4,M,5,3,0,52788,1,Production Technician I,1972-11-09,US Citizen,No,White,9/24/2012,9/26/2017,11.0,3.08,4,0,0,18,44,36 to 50
+177,"Mahoney, Lauren  ",0,F,5,3,0,45395,0,Production Technician I,1986-07-07,US Citizen,No,White,1/6/2014,,19.0,4.6,4,0,0,14,31,21 to 35
+178,"Manchester, Robyn",1,F,5,3,0,62385,0,Production Technician II,1976-08-25,US Citizen,No,White,5/11/2016,,,5.0,3,0,0,4,40,36 to 50
+179,"Mancuso, Karen",1,F,5,3,0,68407,1,Production Technician II,1986-12-10,US Citizen,No,Two or more races,7/5/2011,8/19/2012,11.0,5.0,4,0,0,16,30,21 to 35
+180,"Mangal, Debbie",1,F,5,3,0,61349,0,Production Technician I,1974-11-07,US Citizen,No,White,11/11/2013,,12.0,4.1,3,0,0,11,42,36 to 50
+181,"Martin, Sandra",0,F,4,3,0,105688,0,Software Engineer,1987-11-07,US Citizen,No,Asian,11/11/2013,,10.0,4.5,5,4,0,14,29,21 to 35
+182,"Maurice, Shana",1,F,5,3,0,54132,0,Production Technician I,1977-11-22,US Citizen,No,White,5/31/2011,,14.0,5.0,4,0,0,8,39,36 to 50
+183,"Carthy, B'rigit",0,F,5,3,0,55315,0,Production Technician II,1987-05-21,US Citizen,No,Black or African American,3/30/2015,,19.0,5.0,5,0,0,16,30,21 to 35
+184,"Mckenna, Sandy",1,F,5,3,0,62810,0,Production Technician I,1987-01-07,US Citizen,No,Black or African American,1/7/2013,,20.0,3.93,3,0,0,20,30,21 to 35
+185,"McKinzie, Jac",1,M,6,3,0,63291,0,Area Sales Manager,1984-07-01,US Citizen,No,Two or more races,7/6/2016,,21.0,3.4,4,0,0,7,33,21 to 35
+186,"Meads, Elizabeth",0,F,5,3,1,62659,1,Production Technician I,2068-05-30,US Citizen,No,Black or African American,4/2/2012,11/11/2016,18.0,4.18,4,0,0,17,50,36 to 50
+187,"Medeiros, Jennifer",0,F,5,3,0,55688,0,Production Technician I,1976-09-22,US Citizen,No,White,3/30/2015,,22.0,5.0,4,0,0,10,40,36 to 50
+188,"Miller, Brannon",0,M,5,3,0,83667,0,Production Manager,1981-08-10,US Citizen,yes,Hispanic,8/16/2012,,2.0,4.37,3,0,0,2,35,21 to 35
+189,"Miller, Ned",0,M,5,1,0,55800,1,Production Technician II,1985-06-29,US Citizen,No,White,8/15/2011,9/4/2014,12.0,3.0,2,0,6,6,32,21 to 35
+190,"Monkfish, Erasumus",1,M,5,3,0,58207,0,Production Technician II,1992-08-17,US Citizen,No,White,11/7/2011,,14.0,3.7,3,0,0,14,24,21 to 35
+191,"Monroe, Peter",1,M,3,2,1,157000,0,IT Manager - Infra,1986-10-05,Eligible NonCitizen,Yes,Black or African American,2/15/2012,,5.0,2.39,3,6,4,13,30,21 to 35
+192,"Monterro, Luisa",0,F,5,4,0,72460,0,Production Technician II,2070-04-24,US Citizen,No,Black or African American,5/13/2013,,20.0,4.7,3,0,0,1,52,More than 51
+193,"Moran, Patrick",0,M,5,3,1,72106,0,Production Technician II,1976-12-03,US Citizen,No,Black or African American,1/9/2012,,18.0,4.1,4,0,0,12,40,36 to 50
+194,"Morway, Tanya",1,F,3,3,0,52599,0,Network Engineer,1979-04-04,US Citizen,No,White,2/16/2015,,7.0,3.81,3,6,0,6,38,36 to 50
+195,"Motlagh,  Dawn",2,F,5,3,0,63430,0,Production Technician I,1984-07-07,US Citizen,No,White,4/1/2013,,16.0,4.4,4,0,0,18,33,21 to 35
+196,"Moumanil, Maliki ",3,M,5,3,0,74417,0,Production Technician II,1974-12-01,US Citizen,No,Black or African American,5/13/2013,,22.0,4.29,5,0,0,11,42,36 to 50
+197,"Myers, Michael",0,M,5,3,0,57575,0,Production Technician I,1980-04-18,US Citizen,No,Asian,7/8/2013,,20.0,4.1,4,0,0,13,37,36 to 50
+198,"Navathe, Kurt",0,M,3,3,0,87921,0,Senior BI Developer,2070-04-25,US Citizen,No,Asian,2/10/2017,,13.0,5.0,3,6,0,17,52,More than 51
+199,"Ndzi, Colombui",0,M,5,3,1,50470,1,Production Technician I,1989-05-02,US Citizen,No,Black or African American,9/26/2011,4/4/2014,39.0,4.3,3,0,0,19,28,21 to 35
+200,"Ndzi, Horia",1,M,5,3,0,46664,1,Production Technician I,1983-03-28,US Citizen,No,White,4/1/2013,5/25/2016,11.0,3.18,3,0,0,10,34,21 to 35
+201,"Newman, Richard ",1,M,5,3,0,48495,0,Production Technician I,1977-04-08,US Citizen,No,White,5/12/2014,,19.0,5.0,5,0,0,11,40,36 to 50
+202,"Ngodup, Shari ",3,F,5,4,1,52984,0,Production Technician I,2067-06-03,US Citizen,No,Black or African American,4/1/2013,,12.0,4.0,3,0,0,12,49,36 to 50
+203,"Nguyen, Dheepa",0,F,6,3,0,63695,0,Area Sales Manager,1989-03-31,US Citizen,No,Two or more races,7/8/2013,,21.0,5.0,5,0,0,2,28,21 to 35
+204,"Nguyen, Lei-Ming",0,F,5,3,0,62061,0,Production Technician I,1984-07-07,US Citizen,No,White,7/8/2013,,14.0,3.6,5,0,0,4,33,21 to 35
+205,"Nowlan, Kristie",0,F,5,3,0,66738,0,Production Technician II,1985-11-23,US Citizen,No,White,11/10/2014,,16.0,4.53,5,0,0,5,31,21 to 35
+206,"O'hare, Lynn",0,F,5,1,0,52674,1,Production Technician I,1980-09-30,US Citizen,No,Two or more races,3/31/2014,5/1/2018,20.0,2.33,2,0,6,3,36,36 to 50
+207,"Oliver, Brooke ",1,F,5,3,0,71966,1,Production Technician II,2052-02-11,US Citizen,No,Asian,5/14/2012,8/19/2013,39.0,5.0,3,0,0,17,34,21 to 35
+208,"Onque, Jasmine",0,F,6,3,0,63051,0,Area Sales Manager,1990-05-11,US Citizen,Yes,White,9/30/2013,,21.0,4.28,3,0,0,1,27,21 to 35
+209,"Osturnka, Adeel",1,M,5,4,0,47414,0,Production Technician I,1976-12-11,US Citizen,No,White,9/30/2013,,18.0,5.0,3,0,0,13,40,36 to 50
+210,"Owad, Clinton",0,M,5,2,0,53060,0,Production Technician I,1979-11-24,US Citizen,No,Black or African American,2/17/2014,,22.0,4.25,3,0,4,6,37,36 to 50
+211,"Ozark, Travis",0,M,6,3,0,68829,0,Area Sales Manager,1982-05-19,US Citizen,No,White,1/5/2015,,17.0,5.0,5,0,0,18,35,21 to 35
+212,"Panjwani, Nina",1,F,5,3,0,63515,1,Production Technician I,1979-05-01,US Citizen,No,White,2/7/2011,1/12/2014,16.0,3.89,4,0,0,7,38,36 to 50
+213,"Patronick, Lucas",0,M,4,4,1,108987,1,Software Engineer,1979-02-20,US Citizen,No,Black or African American,11/7/2011,9/7/2015,10.0,5.0,5,3,0,13,38,36 to 50
+214,"Pearson, Randall",1,M,3,3,0,93093,1,Data Analyst,1984-09-05,US Citizen,No,White,12/1/2014,5/1/2016,4.0,4.7,4,5,0,19,32,21 to 35
+215,"Smith, Martin",0,M,5,2,0,53564,1,Production Technician I,1988-03-17,US Citizen,No,Black or African American,1/10/2011,12/28/2017,39.0,3.54,5,0,4,15,29,21 to 35
+216,"Pelletier, Ermine",1,F,5,2,0,60270,1,Production Technician II,1989-07-18,US Citizen,No,Asian,7/5/2011,9/15/2015,11.0,2.4,5,0,5,2,28,21 to 35
+217,"Perry, Shakira",0,F,5,3,0,45998,1,Production Technician I,1986-07-20,US Citizen,No,White,5/16/2011,10/25/2015,11.0,3.45,4,0,0,5,31,21 to 35
+218,"Peters, Lauren",1,F,5,4,0,57954,1,Production Technician II,1986-08-17,US Citizen,No,White,5/16/2011,2/4/2013,19.0,4.2,5,0,0,12,30,21 to 35
+219,"Peterson, Ebonee  ",1,F,5,3,0,74669,1,Production Manager,1977-05-09,US Citizen,No,White,10/25/2010,5/18/2016,2.0,4.16,5,0,0,6,40,36 to 50
+220,"Petingill, Shana  ",1,F,5,3,0,74226,0,Production Technician II,1979-03-10,Eligible NonCitizen,No,Asian,4/2/2012,,12.0,4.3,3,0,0,14,38,36 to 50
+221,"Petrowsky, Thelma",1,F,3,4,0,93554,0,Data Analyst,1984-09-16,US Citizen,No,Black or African American,11/10/2014,,4.0,4.6,5,7,0,16,32,21 to 35
+222,"Pham, Hong",1,M,5,3,0,64724,1,Production Technician I,1988-03-06,US Citizen,No,Asian,7/5/2011,11/30/2012,12.0,5.0,3,0,0,13,29,21 to 35
+223,"Pitt, Brad ",0,M,5,3,0,47001,0,Production Technician I,1981-11-23,US Citizen,No,White,11/5/2007,,14.0,3.66,3,0,0,15,35,21 to 35
+224,"Potts, Xana",1,F,6,3,0,61844,0,Area Sales Manager,1988-08-29,US Citizen,No,Black or African American,1/9/2012,,21.0,4.2,5,0,0,9,28,21 to 35
+225,"Power, Morissa",2,F,5,3,0,46799,1,Production Technician I,1984-10-15,Eligible NonCitizen,No,Asian,5/16/2011,6/4/2018,20.0,3.17,4,0,0,14,32,21 to 35
+226,"Punjabhi, Louis  ",0,M,5,3,0,59472,0,Production Technician I,2061-06-19,US Citizen,No,White,1/6/2014,,18.0,4.8,3,0,0,14,43,36 to 50
+227,"Purinton, Janine",2,F,5,3,0,46430,1,Production Technician I,2070-09-22,US Citizen,No,White,9/24/2012,6/18/2013,20.0,4.5,5,0,0,16,53,More than 51
+228,"Quinn, Sean",1,M,1,3,1,83363,1,Software Engineer,1984-11-06,Eligible NonCitizen,No,Black or African American,2/21/2011,8/15/2015,2.0,4.15,4,0,0,4,32,21 to 35
+229,"Rachael, Maggie",1,F,3,3,0,95920,0,BI Developer,1980-05-12,US Citizen,No,Black or African American,10/2/2016,,13.0,4.4,4,6,0,10,37,36 to 50
+230,"Rarrick, Quinn",2,M,5,3,0,61729,1,Production Technician I,1984-12-31,US Citizen,No,White,9/26/2011,4/7/2018,22.0,3.8,5,0,0,19,32,21 to 35
+231,"Ren, Kylo",1,M,6,3,0,61809,0,Area Sales Manager,2054-10-12,US Citizen,No,White,5/12/2014,,17.0,3.98,3,0,0,4,37,36 to 50
+232,"Rhoads, Thomas",2,M,5,3,0,45115,1,Production Technician I,1982-07-22,US Citizen,Yes,White,5/16/2011,1/15/2016,16.0,5.0,4,0,0,11,35,21 to 35
+233,"Rivera, Haley  ",1,F,5,4,0,46738,0,Production Technician I,1973-01-12,US Citizen,No,Asian,11/28/2011,,,4.36,5,0,0,16,44,36 to 50
+234,"Roberson, May",2,F,5,3,0,64971,1,Production Technician II,1981-09-05,Eligible NonCitizen,No,Black or African American,9/26/2011,10/22/2011,14.0,4.5,4,0,0,10,35,21 to 35
+235,"Robertson, Peter",1,M,5,3,0,55578,1,Production Technician II,1972-07-03,US Citizen,No,White,7/5/2011,2/8/2012,20.0,4.2,5,0,0,13,45,36 to 50
+236,"Robinson, Alain  ",1,M,5,3,0,50428,1,Production Technician I,1974-01-07,US Citizen,No,Black or African American,1/10/2011,1/26/2016,11.0,5.0,3,0,0,11,43,36 to 50
+237,"Robinson, Cherly",1,F,5,2,0,61422,1,Production Technician I,1985-01-07,US Citizen,No,White,1/10/2011,5/17/2016,19.0,3.6,3,0,4,16,32,21 to 35
+238,"Robinson, Elias",4,M,5,4,0,63353,0,Production Technician I,1985-01-28,US Citizen,No,White,7/8/2013,,12.0,3.6,5,0,0,4,32,21 to 35
+239,"Roby, Lori ",1,F,3,3,0,89883,0,Data Analyst,1981-10-11,US Citizen,No,White,2/16/2015,,4.0,3.69,5,6,0,15,35,21 to 35
+240,"Roehrich, Bianca",0,F,3,3,0,120000,1,Principal Data Architect,1973-05-27,US Citizen,Yes,White,1/5/2015,11/10/2018,4.0,3.88,3,7,0,12,44,36 to 50
+241,"Roper, Katie",0,F,3,3,0,150290,0,Data Architect,1972-11-21,US Citizen,No,Black or African American,1/7/2017,,13.0,4.94,3,5,0,17,44,36 to 50
+242,"Rose, Ashley  ",3,F,5,3,0,60627,0,Production Technician I,1974-12-05,US Citizen,No,White,1/6/2014,,14.0,5.0,4,0,0,8,42,36 to 50
+243,"Rossetti, Bruno",0,M,5,3,0,53180,1,Production Technician I,1987-03-18,US Citizen,No,White,4/4/2011,8/13/2018,20.0,5.0,5,0,0,4,30,21 to 35
+244,"Roup,Simon",0,M,3,3,0,140920,0,IT Manager - DB,1973-04-05,US Citizen,No,White,1/20/2013,,5.0,3.6,5,7,0,13,44,36 to 50
+245,"Ruiz, Ricardo",2,M,3,3,1,148999,1,IT Manager - DB,2064-01-04,US Citizen,No,Black or African American,1/9/2012,11/4/2015,5.0,4.3,4,6,0,8,46,36 to 50
+246,"Saada, Adell",1,F,4,3,0,86214,0,Software Engineer,1986-07-24,US Citizen,No,White,11/5/2012,,10.0,4.2,3,6,0,2,31,21 to 35
+247,"Saar-Beckles, Melinda",0,F,5,2,1,47750,0,Production Technician I,2068-06-06,US Citizen,No,Black or African American,7/4/2016,,18.0,2.6,4,0,5,4,50,36 to 50
+248,"Sadki, Nore  ",0,M,5,3,0,46428,1,Production Technician I,1974-12-21,US Citizen,No,White,1/5/2009,7/30/2018,22.0,4.6,5,0,0,7,42,36 to 50
+249,"Sahoo, Adil",1,M,5,3,0,57975,0,Production Technician II,1986-04-26,US Citizen,No,White,8/30/2010,,18.0,4.1,3,0,0,13,31,21 to 35
+250,"Salter, Jason",2,M,3,3,0,88527,1,Data Analyst ,1987-12-17,US Citizen,No,Black or African American,1/5/2015,10/31/2015,4.0,4.2,3,5,0,2,29,21 to 35
+251,"Sander, Kamrin",1,F,5,3,0,56147,0,Production Technician I,1988-07-10,US Citizen,No,Black or African American,9/29/2014,,16.0,3.51,3,0,0,2,29,21 to 35
+252,"Sewkumar, Nori",0,F,5,3,0,50923,0,Production Technician I,1975-03-10,US Citizen,No,Asian,9/30/2013,,,5.0,5,0,0,14,42,36 to 50
+253,"Shepard, Anita ",1,F,3,3,0,50750,0,Network Engineer,1981-04-14,US Citizen,No,White,9/30/2014,,7.0,3.31,3,6,0,7,36,36 to 50
+254,"Shields, Seffi",1,F,5,3,0,52087,0,Production Technician I,1985-08-24,US Citizen,No,White,8/19/2013,,11.0,4.81,4,0,0,15,31,21 to 35
+255,"Simard, Kramer",1,M,3,3,0,87826,0,Data Analyst,2070-02-08,US Citizen,Yes,White,1/5/2015,,4.0,3.32,3,7,0,16,52,More than 51
+256,"Singh, Nan ",0,F,1,3,0,51920,0,Administrative Assistant,1988-05-19,US Citizen,No,White,5/1/2015,,1.0,5.0,3,5,0,2,29,21 to 35
+257,"Sloan, Constance",0,F,5,3,0,63878,1,Production Technician II,1987-11-25,US Citizen,No,White,10/26/2009,4/8/2015,22.0,4.68,4,0,0,20,29,21 to 35
+258,"Smith, Joe",0,M,5,4,0,60656,0,Production Technician II,2063-10-30,US Citizen,No,White,9/29/2014,,16.0,4.3,3,0,0,4,46,36 to 50
+259,"Smith, John",2,M,6,2,1,72992,0,Sales Manager,1984-08-16,US Citizen,No,Black or African American,5/18/2014,,15.0,2.4,4,0,2,16,32,21 to 35
+260,"Smith, Leigh Ann",1,F,1,3,1,55000,1,Administrative Assistant,1987-06-14,US Citizen,No,Black or African American,9/26/2011,9/25/2013,1.0,3.8,4,4,0,17,30,21 to 35
+261,"Smith, Sade",0,F,5,3,0,58939,0,Production Technician I,2065-02-02,US Citizen,No,White,11/11/2013,,19.0,3.73,3,0,0,16,47,36 to 50
+262,"Soto, Julia ",1,F,3,3,0,66593,0,IT Support,1973-03-12,US Citizen,No,Black or African American,6/10/2011,,6.0,4.3,3,5,0,19,44,36 to 50
+263,"Soze, Keyser",1,M,3,3,0,87565,0,Sr. Network Engineer,1983-02-09,US Citizen,No,Asian,6/30/2016,,7.0,3.27,4,5,0,13,34,21 to 35
+264,"Sparks, Taylor  ",1,F,5,1,0,64021,0,Production Technician I,2068-07-20,US Citizen,No,White,2/20/2012,,12.0,2.4,2,1,6,20,51,More than 51
+265,"Spirea, Kelley",1,F,5,3,0,65714,0,Production Manager,1975-09-30,US Citizen,No,White,10/2/2012,,2.0,4.83,5,0,0,15,41,36 to 50
+266,"Squatrito, Kristen",2,F,5,4,0,62425,1,Production Technician I,1973-03-26,US Citizen,No,White,5/13/2013,6/29/2015,14.0,4.1,4,0,0,16,44,36 to 50
+267,"Stanford,Barbara  M",2,F,5,3,0,47961,0,Production Technician I,1982-08-25,US Citizen,No,Two or more races,1/10/2011,,20.0,4.1,4,0,0,9,34,21 to 35
+268,"Stansfield, Norman",1,M,6,1,0,58273,0,Area Sales Manager,1974-05-09,US Citizen,No,White,5/12/2014,,21.0,1.81,2,0,3,5,43,36 to 50
+269,"Steans, Tyrone  ",0,M,1,3,0,63003,0,Accountant I,1986-09-01,US Citizen,No,White,9/29/2014,,1.0,3.9,5,5,0,9,30,21 to 35
+270,"Stoica, Rick",1,M,5,3,0,61355,0,Production Technician I,1985-03-14,US Citizen,No,Asian,2/17/2014,,18.0,4.7,3,0,0,4,32,21 to 35
+271,"Strong, Caitrin",1,F,6,3,0,60120,0,Area Sales Manager,1989-05-12,US Citizen,No,Black or African American,9/27/2010,,17.0,4.1,4,0,0,18,28,21 to 35
+272,"Sullivan, Kissy ",1,F,5,3,0,63682,0,Production Manager,1978-03-28,US Citizen,No,Black or African American,1/8/2009,,2.0,3.73,4,0,0,12,39,36 to 50
+273,"Sullivan, Timothy",1,M,5,3,0,63025,0,Production Technician I,1982-10-07,US Citizen,Yes,White,1/5/2015,,22.0,4.36,5,0,0,10,34,21 to 35
+274,"Sutwell, Barbara",0,F,5,3,0,59238,0,Production Technician I,2068-08-15,Eligible NonCitizen,No,Asian,5/14/2012,,16.0,3.4,5,0,0,13,51,More than 51
+275,"Szabo, Andrew",0,M,4,4,0,92989,0,Software Engineer,1983-05-06,US Citizen,No,White,7/7/2014,,10.0,4.5,5,5,0,1,34,21 to 35
+276,"Tannen, Biff",1,M,3,3,0,90100,0,BI Developer,1987-10-24,US Citizen,No,White,4/20/2017,,13.0,3.4,3,6,0,14,29,21 to 35
+277,"Tavares, Desiree  ",1,F,5,3,1,60754,1,Production Technician I,1975-04-03,Non-Citizen,No,Black or African American,4/27/2009,4/1/2013,39.0,4.5,5,0,0,11,42,36 to 50
+278,"Tejeda, Lenora ",1,F,5,3,0,72202,1,Production Technician II,2053-05-24,US Citizen,No,White,5/16/2011,7/8/2017,16.0,3.93,3,0,0,3,35,21 to 35
+279,"Terry, Sharlene ",0,F,6,3,0,58370,0,Area Sales Manager,2065-05-07,US Citizen,No,Black or African American,9/29/2014,,21.0,3.69,3,0,0,18,47,36 to 50
+280,"Theamstern, Sophia",0,F,5,3,0,48413,1,Production Technician I,2065-05-09,US Citizen,No,White,7/5/2011,9/5/2016,11.0,3.98,4,0,0,1,47,36 to 50
+281,"Thibaud, Kenneth",4,M,5,3,0,67176,1,Production Technician II,1975-09-16,US Citizen,No,White,6/25/2007,8/30/2010,39.0,4.1,4,0,0,15,41,36 to 50
+282,"Tippett, Jeanette",2,F,5,3,0,56339,0,Production Technician I,2067-06-05,US Citizen,No,Black or African American,2/18/2013,,12.0,4.21,5,0,0,4,49,36 to 50
+283,"Torrence, Jack",3,M,6,4,0,64397,0,Area Sales Manager,2068-01-15,US Citizen,No,White,1/9/2006,,21.0,4.1,3,0,0,6,50,36 to 50
+284,"Trang, Mei",0,F,5,2,0,63025,0,Production Technician I,1983-05-16,US Citizen,No,White,2/17/2014,,14.0,2.44,5,0,4,18,34,21 to 35
+285,"Tredinnick, Neville ",1,M,3,3,0,75281,1,Network Engineer,1988-05-05,US Citizen,No,White,1/5/2015,2/12/2016,7.0,5.0,3,5,0,11,29,21 to 35
+286,"True, Edward",0,M,4,3,1,100416,1,Software Engineer,1983-06-14,Non-Citizen,No,Black or African American,2/18/2013,4/15/2018,10.0,4.6,3,4,0,9,34,21 to 35
+287,"Trzeciak, Cybil",0,F,5,3,0,74813,1,Production Technician II,1985-03-15,US Citizen,No,White,1/10/2011,7/2/2014,11.0,4.4,3,0,0,5,32,21 to 35
+288,"Turpin, Jumil",1,M,3,3,0,76029,0,Network Engineer,2069-03-31,Eligible NonCitizen,No,White,3/30/2015,,7.0,5.0,4,7,0,8,51,More than 51
+289,"Valentin,Jackie",1,F,6,3,0,57859,0,Area Sales Manager,1991-05-23,US Citizen,No,Two or more races,7/5/2011,,17.0,2.81,3,0,0,16,26,21 to 35
+290,"Veera, Abdellah ",2,M,5,4,0,58523,1,Production Technician I,1987-01-31,US Citizen,No,White,8/13/2012,2/5/2016,20.0,4.5,5,0,0,15,30,21 to 35
+291,"Vega, Vincent",2,M,5,3,0,88976,0,Production Manager,2068-10-10,US Citizen,No,White,8/1/2011,,2.0,3.93,3,0,0,19,51,More than 51
+292,"Villanueva, Noah",0,M,6,3,0,55875,0,Area Sales Manager,1989-07-11,US Citizen,No,Asian,3/5/2012,,17.0,4.5,4,0,0,11,28,21 to 35
+293,"Voldemort, Lord",1,M,3,3,0,113999,1,Database Administrator,1986-08-07,US Citizen,No,Black or African American,2/16/2015,2/22/2017,4.0,4.33,3,7,0,9,30,21 to 35
+294,"Volk, Colleen",1,F,5,4,0,49773,1,Production Technician I,1986-06-03,US Citizen,No,White,9/26/2011,2/8/2016,18.0,4.3,5,0,0,18,31,21 to 35
+295,"Von Massenbach, Anna",0,F,5,3,0,62068,0,Production Technician I,1985-04-06,US Citizen,No,White,7/5/2015,,22.0,3.21,3,0,0,7,32,21 to 35
+296,"Walker, Roger",0,M,5,3,0,66541,0,Production Technician II,1976-02-10,US Citizen,No,Black or African American,8/18/2014,,19.0,3.11,5,0,0,4,41,36 to 50
+297,"Wallace, Courtney  E",1,F,5,3,1,80512,1,Production Manager,2055-11-14,US Citizen,No,Black or African American,9/26/2011,1/2/2012,2.0,4.5,3,0,0,5,38,36 to 50
+298,"Wallace, Theresa",0,F,5,2,0,50274,1,Production Technician I,1980-08-02,US Citizen,No,White,8/13/2012,9/1/2015,16.0,2.5,3,0,6,13,36,36 to 50
+299,"Wang, Charlie",0,M,3,3,0,84903,0,Senior BI Developer,1981-07-08,US Citizen,No,Asian,2/15/2017,,13.0,3.42,4,7,0,17,36,36 to 50
+300,"Warfield, Sarah",4,F,3,3,0,107226,0,Sr. Network Engineer,1978-05-02,US Citizen,No,Asian,3/30/2015,,7.0,4.2,4,8,0,7,39,36 to 50
+301,"Whittier, Scott",0,M,5,3,0,58371,1,Production Technician I,1987-05-24,US Citizen,Yes,White,1/10/2011,5/15/2014,39.0,5.0,5,0,0,11,30,21 to 35
+302,"Wilber, Barry",1,M,5,3,0,55140,1,Production Technician I,2065-09-09,Eligible NonCitizen,No,White,5/16/2011,9/7/2015,11.0,5.0,3,0,0,7,48,36 to 50
+303,"Wilkes, Annie",2,F,5,3,0,58062,1,Production Technician I,1983-07-30,US Citizen,No,White,1/10/2011,5/14/2012,19.0,3.6,5,0,0,9,33,21 to 35
+304,"Williams, Jacquelyn  ",0,F,5,3,1,59728,1,Production Technician I,2069-10-02,US Citizen,Yes,Black or African American,1/9/2012,6/27/2015,19.0,4.3,4,0,0,16,52,More than 51
+305,"Winthrop, Jordan  ",0,M,5,4,0,70507,1,Production Technician II,2058-11-07,US Citizen,No,White,1/7/2013,2/21/2016,12.0,5.0,3,0,0,7,41,36 to 50
+306,"Wolk, Hang  T",0,F,5,3,0,60446,0,Production Technician II,1985-04-20,US Citizen,No,White,9/29/2014,,14.0,3.4,4,0,0,14,32,21 to 35
+307,"Woodson, Jason",0,M,5,3,0,65893,0,Production Technician II,1985-05-11,US Citizen,No,White,7/7/2014,,20.0,4.07,4,0,0,13,32,21 to 35
+308,"Ybarra, Catherine ",0,F,5,1,0,48513,1,Production Technician I,1982-05-04,US Citizen,No,Asian,9/2/2008,9/29/2015,12.0,3.2,2,0,5,4,35,21 to 35
+309,"Zamora, Jennifer",0,F,3,4,0,220450,0,CIO,1979-08-30,US Citizen,No,White,4/10/2010,,2.0,4.6,5,6,0,16,37,36 to 50
+310,"Zhou, Julia",0,F,3,3,0,89292,0,Data Analyst,1979-02-24,US Citizen,No,White,3/30/2015,,4.0,5.0,3,5,0,11,38,36 to 50
+311,"Zima, Colleen",4,F,5,3,0,45046,0,Production Technician I,1978-08-17,US Citizen,No,Asian,9/29/2014,,14.0,4.5,5,0,0,2,38,36 to 50
