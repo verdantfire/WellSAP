@@ -1,312 +1,312 @@
-Employee_ID,Age,Attrition,BusinessTravel,DistanceFromHome,Department,Education,EducationField,EnvironmentSatisfaction,Gender,HourlyRate,JobInvolvement,JobLevel,JobSatisfaction,MonthlyIncome,NumCompaniesWorked,OverTime,PercentSalaryHike,PerformanceRating,RelationshipSatisfaction,StockOptionLevel,TrainingTimesLastYear,WorkLifeBalance,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,Age_Group
-90.0,41.0,Yes,Travel_Rarely,1.0,Sales,2.0,Life Sciences,2.0,F,94.0,3.0,2.0,4.0,5993.0,8.0,Yes,11.0,3.0,1.0,0.0,0.0,1.0,6.0,4.0,0.0,5.0,36 to 50
-235.0,36.0,Yes,Travel_Rarely,9.0,Sales,4.0,Life Sciences,3.0,M,82.0,2.0,1.0,1.0,3407.0,7.0,No,23.0,4.0,2.0,0.0,4.0,3.0,5.0,3.0,0.0,3.0,36 to 50
-38.0,32.0,Yes,Travel_Frequently,16.0,Research & Development,1.0,Life Sciences,2.0,F,72.0,1.0,1.0,1.0,3919.0,1.0,Yes,22.0,4.0,2.0,0.0,5.0,3.0,10.0,2.0,6.0,7.0,21 to 35
-116.0,42.0,No,Travel_Rarely,8.0,Sales,4.0,Marketing,3.0,M,48.0,3.0,2.0,2.0,6825.0,0.0,No,11.0,3.0,4.0,1.0,2.0,3.0,9.0,7.0,4.0,2.0,36 to 50
-109.0,46.0,No,Travel_Rarely,2.0,Sales,4.0,Marketing,2.0,F,83.0,3.0,5.0,1.0,18947.0,3.0,No,12.0,3.0,4.0,0.0,2.0,2.0,2.0,2.0,2.0,1.0,36 to 50
-240.0,36.0,No,Travel_Rarely,5.0,Research & Development,4.0,Life Sciences,2.0,F,82.0,2.0,1.0,1.0,3419.0,9.0,Yes,14.0,3.0,4.0,1.0,3.0,4.0,1.0,1.0,0.0,0.0,36 to 50
-128.0,41.0,Yes,Travel_Rarely,12.0,Research & Development,3.0,Technical Degree,2.0,F,49.0,3.0,5.0,3.0,19545.0,1.0,No,12.0,3.0,4.0,0.0,0.0,3.0,22.0,15.0,15.0,8.0,36 to 50
-199.0,35.0,No,Travel_Rarely,8.0,Research & Development,1.0,Life Sciences,4.0,M,36.0,4.0,1.0,4.0,2269.0,1.0,No,19.0,3.0,4.0,0.0,2.0,3.0,1.0,0.0,0.0,1.0,21 to 35
-276.0,28.0,Yes,Travel_Rarely,5.0,Research & Development,4.0,Technical Degree,3.0,M,50.0,3.0,1.0,3.0,3441.0,1.0,Yes,13.0,3.0,3.0,0.0,3.0,2.0,2.0,2.0,2.0,2.0,21 to 35
-87.0,35.0,No,Travel_Rarely,23.0,Research & Development,4.0,Medical,3.0,F,30.0,3.0,1.0,1.0,4014.0,3.0,Yes,15.0,3.0,3.0,1.0,3.0,3.0,2.0,2.0,2.0,2.0,21 to 35
-188.0,32.0,No,Travel_Rarely,1.0,Research & Development,3.0,Medical,1.0,M,33.0,3.0,2.0,4.0,6162.0,1.0,Yes,22.0,4.0,2.0,1.0,3.0,3.0,9.0,8.0,7.0,8.0,21 to 35
-274.0,59.0,No,Travel_Rarely,25.0,Sales,3.0,Life Sciences,1.0,F,99.0,3.0,3.0,1.0,7637.0,7.0,No,11.0,3.0,4.0,0.0,3.0,2.0,21.0,16.0,7.0,9.0,More than 51
-91.0,35.0,No,Travel_Frequently,1.0,Research & Development,3.0,Medical,2.0,M,79.0,3.0,1.0,1.0,2194.0,4.0,No,13.0,3.0,4.0,1.0,2.0,2.0,3.0,2.0,1.0,2.0,21 to 35
-92.0,29.0,No,Travel_Rarely,2.0,Research & Development,3.0,Life Sciences,3.0,M,76.0,3.0,1.0,2.0,2703.0,0.0,No,23.0,4.0,4.0,1.0,3.0,3.0,5.0,4.0,0.0,4.0,21 to 35
-223.0,32.0,No,Travel_Rarely,1.0,Research & Development,3.0,Life Sciences,2.0,M,66.0,3.0,2.0,2.0,6220.0,1.0,No,17.0,3.0,2.0,2.0,3.0,3.0,10.0,4.0,0.0,9.0,21 to 35
-200.0,35.0,No,Travel_Rarely,1.0,Sales,4.0,Marketing,3.0,M,32.0,2.0,2.0,1.0,4312.0,0.0,No,14.0,3.0,2.0,0.0,2.0,3.0,15.0,13.0,2.0,8.0,21 to 35
-265.0,38.0,No,Non-Travel,6.0,Research & Development,3.0,Medical,2.0,F,79.0,1.0,2.0,4.0,5329.0,7.0,Yes,12.0,3.0,4.0,3.0,3.0,3.0,13.0,11.0,1.0,9.0,36 to 50
-275.0,23.0,No,Travel_Rarely,2.0,Sales,1.0,Technical Degree,3.0,M,62.0,3.0,1.0,1.0,2322.0,3.0,No,13.0,3.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,0.0,21 to 35
-179.0,34.0,No,Travel_Rarely,6.0,Research & Development,4.0,Other,1.0,F,41.0,3.0,2.0,3.0,4809.0,1.0,No,14.0,3.0,3.0,0.0,3.0,3.0,16.0,13.0,2.0,10.0,21 to 35
-18.0,59.0,No,Non-Travel,2.0,Human Resources,4.0,Human Resources,3.0,F,32.0,2.0,5.0,4.0,18844.0,9.0,No,21.0,4.0,4.0,1.0,3.0,3.0,3.0,2.0,2.0,2.0,More than 51
-8.0,25.0,No,Travel_Rarely,7.0,Research & Development,1.0,Medical,4.0,M,64.0,2.0,1.0,4.0,2889.0,1.0,No,11.0,3.0,3.0,2.0,2.0,3.0,2.0,2.0,2.0,1.0,21 to 35
-264.0,54.0,No,Non-Travel,26.0,Human Resources,3.0,Human Resources,4.0,F,30.0,4.0,4.0,4.0,17328.0,2.0,Yes,12.0,3.0,3.0,0.0,3.0,3.0,5.0,3.0,4.0,4.0,More than 51
-10.0,24.0,No,Travel_Rarely,18.0,Research & Development,1.0,Life Sciences,2.0,M,52.0,3.0,1.0,3.0,2774.0,0.0,No,12.0,3.0,3.0,1.0,2.0,3.0,5.0,3.0,1.0,2.0,21 to 35
-145.0,34.0,No,Travel_Rarely,6.0,Research & Development,4.0,Life Sciences,3.0,F,45.0,2.0,2.0,2.0,4505.0,6.0,No,15.0,3.0,3.0,1.0,3.0,3.0,1.0,0.0,0.0,0.0,21 to 35
-17.0,36.0,No,Travel_Frequently,11.0,Sales,2.0,Technical Degree,2.0,F,92.0,3.0,3.0,4.0,9738.0,0.0,No,14.0,3.0,3.0,1.0,6.0,3.0,9.0,7.0,2.0,8.0,36 to 50
-241.0,36.0,No,Travel_Rarely,3.0,Research & Development,2.0,Life Sciences,1.0,F,39.0,3.0,1.0,4.0,2835.0,5.0,No,22.0,4.0,1.0,1.0,2.0,3.0,1.0,0.0,0.0,0.0,36 to 50
-34.0,49.0,No,Travel_Rarely,20.0,Research & Development,4.0,Medical,3.0,F,96.0,3.0,2.0,1.0,6567.0,1.0,No,14.0,3.0,3.0,0.0,2.0,2.0,15.0,11.0,5.0,11.0,36 to 50
-254.0,26.0,No,Travel_Rarely,25.0,Human Resources,1.0,Life Sciences,3.0,F,61.0,3.0,1.0,3.0,2942.0,1.0,No,23.0,4.0,4.0,1.0,3.0,3.0,8.0,7.0,5.0,7.0,21 to 35
-288.0,51.0,Yes,Travel_Frequently,8.0,Research & Development,4.0,Life Sciences,1.0,M,53.0,1.0,3.0,4.0,10650.0,2.0,No,15.0,3.0,4.0,0.0,2.0,3.0,4.0,2.0,0.0,3.0,More than 51
-218.0,30.0,No,Travel_Rarely,5.0,Research & Development,3.0,Technical Degree,4.0,F,84.0,3.0,1.0,1.0,3204.0,5.0,No,14.0,3.0,4.0,1.0,3.0,3.0,3.0,2.0,2.0,2.0,21 to 35
-107.0,40.0,No,Travel_Frequently,26.0,Research & Development,3.0,Medical,2.0,F,54.0,3.0,2.0,2.0,5605.0,1.0,No,11.0,3.0,1.0,1.0,2.0,3.0,20.0,7.0,2.0,13.0,36 to 50
-213.0,45.0,No,Travel_Rarely,9.0,Research & Development,3.0,Life Sciences,2.0,M,60.0,3.0,2.0,2.0,2348.0,8.0,No,18.0,3.0,3.0,1.0,2.0,1.0,17.0,9.0,0.0,15.0,36 to 50
-115.0,32.0,No,Travel_Frequently,8.0,Sales,3.0,Marketing,2.0,F,43.0,3.0,3.0,4.0,8998.0,1.0,No,14.0,3.0,4.0,0.0,2.0,3.0,9.0,8.0,3.0,7.0,21 to 35
-304.0,58.0,No,Travel_Rarely,9.0,Research & Development,3.0,Medical,2.0,F,75.0,2.0,1.0,2.0,3346.0,4.0,Yes,20.0,4.0,2.0,1.0,3.0,2.0,1.0,0.0,0.0,0.0,More than 51
-247.0,50.0,No,Travel_Rarely,11.0,Research & Development,3.0,Life Sciences,3.0,F,53.0,3.0,5.0,2.0,19926.0,3.0,No,15.0,3.0,2.0,0.0,5.0,3.0,5.0,4.0,4.0,4.0,36 to 50
-209.0,41.0,No,Travel_Rarely,14.0,Research & Development,3.0,Life Sciences,1.0,M,56.0,3.0,1.0,3.0,2451.0,4.0,No,12.0,3.0,1.0,1.0,2.0,3.0,9.0,8.0,1.0,8.0,36 to 50
-117.0,30.0,No,Travel_Rarely,5.0,Sales,3.0,Life Sciences,2.0,F,41.0,3.0,3.0,4.0,9419.0,2.0,No,12.0,3.0,3.0,1.0,2.0,3.0,10.0,9.0,7.0,4.0,21 to 35
-293.0,33.0,No,Travel_Rarely,2.0,Research & Development,3.0,Life Sciences,3.0,M,90.0,3.0,1.0,4.0,2500.0,0.0,No,14.0,3.0,1.0,0.0,2.0,4.0,3.0,1.0,0.0,2.0,21 to 35
-294.0,34.0,No,Travel_Rarely,27.0,Research & Development,2.0,Medical,4.0,F,95.0,3.0,1.0,2.0,2311.0,2.0,No,15.0,3.0,4.0,0.0,3.0,3.0,3.0,2.0,1.0,2.0,21 to 35
-81.0,33.0,No,Travel_Rarely,14.0,Research & Development,3.0,Medical,4.0,F,72.0,3.0,1.0,2.0,2756.0,1.0,No,13.0,3.0,4.0,1.0,5.0,3.0,8.0,7.0,1.0,6.0,21 to 35
-198.0,55.0,No,Travel_Rarely,14.0,Research & Development,4.0,Medical,3.0,M,61.0,4.0,5.0,2.0,18722.0,8.0,No,11.0,3.0,4.0,0.0,3.0,3.0,24.0,15.0,2.0,15.0,More than 51
-68.0,38.0,No,Travel_Rarely,29.0,Research & Development,3.0,Technical Degree,4.0,M,54.0,3.0,2.0,4.0,6261.0,3.0,No,18.0,3.0,1.0,1.0,3.0,1.0,7.0,7.0,1.0,7.0,36 to 50
-189.0,22.0,No,Travel_Rarely,5.0,Research & Development,3.0,Life Sciences,4.0,M,60.0,4.0,1.0,2.0,2328.0,1.0,Yes,16.0,3.0,1.0,1.0,2.0,2.0,4.0,2.0,2.0,2.0,21 to 35
-296.0,46.0,No,Travel_Rarely,1.0,Research & Development,4.0,Medical,4.0,M,97.0,3.0,3.0,1.0,9396.0,7.0,No,16.0,3.0,3.0,1.0,3.0,3.0,4.0,2.0,0.0,3.0,36 to 50
-121.0,30.0,No,Non-Travel,1.0,Research & Development,1.0,Life Sciences,3.0,M,88.0,2.0,3.0,3.0,8474.0,1.0,No,22.0,4.0,3.0,0.0,2.0,3.0,11.0,8.0,5.0,8.0,21 to 35
-76.0,30.0,Yes,Travel_Rarely,3.0,Research & Development,3.0,Technical Degree,4.0,F,88.0,3.0,1.0,1.0,2657.0,5.0,Yes,11.0,3.0,3.0,0.0,5.0,3.0,5.0,2.0,0.0,4.0,21 to 35
-192.0,54.0,No,Travel_Rarely,3.0,Sales,3.0,Marketing,4.0,F,52.0,3.0,2.0,1.0,5940.0,2.0,No,14.0,3.0,4.0,1.0,4.0,3.0,6.0,2.0,0.0,5.0,More than 51
-236.0,36.0,No,Travel_Rarely,5.0,Research & Development,2.0,Life Sciences,4.0,M,62.0,3.0,2.0,2.0,5914.0,8.0,No,16.0,3.0,4.0,0.0,3.0,4.0,13.0,11.0,3.0,7.0,36 to 50
-269.0,31.0,No,Non-Travel,1.0,Research & Development,4.0,Medical,3.0,M,90.0,1.0,2.0,3.0,4345.0,0.0,No,12.0,3.0,4.0,1.0,2.0,3.0,5.0,4.0,1.0,4.0,21 to 35
-133.0,29.0,No,Travel_Frequently,1.0,Sales,1.0,Medical,2.0,F,42.0,3.0,3.0,4.0,7918.0,1.0,No,14.0,3.0,4.0,1.0,5.0,3.0,11.0,10.0,4.0,1.0,21 to 35
-131.0,35.0,No,Travel_Frequently,1.0,Sales,3.0,Marketing,3.0,F,92.0,3.0,3.0,3.0,8789.0,1.0,No,14.0,3.0,1.0,0.0,3.0,4.0,10.0,7.0,0.0,8.0,21 to 35
-253.0,50.0,No,Travel_Rarely,1.0,Sales,4.0,Medical,4.0,F,68.0,3.0,5.0,4.0,19517.0,3.0,No,11.0,3.0,3.0,1.0,3.0,2.0,7.0,0.0,0.0,6.0,36 to 50
-167.0,33.0,Yes,Travel_Rarely,14.0,Research & Development,3.0,Medical,3.0,M,58.0,3.0,1.0,4.0,2436.0,5.0,Yes,13.0,3.0,3.0,1.0,2.0,1.0,5.0,4.0,0.0,4.0,21 to 35
-225.0,33.0,Yes,Travel_Rarely,2.0,Research & Development,2.0,Life Sciences,1.0,F,39.0,3.0,1.0,1.0,2707.0,7.0,No,20.0,4.0,1.0,0.0,3.0,4.0,9.0,7.0,1.0,7.0,21 to 35
-46.0,52.0,No,Non-Travel,2.0,Sales,4.0,Life Sciences,1.0,M,79.0,2.0,5.0,3.0,19068.0,1.0,Yes,18.0,3.0,4.0,0.0,2.0,4.0,33.0,7.0,15.0,12.0,More than 51
-65.0,32.0,Yes,Travel_Rarely,1.0,Research & Development,3.0,Life Sciences,4.0,M,62.0,2.0,1.0,3.0,3730.0,0.0,Yes,14.0,3.0,4.0,0.0,2.0,1.0,3.0,2.0,1.0,2.0,21 to 35
-252.0,37.0,No,Travel_Rarely,1.0,Research & Development,2.0,Medical,3.0,F,83.0,2.0,1.0,1.0,3920.0,2.0,No,14.0,3.0,1.0,1.0,2.0,2.0,3.0,1.0,0.0,2.0,36 to 50
-144.0,37.0,Yes,Travel_Frequently,10.0,Research & Development,3.0,Medical,1.0,M,61.0,3.0,3.0,3.0,10048.0,6.0,No,11.0,3.0,2.0,2.0,5.0,3.0,1.0,0.0,0.0,0.0,36 to 50
-206.0,42.0,No,Travel_Rarely,17.0,Research & Development,2.0,Life Sciences,4.0,F,82.0,4.0,2.0,1.0,6545.0,3.0,Yes,13.0,3.0,3.0,0.0,1.0,3.0,3.0,2.0,0.0,2.0,36 to 50
-47.0,25.0,No,Travel_Rarely,1.0,Research & Development,3.0,Life Sciences,1.0,F,62.0,3.0,2.0,3.0,4898.0,0.0,No,12.0,3.0,4.0,2.0,3.0,3.0,4.0,2.0,1.0,2.0,21 to 35
-74.0,42.0,No,Travel_Rarely,2.0,Research & Development,3.0,Medical,4.0,F,56.0,2.0,1.0,1.0,2593.0,0.0,Yes,11.0,3.0,3.0,1.0,4.0,3.0,9.0,6.0,7.0,8.0,36 to 50
-13.0,31.0,Yes,Travel_Frequently,29.0,Research & Development,2.0,Medical,3.0,M,71.0,2.0,1.0,2.0,3479.0,0.0,No,11.0,3.0,2.0,0.0,2.0,4.0,5.0,4.0,1.0,4.0,21 to 35
-191.0,32.0,No,Travel_Frequently,7.0,Research & Development,3.0,Life Sciences,2.0,M,100.0,4.0,1.0,2.0,2794.0,1.0,No,20.0,4.0,3.0,0.0,3.0,1.0,5.0,1.0,0.0,3.0,21 to 35
-238.0,32.0,No,Travel_Rarely,2.0,Research & Development,1.0,Technical Degree,4.0,M,84.0,2.0,2.0,1.0,2176.0,4.0,No,13.0,3.0,4.0,0.0,5.0,3.0,6.0,2.0,0.0,4.0,21 to 35
-261.0,46.0,No,Travel_Rarely,2.0,Sales,3.0,Technical Degree,3.0,F,75.0,1.0,4.0,2.0,16872.0,3.0,Yes,12.0,3.0,2.0,1.0,2.0,2.0,7.0,7.0,7.0,7.0,36 to 50
-228.0,26.0,No,Travel_Frequently,11.0,Research & Development,2.0,Medical,1.0,M,60.0,3.0,2.0,1.0,4741.0,1.0,Yes,13.0,3.0,3.0,1.0,3.0,3.0,5.0,3.0,3.0,3.0,21 to 35
-51.0,38.0,No,Travel_Rarely,23.0,Research & Development,4.0,Life Sciences,4.0,M,82.0,3.0,2.0,4.0,5745.0,9.0,No,14.0,3.0,2.0,1.0,2.0,3.0,2.0,2.0,1.0,2.0,36 to 50
-260.0,28.0,No,Travel_Rarely,8.0,Research & Development,2.0,Life Sciences,4.0,F,66.0,3.0,1.0,4.0,3310.0,1.0,No,21.0,4.0,4.0,0.0,3.0,3.0,5.0,3.0,0.0,2.0,21 to 35
-258.0,36.0,No,Travel_Rarely,3.0,Research & Development,3.0,Technical Degree,3.0,M,30.0,3.0,2.0,2.0,4485.0,4.0,No,12.0,3.0,4.0,0.0,2.0,3.0,8.0,0.0,7.0,7.0,36 to 50
-64.0,41.0,No,Travel_Rarely,2.0,Sales,4.0,Life Sciences,4.0,M,88.0,3.0,4.0,2.0,16015.0,1.0,No,19.0,3.0,2.0,0.0,2.0,3.0,22.0,10.0,0.0,4.0,36 to 50
-88.0,38.0,No,Travel_Rarely,25.0,Research & Development,2.0,Life Sciences,1.0,F,81.0,2.0,3.0,2.0,12061.0,3.0,No,17.0,3.0,3.0,1.0,2.0,3.0,10.0,8.0,0.0,1.0,36 to 50
-222.0,31.0,No,Travel_Rarely,5.0,Research & Development,4.0,Technical Degree,3.0,M,86.0,3.0,1.0,4.0,4821.0,0.0,Yes,12.0,3.0,3.0,1.0,4.0,3.0,5.0,2.0,0.0,3.0,21 to 35
-284.0,33.0,No,Travel_Frequently,5.0,Research & Development,4.0,Life Sciences,4.0,F,74.0,3.0,3.0,2.0,11878.0,6.0,No,11.0,3.0,2.0,2.0,2.0,3.0,10.0,6.0,8.0,8.0,21 to 35
-89.0,27.0,No,Travel_Rarely,5.0,Research & Development,3.0,Life Sciences,3.0,F,85.0,3.0,1.0,2.0,2478.0,1.0,Yes,12.0,3.0,2.0,0.0,2.0,2.0,4.0,3.0,1.0,2.0,21 to 35
-214.0,28.0,Yes,Travel_Rarely,2.0,Research & Development,4.0,Medical,1.0,M,84.0,1.0,1.0,4.0,3464.0,5.0,Yes,13.0,3.0,4.0,0.0,4.0,2.0,3.0,2.0,2.0,2.0,21 to 35
-183.0,30.0,No,Travel_Rarely,28.0,Research & Development,2.0,Medical,4.0,F,64.0,3.0,2.0,4.0,5775.0,1.0,No,13.0,3.0,4.0,2.0,2.0,3.0,10.0,8.0,1.0,9.0,21 to 35
-146.0,54.0,No,Travel_Frequently,20.0,Research & Development,4.0,Life Sciences,4.0,F,31.0,3.0,2.0,3.0,4869.0,3.0,No,12.0,3.0,4.0,0.0,4.0,2.0,4.0,3.0,0.0,3.0,More than 51
-143.0,43.0,No,Travel_Rarely,7.0,Research & Development,3.0,Life Sciences,3.0,F,43.0,3.0,3.0,1.0,9985.0,8.0,No,16.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,0.0,0.0,36 to 50
-125.0,30.0,No,Travel_Rarely,5.0,Sales,3.0,Marketing,4.0,F,30.0,2.0,2.0,3.0,6118.0,1.0,No,13.0,3.0,3.0,3.0,2.0,3.0,10.0,9.0,1.0,2.0,21 to 35
-173.0,27.0,No,Travel_Rarely,8.0,Sales,4.0,Marketing,2.0,F,56.0,3.0,2.0,2.0,6214.0,1.0,No,18.0,3.0,1.0,1.0,3.0,3.0,8.0,7.0,0.0,7.0,21 to 35
-292.0,35.0,No,Travel_Rarely,5.0,Research & Development,4.0,Technical Degree,3.0,M,62.0,3.0,3.0,2.0,8095.0,0.0,No,13.0,3.0,4.0,0.0,5.0,3.0,16.0,6.0,0.0,13.0,21 to 35
-300.0,42.0,No,Travel_Rarely,23.0,Research & Development,5.0,Life Sciences,1.0,F,44.0,3.0,4.0,4.0,15992.0,2.0,No,14.0,3.0,2.0,0.0,2.0,3.0,1.0,0.0,0.0,0.0,36 to 50
-308.0,30.0,No,Non-Travel,25.0,Sales,2.0,Technical Degree,4.0,F,85.0,3.0,2.0,3.0,4736.0,7.0,Yes,12.0,3.0,2.0,1.0,2.0,4.0,2.0,2.0,2.0,2.0,21 to 35
-196.0,36.0,No,Travel_Frequently,3.0,Sales,4.0,Medical,1.0,M,48.0,2.0,3.0,4.0,9699.0,4.0,No,11.0,3.0,1.0,1.0,2.0,3.0,13.0,9.0,1.0,12.0,36 to 50
-11.0,37.0,No,Travel_Rarely,10.0,Research & Development,3.0,Medical,3.0,F,98.0,3.0,1.0,1.0,3452.0,6.0,No,20.0,4.0,2.0,1.0,3.0,3.0,5.0,4.0,0.0,3.0,36 to 50
-54.0,50.0,No,Travel_Rarely,10.0,Research & Development,3.0,Technical Degree,4.0,M,100.0,2.0,3.0,4.0,10496.0,6.0,No,15.0,3.0,4.0,0.0,2.0,3.0,4.0,3.0,1.0,3.0,36 to 50
-14.0,31.0,No,Travel_Rarely,9.0,Research & Development,4.0,Life Sciences,3.0,M,42.0,2.0,1.0,2.0,2657.0,0.0,Yes,16.0,3.0,4.0,0.0,5.0,3.0,2.0,2.0,2.0,2.0,21 to 35
-299.0,36.0,No,Travel_Rarely,2.0,Sales,2.0,Medical,2.0,M,61.0,2.0,3.0,3.0,7596.0,1.0,No,13.0,3.0,2.0,2.0,2.0,3.0,10.0,9.0,9.0,0.0,36 to 50
-129.0,30.0,Yes,Travel_Frequently,4.0,Research & Development,3.0,Technical Degree,3.0,M,40.0,3.0,1.0,4.0,2285.0,9.0,Yes,23.0,4.0,3.0,0.0,4.0,3.0,1.0,0.0,0.0,0.0,21 to 35
-57.0,37.0,No,Travel_Rarely,14.0,Research & Development,3.0,Life Sciences,4.0,F,95.0,3.0,1.0,1.0,3034.0,1.0,No,12.0,3.0,3.0,1.0,2.0,2.0,18.0,7.0,12.0,17.0,36 to 50
-311.0,40.0,No,Travel_Rarely,2.0,Research & Development,3.0,Medical,2.0,F,78.0,2.0,2.0,3.0,3448.0,6.0,No,22.0,4.0,2.0,1.0,3.0,3.0,1.0,0.0,0.0,0.0,36 to 50
-93.0,37.0,No,Non-Travel,25.0,Research & Development,5.0,Medical,2.0,F,72.0,3.0,2.0,3.0,4449.0,3.0,Yes,15.0,3.0,1.0,2.0,2.0,3.0,13.0,11.0,10.0,7.0,36 to 50
-181.0,30.0,No,Travel_Rarely,12.0,Sales,3.0,Technical Degree,2.0,F,83.0,3.0,2.0,3.0,6577.0,0.0,No,11.0,3.0,2.0,0.0,6.0,3.0,5.0,4.0,4.0,4.0,21 to 35
-159.0,42.0,No,Travel_Frequently,29.0,Research & Development,2.0,Life Sciences,1.0,F,92.0,3.0,2.0,3.0,4556.0,2.0,No,11.0,3.0,2.0,1.0,3.0,3.0,5.0,4.0,0.0,2.0,36 to 50
-187.0,46.0,No,Travel_Rarely,18.0,Research & Development,3.0,Medical,3.0,F,87.0,3.0,2.0,3.0,4810.0,2.0,No,14.0,3.0,3.0,1.0,5.0,2.0,10.0,7.0,0.0,8.0,36 to 50
-290.0,30.0,No,Non-Travel,3.0,Research & Development,3.0,Life Sciences,3.0,M,53.0,3.0,1.0,4.0,2097.0,4.0,No,15.0,3.0,3.0,1.0,3.0,1.0,5.0,3.0,1.0,4.0,21 to 35
-156.0,57.0,No,Travel_Rarely,29.0,Sales,3.0,Marketing,1.0,M,56.0,2.0,4.0,4.0,14118.0,3.0,No,12.0,3.0,3.0,1.0,3.0,2.0,1.0,0.0,0.0,0.0,More than 51
-251.0,30.0,No,Non-Travel,2.0,Research & Development,3.0,Medical,3.0,F,49.0,3.0,1.0,4.0,2564.0,0.0,No,14.0,3.0,3.0,0.0,2.0,2.0,11.0,7.0,6.0,7.0,21 to 35
-273.0,35.0,No,Travel_Rarely,22.0,Research & Development,3.0,Life Sciences,4.0,M,46.0,1.0,1.0,3.0,4230.0,0.0,No,15.0,3.0,3.0,0.0,2.0,3.0,5.0,4.0,4.0,3.0,21 to 35
-58.0,33.0,Yes,Travel_Rarely,15.0,Research & Development,1.0,Medical,2.0,M,56.0,3.0,3.0,3.0,13610.0,7.0,Yes,12.0,3.0,4.0,0.0,2.0,4.0,7.0,6.0,7.0,7.0,21 to 35
-120.0,34.0,Yes,Travel_Frequently,23.0,Human Resources,3.0,Human Resources,2.0,F,43.0,3.0,3.0,1.0,9950.0,9.0,Yes,15.0,3.0,3.0,3.0,2.0,3.0,3.0,2.0,0.0,2.0,21 to 35
-99.0,41.0,No,Non-Travel,10.0,Sales,2.0,Life Sciences,4.0,M,56.0,3.0,2.0,4.0,6230.0,7.0,No,14.0,3.0,4.0,0.0,3.0,3.0,14.0,3.0,1.0,10.0,36 to 50
-210.0,42.0,No,Travel_Rarely,24.0,Research & Development,3.0,Medical,4.0,M,56.0,3.0,3.0,1.0,7406.0,1.0,Yes,21.0,4.0,4.0,1.0,5.0,2.0,10.0,9.0,5.0,8.0,36 to 50
-201.0,40.0,No,Non-Travel,28.0,Sales,3.0,Other,3.0,M,58.0,1.0,3.0,1.0,10932.0,3.0,No,15.0,3.0,3.0,1.0,2.0,3.0,1.0,0.0,0.0,1.0,36 to 50
-277.0,46.0,No,Travel_Frequently,18.0,Research & Development,1.0,Medical,1.0,F,86.0,3.0,3.0,3.0,10527.0,5.0,No,11.0,3.0,4.0,0.0,3.0,2.0,2.0,2.0,1.0,2.0,36 to 50
-194.0,41.0,No,Travel_Rarely,2.0,Sales,5.0,Life Sciences,2.0,F,91.0,3.0,4.0,1.0,16595.0,7.0,No,16.0,3.0,2.0,1.0,2.0,3.0,18.0,16.0,11.0,8.0,36 to 50
-77.0,52.0,No,Travel_Rarely,6.0,Research & Development,2.0,Technical Degree,4.0,M,78.0,3.0,2.0,1.0,5577.0,3.0,Yes,12.0,3.0,2.0,2.0,3.0,3.0,10.0,9.0,6.0,9.0,More than 51
-25.0,38.0,No,Travel_Rarely,10.0,Research & Development,3.0,Medical,3.0,F,76.0,3.0,2.0,3.0,9824.0,3.0,No,19.0,3.0,3.0,1.0,4.0,3.0,1.0,0.0,0.0,0.0,36 to 50
-174.0,37.0,No,Travel_Rarely,1.0,Research & Development,4.0,Life Sciences,2.0,F,65.0,3.0,2.0,2.0,6447.0,6.0,No,12.0,3.0,2.0,1.0,2.0,2.0,6.0,5.0,4.0,3.0,36 to 50
-230.0,34.0,No,Travel_Rarely,1.0,Research & Development,2.0,Life Sciences,2.0,M,83.0,2.0,1.0,4.0,3622.0,1.0,Yes,13.0,3.0,4.0,1.0,3.0,3.0,6.0,5.0,1.0,3.0,21 to 35
-45.0,35.0,No,Travel_Rarely,25.0,Research & Development,2.0,Other,1.0,M,54.0,2.0,2.0,4.0,3681.0,4.0,No,14.0,3.0,4.0,0.0,3.0,3.0,3.0,2.0,0.0,2.0,21 to 35
-166.0,31.0,No,Travel_Rarely,6.0,Sales,4.0,Medical,1.0,M,66.0,4.0,2.0,4.0,5460.0,4.0,No,22.0,4.0,4.0,2.0,4.0,4.0,7.0,7.0,5.0,7.0,21 to 35
-48.0,27.0,No,Travel_Rarely,6.0,Research & Development,4.0,Medical,1.0,F,66.0,2.0,1.0,3.0,2187.0,0.0,No,12.0,3.0,3.0,2.0,5.0,2.0,5.0,3.0,0.0,3.0,21 to 35
-186.0,42.0,No,Travel_Rarely,2.0,Research & Development,4.0,Life Sciences,3.0,F,81.0,3.0,2.0,4.0,4089.0,1.0,No,13.0,3.0,2.0,2.0,4.0,3.0,10.0,2.0,2.0,2.0,36 to 50
-15.0,43.0,No,Travel_Frequently,9.0,Research & Development,5.0,Medical,4.0,M,72.0,3.0,2.0,3.0,5679.0,3.0,Yes,13.0,3.0,2.0,1.0,3.0,3.0,8.0,7.0,4.0,7.0,36 to 50
-40.0,34.0,No,Travel_Rarely,14.0,Sales,3.0,Technical Degree,3.0,F,31.0,3.0,1.0,3.0,2579.0,1.0,Yes,18.0,3.0,4.0,2.0,3.0,3.0,8.0,2.0,0.0,6.0,21 to 35
-126.0,45.0,Yes,Travel_Frequently,26.0,Sales,4.0,Life Sciences,1.0,F,100.0,3.0,2.0,1.0,4286.0,2.0,No,14.0,3.0,4.0,2.0,4.0,3.0,1.0,1.0,0.0,0.0,36 to 50
-255.0,54.0,No,Travel_Rarely,19.0,Human Resources,4.0,Medical,3.0,M,88.0,3.0,3.0,2.0,10725.0,2.0,No,15.0,3.0,3.0,1.0,1.0,4.0,9.0,7.0,7.0,1.0,More than 51
-270.0,33.0,Yes,Travel_Frequently,3.0,Research & Development,3.0,Life Sciences,1.0,M,70.0,3.0,1.0,1.0,3348.0,1.0,Yes,11.0,3.0,1.0,0.0,3.0,3.0,10.0,8.0,9.0,7.0,21 to 35
-43.0,37.0,No,Travel_Rarely,10.0,Research & Development,2.0,Life Sciences,4.0,M,80.0,4.0,1.0,4.0,4680.0,3.0,No,17.0,3.0,1.0,0.0,2.0,3.0,1.0,0.0,0.0,0.0,36 to 50
-27.0,34.0,No,Travel_Rarely,9.0,Research & Development,3.0,Medical,4.0,F,46.0,2.0,3.0,2.0,8621.0,1.0,No,14.0,3.0,2.0,0.0,3.0,4.0,8.0,7.0,7.0,7.0,21 to 35
-205.0,32.0,No,Travel_Rarely,3.0,Research & Development,2.0,Life Sciences,3.0,F,39.0,3.0,3.0,4.0,11159.0,3.0,No,15.0,3.0,4.0,0.0,6.0,3.0,7.0,7.0,7.0,7.0,21 to 35
-55.0,40.0,No,Travel_Frequently,5.0,Sales,4.0,Life Sciences,4.0,M,48.0,2.0,3.0,1.0,10475.0,5.0,Yes,21.0,4.0,3.0,1.0,2.0,3.0,18.0,13.0,1.0,12.0,36 to 50
-267.0,28.0,Yes,Travel_Rarely,1.0,Research & Development,2.0,Life Sciences,1.0,F,67.0,1.0,1.0,2.0,2216.0,7.0,Yes,13.0,3.0,4.0,0.0,4.0,3.0,7.0,7.0,3.0,7.0,21 to 35
-100.0,36.0,No,Non-Travel,8.0,Research & Development,3.0,Life Sciences,1.0,F,63.0,4.0,3.0,1.0,11713.0,9.0,No,14.0,3.0,1.0,1.0,2.0,3.0,8.0,7.0,0.0,5.0,36 to 50
-80.0,47.0,No,Travel_Frequently,3.0,Sales,3.0,Medical,4.0,F,49.0,3.0,4.0,3.0,13770.0,9.0,Yes,12.0,3.0,4.0,2.0,2.0,2.0,22.0,2.0,11.0,13.0,36 to 50
-95.0,35.0,No,Non-Travel,2.0,Research & Development,4.0,Life Sciences,4.0,F,61.0,3.0,2.0,1.0,5093.0,2.0,No,11.0,3.0,1.0,1.0,2.0,4.0,1.0,0.0,0.0,0.0,21 to 35
-86.0,34.0,No,Travel_Rarely,8.0,Research & Development,5.0,Life Sciences,2.0,F,32.0,3.0,2.0,1.0,5121.0,3.0,No,14.0,3.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,0.0,21 to 35
-162.0,34.0,No,Travel_Rarely,2.0,Sales,3.0,Other,4.0,M,60.0,3.0,2.0,4.0,6274.0,1.0,No,22.0,4.0,3.0,0.0,5.0,3.0,6.0,5.0,1.0,4.0,21 to 35
-61.0,26.0,No,Travel_Frequently,1.0,Research & Development,2.0,Life Sciences,1.0,F,71.0,1.0,1.0,4.0,4364.0,3.0,No,14.0,3.0,1.0,1.0,2.0,3.0,2.0,2.0,2.0,0.0,21 to 35
-234.0,34.0,No,Travel_Rarely,2.0,Research & Development,4.0,Medical,3.0,F,86.0,2.0,1.0,1.0,4381.0,1.0,No,11.0,3.0,3.0,0.0,3.0,3.0,6.0,5.0,1.0,3.0,21 to 35
-212.0,40.0,No,Travel_Frequently,2.0,Research & Development,2.0,Medical,3.0,F,38.0,4.0,2.0,2.0,4244.0,1.0,No,24.0,4.0,4.0,1.0,2.0,3.0,8.0,7.0,3.0,7.0,36 to 50
-33.0,47.0,No,Travel_Rarely,2.0,Research & Development,2.0,Other,3.0,F,33.0,3.0,4.0,4.0,16752.0,1.0,Yes,11.0,3.0,3.0,1.0,3.0,2.0,26.0,14.0,3.0,0.0,36 to 50
-141.0,42.0,No,Travel_Rarely,1.0,Research & Development,2.0,Life Sciences,4.0,F,43.0,2.0,2.0,4.0,6062.0,9.0,Yes,13.0,3.0,4.0,1.0,4.0,3.0,4.0,3.0,0.0,2.0,36 to 50
-280.0,45.0,No,Travel_Rarely,2.0,Research & Development,3.0,Life Sciences,2.0,F,95.0,2.0,1.0,3.0,2274.0,1.0,No,14.0,3.0,4.0,0.0,3.0,3.0,1.0,0.0,0.0,0.0,36 to 50
-69.0,34.0,No,Travel_Frequently,16.0,Research & Development,4.0,Life Sciences,3.0,F,100.0,2.0,1.0,4.0,2553.0,1.0,No,16.0,3.0,3.0,0.0,3.0,3.0,5.0,2.0,1.0,3.0,21 to 35
-23.0,26.0,Yes,Travel_Frequently,5.0,Research & Development,2.0,Medical,3.0,F,88.0,2.0,1.0,3.0,2366.0,1.0,Yes,14.0,3.0,1.0,1.0,2.0,3.0,8.0,7.0,1.0,7.0,21 to 35
-226.0,44.0,No,Travel_Rarely,4.0,Research & Development,3.0,Medical,4.0,M,50.0,3.0,2.0,2.0,5933.0,9.0,No,12.0,3.0,4.0,0.0,2.0,2.0,5.0,2.0,2.0,3.0,36 to 50
-39.0,33.0,No,Travel_Rarely,1.0,Sales,3.0,Medical,1.0,M,48.0,4.0,2.0,1.0,4037.0,1.0,No,22.0,4.0,1.0,1.0,5.0,3.0,9.0,8.0,0.0,8.0,21 to 35
-195.0,35.0,No,Travel_Rarely,27.0,Research & Development,1.0,Medical,3.0,F,53.0,2.0,1.0,1.0,2559.0,1.0,No,11.0,3.0,4.0,0.0,3.0,2.0,6.0,5.0,1.0,1.0,21 to 35
-139.0,35.0,No,Travel_Rarely,9.0,Research & Development,3.0,Life Sciences,4.0,F,66.0,2.0,3.0,3.0,10685.0,1.0,Yes,20.0,4.0,2.0,1.0,2.0,3.0,17.0,14.0,5.0,15.0,21 to 35
-151.0,37.0,No,Travel_Frequently,21.0,Sales,2.0,Medical,3.0,F,54.0,3.0,1.0,4.0,2973.0,5.0,No,15.0,3.0,2.0,1.0,3.0,3.0,5.0,4.0,0.0,0.0,36 to 50
-79.0,39.0,No,Travel_Rarely,2.0,Human Resources,3.0,Life Sciences,4.0,F,42.0,2.0,2.0,4.0,5204.0,8.0,No,11.0,3.0,3.0,2.0,2.0,3.0,5.0,4.0,0.0,4.0,36 to 50
-266.0,47.0,No,Travel_Rarely,2.0,Sales,4.0,Life Sciences,4.0,F,65.0,2.0,1.0,4.0,3294.0,1.0,Yes,18.0,3.0,1.0,0.0,3.0,2.0,3.0,2.0,1.0,2.0,36 to 50
-134.0,22.0,Yes,Travel_Rarely,3.0,Research & Development,1.0,Life Sciences,2.0,F,34.0,3.0,2.0,3.0,4171.0,0.0,Yes,19.0,3.0,1.0,1.0,3.0,4.0,3.0,2.0,0.0,2.0,21 to 35
-102.0,28.0,No,Travel_Rarely,9.0,Research & Development,3.0,Medical,3.0,F,77.0,3.0,1.0,3.0,2377.0,5.0,No,18.0,3.0,2.0,1.0,2.0,3.0,2.0,2.0,2.0,2.0,21 to 35
-75.0,27.0,No,Travel_Rarely,4.0,Research & Development,3.0,Life Sciences,2.0,F,76.0,3.0,1.0,3.0,2318.0,1.0,No,19.0,3.0,3.0,0.0,2.0,3.0,1.0,1.0,0.0,0.0,21 to 35
-32.0,58.0,No,Travel_Rarely,5.0,Research & Development,3.0,Technical Degree,3.0,F,37.0,2.0,3.0,2.0,10552.0,2.0,Yes,13.0,3.0,4.0,1.0,3.0,3.0,6.0,0.0,0.0,4.0,More than 51
-42.0,35.0,No,Travel_Rarely,21.0,Research & Development,1.0,Life Sciences,4.0,F,51.0,3.0,2.0,4.0,4014.0,1.0,Yes,25.0,4.0,4.0,1.0,2.0,1.0,10.0,6.0,0.0,7.0,21 to 35
-164.0,38.0,No,Travel_Rarely,1.0,Research & Development,3.0,Technical Degree,4.0,F,80.0,3.0,3.0,1.0,13582.0,1.0,No,13.0,3.0,2.0,1.0,3.0,3.0,15.0,12.0,5.0,11.0,36 to 50
-203.0,31.0,No,Travel_Rarely,12.0,Research & Development,3.0,Medical,4.0,F,41.0,3.0,2.0,4.0,5855.0,0.0,Yes,11.0,3.0,3.0,2.0,2.0,1.0,9.0,7.0,8.0,5.0,21 to 35
-204.0,29.0,No,Travel_Frequently,20.0,Sales,3.0,Technical Degree,3.0,F,84.0,3.0,1.0,4.0,2157.0,1.0,No,15.0,3.0,2.0,1.0,5.0,3.0,3.0,1.0,0.0,2.0,21 to 35
-110.0,35.0,No,Travel_Rarely,3.0,Sales,4.0,Life Sciences,4.0,M,92.0,3.0,3.0,4.0,7823.0,6.0,No,13.0,3.0,2.0,1.0,2.0,3.0,10.0,9.0,0.0,8.0,21 to 35
-279.0,40.0,Yes,Non-Travel,24.0,Sales,3.0,Life Sciences,2.0,F,100.0,4.0,4.0,2.0,13194.0,4.0,Yes,16.0,3.0,4.0,0.0,2.0,2.0,1.0,0.0,0.0,0.0,36 to 50
-160.0,31.0,Yes,Non-Travel,9.0,Research & Development,2.0,Medical,3.0,M,46.0,2.0,1.0,1.0,2321.0,0.0,Yes,22.0,4.0,1.0,0.0,0.0,3.0,3.0,2.0,1.0,2.0,21 to 35
-97.0,50.0,No,Travel_Rarely,1.0,Research & Development,2.0,Medical,4.0,M,66.0,3.0,4.0,4.0,17399.0,9.0,No,22.0,4.0,3.0,1.0,1.0,2.0,5.0,4.0,1.0,3.0,36 to 50
-302.0,45.0,No,Non-Travel,23.0,Research & Development,2.0,Life Sciences,4.0,M,42.0,3.0,2.0,1.0,3633.0,1.0,Yes,15.0,3.0,3.0,1.0,2.0,3.0,9.0,8.0,0.0,8.0,36 to 50
-262.0,47.0,No,Travel_Rarely,4.0,Sales,2.0,Life Sciences,4.0,F,83.0,3.0,2.0,4.0,4163.0,1.0,Yes,17.0,3.0,3.0,0.0,0.0,3.0,9.0,0.0,0.0,7.0,36 to 50
-4.0,30.0,No,Travel_Rarely,8.0,Research & Development,2.0,Life Sciences,2.0,F,73.0,4.0,3.0,1.0,11416.0,0.0,Yes,12.0,3.0,3.0,3.0,4.0,2.0,8.0,7.0,1.0,7.0,21 to 35
-243.0,26.0,No,Travel_Rarely,2.0,Research & Development,2.0,Medical,4.0,M,32.0,4.0,2.0,4.0,5472.0,1.0,No,12.0,3.0,2.0,0.0,2.0,3.0,8.0,7.0,1.0,3.0,21 to 35
-182.0,44.0,No,Travel_Rarely,28.0,Sales,3.0,Medical,4.0,F,53.0,4.0,4.0,4.0,13320.0,3.0,Yes,18.0,3.0,3.0,1.0,2.0,3.0,12.0,11.0,11.0,11.0,36 to 50
-29.0,34.0,No,Travel_Rarely,10.0,Sales,4.0,Life Sciences,3.0,F,87.0,3.0,1.0,3.0,2220.0,1.0,Yes,19.0,3.0,4.0,1.0,2.0,3.0,1.0,1.0,0.0,0.0,21 to 35
-227.0,56.0,No,Travel_Frequently,9.0,Research & Development,3.0,Medical,1.0,F,63.0,3.0,1.0,3.0,2942.0,2.0,No,19.0,3.0,2.0,1.0,4.0,3.0,5.0,4.0,0.0,3.0,More than 51
-147.0,21.0,Yes,Travel_Rarely,10.0,Research & Development,3.0,Life Sciences,3.0,F,36.0,2.0,1.0,1.0,1416.0,1.0,No,13.0,3.0,1.0,0.0,6.0,2.0,1.0,0.0,1.0,0.0,21 to 35
-112.0,51.0,Yes,Travel_Rarely,4.0,Research & Development,4.0,Life Sciences,1.0,M,34.0,3.0,1.0,3.0,2461.0,9.0,Yes,12.0,3.0,3.0,3.0,2.0,4.0,10.0,0.0,2.0,7.0,More than 51
-259.0,28.0,Yes,Non-Travel,24.0,Research & Development,2.0,Technical Degree,2.0,M,72.0,2.0,3.0,1.0,8722.0,1.0,No,12.0,3.0,1.0,0.0,2.0,2.0,10.0,7.0,1.0,9.0,21 to 35
-98.0,41.0,No,Travel_Rarely,7.0,Research & Development,2.0,Technical Degree,2.0,F,43.0,4.0,1.0,3.0,3376.0,1.0,No,13.0,3.0,3.0,0.0,3.0,3.0,10.0,6.0,0.0,8.0,36 to 50
-178.0,38.0,No,Travel_Rarely,17.0,Research & Development,1.0,Life Sciences,3.0,F,65.0,2.0,3.0,3.0,8823.0,0.0,No,18.0,3.0,1.0,1.0,4.0,2.0,19.0,9.0,1.0,9.0,36 to 50
-132.0,37.0,No,Travel_Rarely,10.0,Sales,4.0,Life Sciences,4.0,F,88.0,2.0,2.0,4.0,6694.0,2.0,Yes,14.0,3.0,3.0,3.0,5.0,3.0,1.0,0.0,0.0,0.0,36 to 50
-239.0,28.0,No,Travel_Rarely,3.0,Research & Development,3.0,Medical,4.0,F,93.0,3.0,3.0,2.0,7655.0,0.0,No,17.0,3.0,2.0,3.0,3.0,2.0,9.0,7.0,1.0,7.0,21 to 35
-309.0,43.0,No,Travel_Frequently,27.0,Research & Development,3.0,Life Sciences,3.0,F,83.0,3.0,3.0,1.0,10820.0,8.0,No,11.0,3.0,3.0,1.0,1.0,3.0,8.0,7.0,0.0,1.0,36 to 50
-12.0,40.0,No,Travel_Rarely,14.0,Research & Development,3.0,Medical,3.0,M,44.0,2.0,5.0,3.0,19626.0,1.0,No,14.0,3.0,1.0,0.0,2.0,4.0,20.0,7.0,4.0,9.0,36 to 50
-295.0,21.0,No,Travel_Rarely,1.0,Research & Development,1.0,Technical Degree,4.0,F,70.0,2.0,1.0,2.0,2070.0,1.0,Yes,11.0,3.0,3.0,0.0,6.0,4.0,2.0,2.0,2.0,2.0,21 to 35
-305.0,39.0,No,Non-Travel,9.0,Research & Development,3.0,Life Sciences,3.0,M,70.0,3.0,2.0,2.0,6782.0,9.0,No,15.0,3.0,3.0,0.0,2.0,2.0,5.0,4.0,0.0,3.0,36 to 50
-231.0,36.0,No,Non-Travel,18.0,Research & Development,4.0,Life Sciences,1.0,M,78.0,3.0,2.0,4.0,7779.0,2.0,No,20.0,4.0,1.0,0.0,0.0,3.0,11.0,9.0,0.0,9.0,36 to 50
-62.0,29.0,No,Travel_Frequently,10.0,Research & Development,3.0,Life Sciences,4.0,F,61.0,3.0,1.0,2.0,3291.0,0.0,No,14.0,3.0,4.0,2.0,2.0,2.0,7.0,5.0,1.0,1.0,21 to 35
-72.0,28.0,No,Travel_Frequently,6.0,Research & Development,3.0,Life Sciences,3.0,M,39.0,2.0,1.0,3.0,2703.0,1.0,Yes,14.0,3.0,4.0,1.0,2.0,3.0,3.0,1.0,0.0,2.0,21 to 35
-171.0,33.0,Yes,Travel_Rarely,9.0,Sales,4.0,Marketing,1.0,F,77.0,3.0,2.0,1.0,8224.0,0.0,Yes,17.0,3.0,1.0,0.0,3.0,3.0,5.0,2.0,0.0,3.0,21 to 35
-22.0,37.0,No,Travel_Rarely,25.0,Research & Development,2.0,Medical,3.0,F,52.0,2.0,2.0,4.0,5731.0,7.0,No,13.0,3.0,3.0,2.0,2.0,3.0,6.0,2.0,1.0,3.0,36 to 50
-216.0,34.0,No,Travel_Rarely,9.0,Sales,1.0,Life Sciences,2.0,F,70.0,3.0,2.0,3.0,5714.0,1.0,No,20.0,4.0,1.0,0.0,3.0,2.0,6.0,5.0,1.0,3.0,21 to 35
-19.0,29.0,Yes,Travel_Rarely,23.0,Sales,1.0,Life Sciences,4.0,F,45.0,2.0,3.0,1.0,7336.0,1.0,No,13.0,3.0,1.0,1.0,3.0,1.0,11.0,8.0,3.0,10.0,21 to 35
-152.0,40.0,No,Travel_Frequently,9.0,Research & Development,4.0,Medical,2.0,F,88.0,3.0,3.0,3.0,13499.0,9.0,No,17.0,3.0,3.0,0.0,3.0,2.0,18.0,7.0,2.0,13.0,36 to 50
-250.0,24.0,No,Travel_Rarely,24.0,Research & Development,3.0,Medical,4.0,M,49.0,3.0,1.0,2.0,3597.0,8.0,No,22.0,4.0,4.0,0.0,2.0,3.0,4.0,3.0,1.0,2.0,21 to 35
-94.0,30.0,No,Travel_Rarely,10.0,Sales,3.0,Marketing,3.0,M,72.0,2.0,2.0,3.0,6578.0,1.0,No,18.0,3.0,1.0,1.0,3.0,3.0,10.0,3.0,1.0,4.0,21 to 35
-59.0,29.0,No,Travel_Rarely,15.0,Research & Development,1.0,Life Sciences,2.0,F,69.0,1.0,1.0,4.0,2168.0,0.0,Yes,18.0,3.0,1.0,1.0,2.0,2.0,5.0,4.0,1.0,3.0,21 to 35
-268.0,44.0,No,Non-Travel,17.0,Research & Development,3.0,Life Sciences,4.0,M,74.0,1.0,1.0,3.0,2290.0,2.0,No,13.0,3.0,4.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,36 to 50
-221.0,33.0,No,Travel_Frequently,25.0,Sales,3.0,Medical,2.0,F,82.0,3.0,2.0,3.0,4539.0,1.0,No,12.0,3.0,1.0,1.0,3.0,2.0,10.0,7.0,0.0,1.0,21 to 35
-217.0,32.0,No,Travel_Frequently,13.0,Research & Development,3.0,Other,3.0,F,77.0,2.0,1.0,2.0,2743.0,1.0,No,20.0,4.0,3.0,1.0,2.0,3.0,2.0,2.0,2.0,2.0,21 to 35
-56.0,33.0,No,Travel_Rarely,9.0,Research & Development,3.0,Medical,1.0,M,60.0,3.0,1.0,4.0,2781.0,0.0,No,13.0,3.0,2.0,1.0,5.0,3.0,14.0,10.0,4.0,10.0,21 to 35
-190.0,25.0,No,Travel_Rarely,10.0,Sales,4.0,Life Sciences,3.0,M,57.0,3.0,2.0,4.0,4950.0,0.0,No,14.0,3.0,2.0,0.0,4.0,3.0,4.0,3.0,1.0,1.0,21 to 35
-180.0,44.0,No,Travel_Rarely,2.0,Research & Development,1.0,Life Sciences,1.0,F,72.0,4.0,1.0,4.0,2011.0,1.0,No,13.0,3.0,4.0,1.0,5.0,3.0,10.0,5.0,7.0,7.0,36 to 50
-153.0,59.0,No,Travel_Rarely,3.0,Sales,3.0,Life Sciences,3.0,F,48.0,2.0,2.0,4.0,5171.0,5.0,No,17.0,3.0,4.0,0.0,2.0,3.0,6.0,1.0,0.0,5.0,More than 51
-101.0,29.0,No,Travel_Rarely,7.0,Research & Development,3.0,Life Sciences,3.0,M,82.0,3.0,2.0,4.0,6623.0,1.0,Yes,11.0,3.0,2.0,2.0,2.0,3.0,6.0,0.0,1.0,0.0,21 to 35
-71.0,26.0,No,Travel_Rarely,4.0,Research & Development,2.0,Life Sciences,3.0,M,53.0,3.0,1.0,4.0,2875.0,1.0,Yes,20.0,4.0,2.0,0.0,2.0,2.0,8.0,5.0,2.0,2.0,21 to 35
-310.0,45.0,Yes,Travel_Rarely,2.0,Sales,3.0,Marketing,1.0,F,94.0,1.0,5.0,2.0,18824.0,2.0,Yes,16.0,3.0,1.0,0.0,2.0,3.0,24.0,10.0,1.0,11.0,36 to 50
-224.0,34.0,No,Travel_Frequently,19.0,Research & Development,3.0,Medical,3.0,F,46.0,3.0,2.0,2.0,4444.0,4.0,No,13.0,3.0,3.0,2.0,2.0,4.0,11.0,8.0,5.0,10.0,21 to 35
-127.0,34.0,No,Travel_Frequently,11.0,Human Resources,3.0,Life Sciences,3.0,M,56.0,2.0,2.0,2.0,4490.0,4.0,No,11.0,3.0,4.0,2.0,5.0,4.0,10.0,9.0,1.0,8.0,21 to 35
-229.0,42.0,No,Travel_Rarely,7.0,Research & Development,4.0,Medical,2.0,F,78.0,4.0,2.0,2.0,2372.0,6.0,Yes,16.0,3.0,4.0,0.0,2.0,3.0,1.0,0.0,0.0,0.0,36 to 50
-67.0,43.0,No,Travel_Rarely,4.0,Sales,4.0,Marketing,4.0,F,56.0,2.0,3.0,4.0,10231.0,3.0,No,14.0,3.0,4.0,0.0,3.0,4.0,21.0,7.0,15.0,17.0,36 to 50
-169.0,36.0,No,Travel_Rarely,2.0,Research & Development,4.0,Life Sciences,3.0,F,53.0,3.0,2.0,2.0,5410.0,9.0,Yes,11.0,3.0,4.0,0.0,2.0,3.0,16.0,14.0,5.0,12.0,36 to 50
-287.0,29.0,Yes,Travel_Rarely,7.0,Research & Development,3.0,Technical Degree,2.0,F,39.0,3.0,1.0,3.0,3339.0,3.0,Yes,13.0,3.0,1.0,2.0,2.0,3.0,7.0,7.0,7.0,7.0,21 to 35
-135.0,25.0,No,Travel_Rarely,1.0,Research & Development,3.0,Medical,4.0,F,40.0,3.0,1.0,2.0,2096.0,1.0,No,18.0,3.0,4.0,0.0,3.0,2.0,2.0,2.0,2.0,1.0,21 to 35
-298.0,39.0,No,Travel_Rarely,13.0,Research & Development,4.0,Medical,3.0,F,94.0,2.0,4.0,2.0,17123.0,6.0,Yes,13.0,3.0,4.0,2.0,4.0,3.0,19.0,9.0,15.0,2.0,36 to 50
-256.0,30.0,No,Travel_Rarely,6.0,Research & Development,3.0,Technical Degree,1.0,F,48.0,2.0,2.0,4.0,4627.0,0.0,No,12.0,3.0,1.0,1.0,6.0,3.0,9.0,2.0,6.0,7.0,21 to 35
-271.0,30.0,No,Travel_Rarely,17.0,Research & Development,4.0,Medical,2.0,F,95.0,3.0,3.0,1.0,11916.0,1.0,Yes,23.0,4.0,4.0,2.0,2.0,3.0,9.0,1.0,0.0,8.0,21 to 35
-257.0,31.0,Yes,Travel_Frequently,1.0,Sales,3.0,Life Sciences,4.0,F,54.0,3.0,1.0,2.0,2302.0,1.0,Yes,11.0,3.0,1.0,0.0,2.0,4.0,3.0,2.0,2.0,2.0,21 to 35
-9.0,55.0,No,Travel_Rarely,2.0,Research & Development,2.0,Medical,4.0,F,58.0,1.0,5.0,3.0,19187.0,4.0,No,14.0,3.0,4.0,1.0,5.0,3.0,19.0,9.0,9.0,11.0,More than 51
-165.0,35.0,No,Travel_Frequently,4.0,Research & Development,4.0,Life Sciences,3.0,M,87.0,3.0,2.0,3.0,4249.0,1.0,Yes,11.0,3.0,2.0,0.0,3.0,3.0,9.0,6.0,1.0,1.0,21 to 35
-122.0,51.0,No,Travel_Rarely,5.0,Human Resources,3.0,Life Sciences,3.0,M,84.0,3.0,4.0,2.0,14026.0,1.0,Yes,11.0,3.0,2.0,1.0,2.0,3.0,33.0,9.0,0.0,10.0,More than 51
-28.0,55.0,Yes,Travel_Rarely,13.0,Sales,4.0,Marketing,1.0,M,85.0,4.0,4.0,3.0,13695.0,6.0,Yes,17.0,3.0,3.0,0.0,2.0,2.0,19.0,7.0,3.0,8.0,More than 51
-137.0,40.0,No,Travel_Rarely,2.0,Research & Development,1.0,Medical,2.0,F,89.0,4.0,2.0,3.0,6377.0,5.0,No,20.0,4.0,2.0,3.0,0.0,3.0,12.0,11.0,11.0,8.0,36 to 50
-111.0,35.0,Yes,Travel_Frequently,18.0,Sales,4.0,Marketing,4.0,F,67.0,3.0,2.0,3.0,4614.0,0.0,Yes,18.0,3.0,3.0,1.0,0.0,2.0,4.0,2.0,3.0,2.0,21 to 35
-161.0,28.0,No,Travel_Rarely,26.0,Sales,3.0,Life Sciences,3.0,M,48.0,2.0,2.0,1.0,4724.0,1.0,No,11.0,3.0,3.0,1.0,0.0,3.0,5.0,3.0,0.0,4.0,21 to 35
-245.0,39.0,No,Travel_Rarely,21.0,Sales,4.0,Life Sciences,1.0,M,44.0,2.0,2.0,4.0,6120.0,3.0,Yes,12.0,3.0,4.0,2.0,2.0,4.0,5.0,4.0,1.0,4.0,36 to 50
-16.0,26.0,No,Travel_Rarely,2.0,Research & Development,1.0,Medical,1.0,M,36.0,2.0,1.0,4.0,3904.0,0.0,No,12.0,3.0,4.0,0.0,2.0,3.0,4.0,3.0,1.0,1.0,21 to 35
-44.0,42.0,No,Travel_Rarely,10.0,Human Resources,3.0,Human Resources,3.0,F,31.0,3.0,4.0,1.0,16799.0,0.0,No,14.0,3.0,3.0,1.0,5.0,3.0,20.0,7.0,0.0,9.0,36 to 50
-103.0,29.0,Yes,Travel_Frequently,14.0,Research & Development,1.0,Other,3.0,F,84.0,3.0,3.0,4.0,7553.0,0.0,Yes,12.0,3.0,1.0,0.0,1.0,3.0,8.0,7.0,7.0,7.0,21 to 35
-142.0,31.0,Yes,Travel_Frequently,1.0,Sales,4.0,Life Sciences,2.0,F,50.0,1.0,1.0,3.0,1359.0,1.0,No,12.0,3.0,2.0,0.0,3.0,3.0,1.0,0.0,0.0,0.0,21 to 35
-297.0,36.0,No,Travel_Rarely,16.0,Sales,4.0,Marketing,3.0,F,98.0,2.0,2.0,1.0,5647.0,4.0,No,13.0,3.0,1.0,2.0,3.0,2.0,3.0,2.0,0.0,2.0,36 to 50
-282.0,47.0,No,Travel_Rarely,2.0,Research & Development,4.0,Medical,1.0,F,82.0,3.0,4.0,3.0,17169.0,3.0,No,19.0,3.0,2.0,2.0,2.0,4.0,20.0,17.0,5.0,6.0,36 to 50
-84.0,24.0,No,Travel_Rarely,4.0,Sales,1.0,Medical,4.0,F,42.0,3.0,2.0,3.0,4162.0,1.0,Yes,12.0,3.0,3.0,2.0,3.0,3.0,5.0,4.0,0.0,3.0,21 to 35
-168.0,31.0,Yes,Travel_Frequently,1.0,Research & Development,5.0,Life Sciences,3.0,F,100.0,4.0,3.0,2.0,7446.0,1.0,No,11.0,3.0,1.0,0.0,2.0,3.0,10.0,8.0,4.0,7.0,21 to 35
-149.0,45.0,No,Travel_Rarely,29.0,Research & Development,3.0,Technical Degree,2.0,M,55.0,3.0,3.0,4.0,9380.0,4.0,Yes,18.0,3.0,4.0,2.0,4.0,4.0,3.0,1.0,1.0,2.0,36 to 50
-82.0,44.0,No,Travel_Rarely,20.0,Research & Development,3.0,Life Sciences,4.0,M,49.0,3.0,1.0,2.0,3420.0,1.0,No,13.0,3.0,3.0,0.0,3.0,2.0,5.0,2.0,1.0,3.0,36 to 50
-291.0,57.0,No,Travel_Rarely,1.0,Research & Development,2.0,Life Sciences,2.0,M,93.0,4.0,2.0,3.0,4900.0,0.0,No,24.0,4.0,1.0,1.0,2.0,2.0,12.0,9.0,2.0,8.0,More than 51
-108.0,34.0,Yes,Travel_Rarely,24.0,Sales,4.0,Medical,1.0,F,40.0,2.0,2.0,2.0,4599.0,0.0,Yes,23.0,4.0,3.0,0.0,2.0,4.0,15.0,9.0,10.0,10.0,21 to 35
-6.0,47.0,No,Travel_Rarely,14.0,Sales,3.0,Medical,3.0,F,78.0,3.0,2.0,3.0,4591.0,3.0,Yes,17.0,3.0,3.0,1.0,4.0,2.0,5.0,4.0,1.0,2.0,36 to 50
-202.0,49.0,No,Travel_Rarely,3.0,Research & Development,2.0,Medical,3.0,F,43.0,2.0,2.0,1.0,4789.0,4.0,No,25.0,4.0,1.0,1.0,3.0,3.0,3.0,2.0,1.0,2.0,36 to 50
-303.0,29.0,No,Travel_Frequently,2.0,Research & Development,1.0,Life Sciences,4.0,F,97.0,3.0,1.0,2.0,3180.0,0.0,No,13.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,0.0,2.0,21 to 35
-118.0,39.0,No,Travel_Rarely,6.0,Research & Development,3.0,Life Sciences,2.0,F,32.0,3.0,3.0,2.0,8376.0,4.0,No,18.0,3.0,4.0,0.0,3.0,3.0,2.0,0.0,2.0,2.0,36 to 50
-24.0,35.0,No,Travel_Rarely,16.0,Research & Development,3.0,Life Sciences,4.0,F,91.0,2.0,3.0,2.0,8606.0,1.0,No,19.0,3.0,4.0,0.0,3.0,1.0,11.0,8.0,3.0,3.0,21 to 35
-155.0,40.0,Yes,Travel_Rarely,9.0,Research & Development,4.0,Life Sciences,4.0,M,86.0,3.0,1.0,1.0,2018.0,3.0,No,14.0,3.0,2.0,0.0,3.0,1.0,5.0,4.0,1.0,0.0,36 to 50
-5.0,31.0,Yes,Travel_Frequently,3.0,Research & Development,3.0,Life Sciences,4.0,F,33.0,3.0,1.0,3.0,4084.0,1.0,No,12.0,3.0,1.0,0.0,2.0,1.0,7.0,2.0,7.0,7.0,21 to 35
-31.0,34.0,No,Travel_Rarely,7.0,Sales,2.0,Technical Degree,2.0,M,55.0,3.0,1.0,3.0,2308.0,0.0,Yes,25.0,4.0,2.0,1.0,4.0,3.0,11.0,10.0,5.0,7.0,21 to 35
-154.0,45.0,No,Travel_Rarely,28.0,Research & Development,3.0,Technical Degree,4.0,M,97.0,3.0,1.0,4.0,2132.0,4.0,No,20.0,4.0,4.0,1.0,3.0,3.0,5.0,4.0,0.0,3.0,36 to 50
-106.0,40.0,No,Non-Travel,8.0,Research & Development,2.0,Life Sciences,4.0,M,72.0,3.0,2.0,4.0,4069.0,3.0,Yes,18.0,3.0,3.0,0.0,2.0,3.0,2.0,2.0,2.0,2.0,36 to 50
-96.0,45.0,No,Travel_Rarely,1.0,Research & Development,4.0,Technical Degree,1.0,M,66.0,3.0,3.0,2.0,7441.0,1.0,No,12.0,3.0,1.0,3.0,4.0,3.0,10.0,8.0,7.0,7.0,36 to 50
-170.0,38.0,No,Travel_Frequently,10.0,Human Resources,4.0,Human Resources,3.0,M,71.0,3.0,2.0,3.0,6077.0,3.0,No,11.0,3.0,3.0,0.0,2.0,3.0,6.0,3.0,1.0,2.0,36 to 50
-49.0,35.0,No,Travel_Rarely,1.0,Research & Development,3.0,Medical,4.0,M,68.0,2.0,1.0,1.0,2450.0,1.0,No,19.0,3.0,2.0,0.0,3.0,3.0,3.0,0.0,1.0,2.0,21 to 35
-83.0,38.0,No,Travel_Rarely,14.0,Sales,3.0,Life Sciences,3.0,M,80.0,3.0,2.0,2.0,9924.0,0.0,No,11.0,3.0,4.0,1.0,3.0,3.0,9.0,8.0,7.0,7.0,36 to 50
-272.0,36.0,No,Travel_Rarely,1.0,Sales,4.0,Life Sciences,2.0,F,73.0,3.0,2.0,3.0,6815.0,6.0,No,13.0,3.0,1.0,0.0,5.0,3.0,1.0,0.0,0.0,0.0,36 to 50
-232.0,29.0,No,Travel_Rarely,3.0,Research & Development,1.0,Medical,2.0,M,87.0,3.0,1.0,1.0,4723.0,1.0,Yes,18.0,3.0,4.0,0.0,3.0,3.0,10.0,9.0,1.0,5.0,21 to 35
-124.0,29.0,No,Travel_Frequently,2.0,Research & Development,1.0,Life Sciences,1.0,M,87.0,3.0,2.0,4.0,8853.0,1.0,No,19.0,3.0,4.0,1.0,0.0,4.0,6.0,4.0,1.0,3.0,21 to 35
-52.0,36.0,No,Travel_Frequently,6.0,Research & Development,4.0,Life Sciences,1.0,M,80.0,4.0,2.0,1.0,5562.0,3.0,Yes,13.0,3.0,4.0,1.0,3.0,3.0,3.0,2.0,0.0,2.0,36 to 50
-289.0,22.0,No,Non-Travel,26.0,Research & Development,2.0,Other,2.0,F,85.0,2.0,1.0,3.0,2814.0,1.0,Yes,14.0,3.0,2.0,0.0,2.0,2.0,4.0,2.0,1.0,3.0,21 to 35
-306.0,32.0,No,Travel_Rarely,5.0,Research & Development,4.0,Other,2.0,F,35.0,4.0,1.0,4.0,3312.0,3.0,No,17.0,3.0,4.0,2.0,3.0,3.0,3.0,2.0,0.0,2.0,21 to 35
-85.0,34.0,No,Travel_Frequently,10.0,Research & Development,4.0,Life Sciences,3.0,M,42.0,4.0,2.0,4.0,4724.0,1.0,No,13.0,3.0,1.0,1.0,3.0,3.0,9.0,7.0,7.0,2.0,21 to 35
-172.0,45.0,No,Travel_Rarely,2.0,Research & Development,2.0,Other,4.0,F,59.0,2.0,2.0,4.0,5770.0,1.0,No,19.0,3.0,1.0,2.0,3.0,3.0,10.0,7.0,3.0,9.0,36 to 50
-36.0,48.0,No,Travel_Frequently,4.0,Research & Development,5.0,Medical,3.0,M,89.0,2.0,4.0,4.0,15202.0,2.0,No,25.0,4.0,2.0,1.0,3.0,3.0,2.0,2.0,2.0,2.0,36 to 50
-1.0,35.0,Yes,Travel_Rarely,15.0,Sales,2.0,Medical,1.0,M,59.0,1.0,2.0,4.0,5440.0,6.0,Yes,14.0,3.0,4.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,21 to 35
-307.0,27.0,No,Travel_Frequently,2.0,Research & Development,3.0,Medical,4.0,M,87.0,3.0,1.0,4.0,2580.0,2.0,No,13.0,3.0,3.0,0.0,0.0,2.0,4.0,2.0,1.0,2.0,21 to 35
-123.0,36.0,No,Travel_Rarely,5.0,Research & Development,4.0,Life Sciences,2.0,F,42.0,3.0,3.0,1.0,8008.0,4.0,No,12.0,3.0,3.0,2.0,6.0,3.0,3.0,2.0,0.0,2.0,36 to 50
-26.0,39.0,No,Travel_Rarely,12.0,Research & Development,3.0,Medical,4.0,M,66.0,3.0,2.0,2.0,5295.0,4.0,No,21.0,4.0,3.0,0.0,3.0,3.0,5.0,4.0,1.0,0.0,36 to 50
-233.0,49.0,No,Travel_Rarely,22.0,Research & Development,4.0,Other,1.0,F,72.0,3.0,4.0,2.0,16413.0,3.0,No,16.0,3.0,2.0,2.0,2.0,3.0,4.0,2.0,1.0,2.0,36 to 50
-63.0,36.0,No,Non-Travel,1.0,Research & Development,4.0,Medical,4.0,F,33.0,2.0,2.0,3.0,4374.0,0.0,No,15.0,3.0,3.0,0.0,6.0,3.0,3.0,2.0,1.0,2.0,36 to 50
-283.0,49.0,No,Travel_Rarely,1.0,Research & Development,3.0,Life Sciences,3.0,M,36.0,3.0,4.0,3.0,15379.0,4.0,No,14.0,3.0,1.0,0.0,2.0,3.0,8.0,7.0,0.0,0.0,36 to 50
-278.0,33.0,No,Non-Travel,16.0,Sales,3.0,Life Sciences,3.0,F,36.0,3.0,2.0,4.0,5368.0,1.0,Yes,25.0,4.0,3.0,1.0,2.0,3.0,6.0,5.0,1.0,2.0,21 to 35
-2.0,37.0,No,Travel_Frequently,1.0,Sales,4.0,Medical,3.0,M,31.0,1.0,2.0,4.0,9525.0,1.0,No,14.0,3.0,3.0,2.0,2.0,2.0,6.0,3.0,1.0,3.0,36 to 50
-237.0,34.0,No,Travel_Rarely,19.0,Research & Development,3.0,Life Sciences,2.0,F,35.0,2.0,1.0,4.0,2929.0,1.0,No,12.0,3.0,2.0,0.0,3.0,3.0,10.0,9.0,8.0,7.0,21 to 35
-301.0,24.0,No,Travel_Rarely,9.0,Research & Development,3.0,Medical,3.0,M,62.0,4.0,1.0,3.0,4401.0,1.0,No,16.0,3.0,4.0,1.0,1.0,3.0,5.0,3.0,0.0,4.0,21 to 35
-20.0,45.0,No,Non-Travel,1.0,Research & Development,1.0,Life Sciences,3.0,M,74.0,2.0,3.0,3.0,10748.0,3.0,No,23.0,4.0,4.0,1.0,3.0,2.0,23.0,15.0,14.0,4.0,36 to 50
-148.0,23.0,No,Travel_Rarely,4.0,Research & Development,1.0,Medical,3.0,F,51.0,3.0,1.0,2.0,3295.0,1.0,No,13.0,3.0,3.0,0.0,3.0,1.0,3.0,2.0,1.0,2.0,21 to 35
-130.0,31.0,No,Travel_Frequently,24.0,Research & Development,1.0,Technical Degree,4.0,F,30.0,3.0,2.0,4.0,5238.0,2.0,No,20.0,4.0,4.0,0.0,3.0,2.0,5.0,4.0,1.0,4.0,21 to 35
-248.0,39.0,No,Non-Travel,1.0,Research & Development,3.0,Life Sciences,4.0,M,77.0,3.0,2.0,4.0,6472.0,1.0,Yes,15.0,3.0,4.0,1.0,2.0,3.0,9.0,8.0,5.0,8.0,36 to 50
-285.0,32.0,No,Travel_Rarely,19.0,Sales,3.0,Life Sciences,4.0,M,80.0,1.0,3.0,3.0,9610.0,3.0,No,13.0,3.0,3.0,1.0,2.0,1.0,4.0,3.0,0.0,2.0,21 to 35
-208.0,30.0,No,Travel_Frequently,2.0,Research & Development,4.0,Technical Degree,4.0,F,78.0,2.0,1.0,1.0,4968.0,0.0,No,16.0,3.0,4.0,0.0,2.0,3.0,9.0,7.0,0.0,7.0,21 to 35
-30.0,29.0,Yes,Travel_Rarely,9.0,Sales,3.0,Marketing,2.0,F,52.0,1.0,1.0,2.0,2760.0,1.0,No,13.0,3.0,3.0,0.0,3.0,3.0,2.0,2.0,2.0,2.0,21 to 35
-211.0,34.0,No,Travel_Rarely,2.0,Research & Development,4.0,Medical,4.0,M,97.0,4.0,1.0,4.0,2932.0,0.0,Yes,14.0,3.0,1.0,3.0,3.0,3.0,5.0,0.0,1.0,2.0,21 to 35
-219.0,49.0,No,Travel_Rarely,11.0,Sales,4.0,Marketing,4.0,F,80.0,3.0,2.0,4.0,4507.0,3.0,No,12.0,3.0,3.0,0.0,1.0,4.0,5.0,1.0,0.0,4.0,36 to 50
-246.0,33.0,Yes,Travel_Rarely,16.0,Sales,3.0,Life Sciences,1.0,F,74.0,3.0,3.0,1.0,8564.0,2.0,Yes,20.0,4.0,3.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,21 to 35
-157.0,30.0,No,Travel_Rarely,16.0,Research & Development,3.0,Life Sciences,3.0,M,58.0,4.0,2.0,3.0,5294.0,3.0,No,16.0,3.0,3.0,1.0,3.0,3.0,7.0,0.0,1.0,7.0,21 to 35
-193.0,42.0,No,Travel_Rarely,12.0,Research & Development,3.0,Medical,2.0,M,57.0,3.0,1.0,2.0,2766.0,8.0,No,22.0,4.0,2.0,3.0,6.0,2.0,5.0,3.0,0.0,4.0,36 to 50
-35.0,43.0,No,Travel_Rarely,2.0,Human Resources,3.0,Life Sciences,2.0,M,97.0,3.0,1.0,4.0,3539.0,0.0,No,13.0,3.0,2.0,0.0,5.0,3.0,9.0,7.0,1.0,8.0,36 to 50
-50.0,31.0,No,Travel_Rarely,29.0,Sales,4.0,Marketing,1.0,F,91.0,2.0,2.0,4.0,5468.0,1.0,No,14.0,3.0,1.0,2.0,3.0,3.0,12.0,7.0,5.0,7.0,21 to 35
-104.0,51.0,No,Travel_Rarely,3.0,Research & Development,3.0,Technical Degree,1.0,F,53.0,3.0,3.0,3.0,13116.0,2.0,No,11.0,3.0,4.0,0.0,2.0,3.0,2.0,2.0,2.0,2.0,More than 51
-113.0,46.0,No,Travel_Rarely,2.0,Research & Development,4.0,Medical,3.0,M,46.0,3.0,5.0,4.0,19328.0,7.0,Yes,17.0,3.0,3.0,1.0,3.0,3.0,2.0,1.0,2.0,2.0,36 to 50
-60.0,37.0,No,Travel_Rarely,8.0,Human Resources,2.0,Other,3.0,M,89.0,3.0,2.0,2.0,4071.0,2.0,No,13.0,3.0,3.0,0.0,4.0,2.0,10.0,0.0,4.0,7.0,36 to 50
-158.0,38.0,No,Non-Travel,2.0,Human Resources,3.0,Human Resources,1.0,M,100.0,3.0,1.0,2.0,2592.0,5.0,No,13.0,3.0,4.0,3.0,3.0,3.0,11.0,10.0,3.0,8.0,36 to 50
-53.0,37.0,Yes,Travel_Rarely,10.0,Research & Development,4.0,Medical,4.0,M,58.0,3.0,2.0,1.0,4213.0,1.0,No,15.0,3.0,2.0,0.0,4.0,1.0,10.0,3.0,0.0,8.0,36 to 50
-70.0,39.0,No,Travel_Frequently,20.0,Sales,3.0,Life Sciences,3.0,M,83.0,3.0,2.0,4.0,4127.0,2.0,No,18.0,3.0,4.0,1.0,6.0,3.0,2.0,1.0,2.0,2.0,36 to 50
-140.0,40.0,No,Travel_Rarely,12.0,Research & Development,3.0,Life Sciences,2.0,F,47.0,3.0,2.0,1.0,4448.0,2.0,No,12.0,3.0,2.0,1.0,3.0,3.0,7.0,4.0,7.0,7.0,36 to 50
-138.0,43.0,No,Travel_Frequently,2.0,Sales,4.0,Life Sciences,1.0,M,92.0,3.0,2.0,4.0,5675.0,1.0,No,20.0,4.0,3.0,1.0,5.0,3.0,7.0,7.0,7.0,7.0,36 to 50
-215.0,29.0,No,Travel_Frequently,20.0,Research & Development,1.0,Medical,4.0,M,40.0,3.0,1.0,4.0,3812.0,1.0,No,13.0,3.0,2.0,0.0,3.0,4.0,11.0,8.0,3.0,10.0,21 to 35
-197.0,42.0,No,Travel_Rarely,8.0,Research & Development,3.0,Life Sciences,4.0,M,81.0,3.0,1.0,3.0,3968.0,4.0,No,13.0,3.0,4.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,36 to 50
-41.0,46.0,No,Travel_Rarely,3.0,Sales,3.0,Technical Degree,1.0,F,45.0,4.0,4.0,1.0,13225.0,2.0,No,12.0,3.0,4.0,1.0,5.0,3.0,19.0,17.0,2.0,8.0,36 to 50
-177.0,27.0,No,Travel_Frequently,15.0,Research & Development,3.0,Life Sciences,4.0,F,77.0,2.0,1.0,1.0,4774.0,0.0,No,19.0,3.0,4.0,1.0,2.0,2.0,7.0,6.0,7.0,3.0,21 to 35
-105.0,36.0,No,Travel_Rarely,10.0,Sales,4.0,Technical Degree,2.0,F,63.0,2.0,2.0,3.0,5673.0,1.0,Yes,13.0,3.0,1.0,1.0,4.0,3.0,10.0,9.0,1.0,7.0,36 to 50
-244.0,37.0,No,Travel_Rarely,7.0,Research & Development,4.0,Medical,4.0,M,78.0,3.0,2.0,1.0,4284.0,5.0,Yes,22.0,4.0,3.0,1.0,2.0,3.0,5.0,3.0,0.0,4.0,36 to 50
-242.0,48.0,No,Travel_Frequently,22.0,Research & Development,3.0,Medical,4.0,F,58.0,3.0,4.0,4.0,17174.0,3.0,No,11.0,3.0,2.0,1.0,3.0,3.0,22.0,17.0,4.0,7.0,36 to 50
-7.0,41.0,No,Travel_Rarely,8.0,Sales,3.0,Marketing,3.0,F,54.0,3.0,2.0,2.0,4393.0,5.0,No,21.0,4.0,3.0,1.0,3.0,3.0,5.0,4.0,1.0,4.0,36 to 50
-73.0,31.0,No,Travel_Rarely,10.0,Sales,2.0,Medical,3.0,F,86.0,3.0,2.0,4.0,6583.0,2.0,Yes,11.0,3.0,4.0,1.0,2.0,3.0,5.0,2.0,1.0,4.0,21 to 35
-184.0,34.0,No,Travel_Rarely,3.0,Sales,1.0,Medical,4.0,F,75.0,2.0,2.0,4.0,8103.0,3.0,Yes,12.0,3.0,3.0,0.0,3.0,2.0,4.0,2.0,0.0,1.0,21 to 35
-249.0,27.0,No,Travel_Rarely,2.0,Research & Development,4.0,Technical Degree,2.0,M,41.0,3.0,1.0,2.0,2226.0,1.0,No,11.0,3.0,3.0,1.0,3.0,2.0,5.0,3.0,1.0,2.0,21 to 35
-175.0,38.0,No,Travel_Frequently,8.0,Research & Development,3.0,Medical,4.0,F,58.0,2.0,2.0,2.0,2133.0,1.0,Yes,16.0,3.0,3.0,1.0,3.0,3.0,20.0,11.0,0.0,7.0,36 to 50
-176.0,42.0,No,Travel_Rarely,12.0,Sales,4.0,Marketing,2.0,M,77.0,3.0,2.0,4.0,5087.0,3.0,Yes,12.0,3.0,3.0,2.0,4.0,3.0,0.0,0.0,0.0,0.0,36 to 50
-3.0,27.0,Yes,Travel_Frequently,22.0,Human Resources,3.0,Human Resources,1.0,F,58.0,2.0,1.0,2.0,2863.0,1.0,No,12.0,3.0,1.0,0.0,2.0,3.0,1.0,0.0,0.0,0.0,21 to 35
-207.0,32.0,No,Non-Travel,15.0,Research & Development,4.0,Medical,3.0,F,34.0,3.0,2.0,4.0,6667.0,5.0,No,18.0,3.0,2.0,1.0,6.0,3.0,5.0,1.0,1.0,2.0,21 to 35
-37.0,31.0,No,Travel_Frequently,1.0,Research & Development,3.0,Life Sciences,4.0,M,48.0,1.0,2.0,1.0,5003.0,1.0,No,21.0,4.0,2.0,0.0,6.0,3.0,10.0,8.0,8.0,7.0,21 to 35
-163.0,35.0,No,Travel_Rarely,7.0,Sales,4.0,Life Sciences,3.0,F,55.0,3.0,2.0,4.0,5204.0,1.0,Yes,11.0,3.0,4.0,0.0,2.0,3.0,10.0,8.0,0.0,9.0,21 to 35
-21.0,53.0,Yes,Travel_Rarely,24.0,Sales,4.0,Life Sciences,1.0,M,66.0,3.0,3.0,1.0,10448.0,6.0,Yes,13.0,3.0,2.0,0.0,2.0,2.0,2.0,2.0,2.0,2.0,More than 51
-185.0,33.0,No,Travel_Frequently,7.0,Research & Development,2.0,Life Sciences,4.0,M,36.0,3.0,2.0,3.0,5968.0,1.0,No,20.0,4.0,3.0,3.0,2.0,3.0,9.0,7.0,2.0,8.0,21 to 35
-220.0,40.0,No,Travel_Frequently,11.0,Research & Development,3.0,Technical Degree,4.0,F,73.0,3.0,2.0,3.0,6323.0,1.0,No,11.0,3.0,1.0,1.0,2.0,4.0,10.0,9.0,9.0,4.0,36 to 50
-150.0,38.0,No,Travel_Rarely,1.0,Sales,4.0,Life Sciences,4.0,M,86.0,3.0,2.0,2.0,4440.0,0.0,No,15.0,3.0,1.0,2.0,3.0,3.0,15.0,13.0,5.0,8.0,36 to 50
-119.0,42.0,No,Travel_Rarely,18.0,Research & Development,4.0,Life Sciences,4.0,M,35.0,3.0,2.0,1.0,5410.0,6.0,Yes,17.0,3.0,3.0,1.0,3.0,2.0,4.0,3.0,1.0,2.0,36 to 50
-263.0,32.0,No,Travel_Rarely,1.0,Sales,4.0,Medical,2.0,M,68.0,2.0,1.0,2.0,2269.0,0.0,No,14.0,3.0,2.0,1.0,2.0,3.0,2.0,2.0,2.0,2.0,21 to 35
-281.0,44.0,No,Travel_Rarely,1.0,Research & Development,3.0,Medical,2.0,M,42.0,3.0,1.0,4.0,2436.0,6.0,Yes,12.0,3.0,3.0,0.0,2.0,3.0,4.0,3.0,1.0,2.0,36 to 50
-66.0,42.0,No,Travel_Rarely,2.0,Research & Development,3.0,Life Sciences,1.0,M,56.0,3.0,5.0,3.0,18880.0,5.0,No,11.0,3.0,1.0,0.0,2.0,2.0,22.0,6.0,4.0,14.0,36 to 50
-136.0,34.0,No,Travel_Rarely,28.0,Sales,3.0,Marketing,4.0,F,95.0,2.0,2.0,3.0,6712.0,1.0,No,21.0,4.0,4.0,2.0,2.0,3.0,8.0,7.0,1.0,7.0,21 to 35
-114.0,38.0,No,Travel_Rarely,10.0,Sales,2.0,Life Sciences,1.0,F,100.0,3.0,2.0,4.0,5343.0,1.0,No,11.0,3.0,3.0,1.0,1.0,3.0,10.0,7.0,1.0,9.0,36 to 50
-286.0,35.0,No,Travel_Frequently,18.0,Research & Development,4.0,Life Sciences,3.0,M,80.0,3.0,2.0,3.0,5689.0,1.0,Yes,14.0,3.0,4.0,2.0,2.0,4.0,10.0,2.0,0.0,2.0,21 to 35
-78.0,35.0,No,Travel_Rarely,1.0,Research & Development,4.0,Life Sciences,3.0,F,62.0,1.0,1.0,4.0,2977.0,1.0,No,12.0,3.0,4.0,1.0,5.0,3.0,4.0,3.0,1.0,1.0,21 to 35
+Employee_ID,Age,Attrition,BusinessTravel,DistanceFromHome,Education,EducationField,EnvironmentSatisfaction,Gender,JobInvolvement,JobLevel,JobSatisfaction,NumCompaniesWorked,OverTime,PercentSalaryHike,PerformanceRating,RelationshipSatisfaction,StockOptionLevel,TrainingTimesLastYear,WorkLifeBalance,YearsAtCompany,YearsInCurrentRole,YearsSinceLastPromotion,YearsWithCurrManager,Age_Group
+116.0,37.0,Yes,Travel_Rarely,2.0,2.0,Other,4.0,M,2.0,1.0,3.0,6.0,Yes,15.0,3.0,2.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,36 to 50
+211.0,27.0,No,Travel_Rarely,2.0,1.0,Medical,1.0,M,3.0,1.0,2.0,9.0,No,12.0,3.0,4.0,1.0,3.0,3.0,2.0,2.0,2.0,2.0,21 to 35
+18.0,59.0,No,Travel_Rarely,3.0,3.0,Medical,3.0,F,4.0,1.0,1.0,4.0,Yes,20.0,4.0,1.0,3.0,3.0,2.0,1.0,0.0,0.0,0.0,51 or more
+258.0,38.0,No,Travel_Frequently,23.0,3.0,Life Sciences,4.0,M,2.0,3.0,3.0,0.0,No,21.0,4.0,2.0,0.0,2.0,3.0,9.0,7.0,1.0,8.0,36 to 50
+238.0,35.0,No,Travel_Rarely,16.0,3.0,Medical,1.0,M,4.0,1.0,2.0,0.0,No,13.0,3.0,3.0,1.0,5.0,3.0,5.0,4.0,0.0,3.0,21 to 35
+184.0,29.0,No,Travel_Rarely,15.0,2.0,Life Sciences,4.0,F,2.0,2.0,3.0,0.0,Yes,12.0,3.0,4.0,0.0,3.0,3.0,9.0,5.0,0.0,8.0,21 to 35
+1.0,28.0,Yes,Travel_Rarely,24.0,3.0,Life Sciences,3.0,M,2.0,1.0,3.0,5.0,Yes,14.0,3.0,2.0,0.0,4.0,3.0,4.0,2.0,0.0,3.0,21 to 35
+103.0,24.0,No,Non-Travel,11.0,2.0,Other,1.0,F,4.0,2.0,3.0,0.0,No,18.0,3.0,4.0,1.0,5.0,2.0,4.0,2.0,1.0,3.0,21 to 35
+104.0,53.0,No,Travel_Rarely,5.0,3.0,Other,3.0,F,3.0,5.0,3.0,4.0,No,11.0,3.0,4.0,1.0,3.0,2.0,14.0,13.0,4.0,8.0,51 or more
+143.0,46.0,No,Travel_Rarely,2.0,4.0,Marketing,2.0,F,3.0,5.0,1.0,3.0,No,12.0,3.0,4.0,0.0,2.0,2.0,2.0,2.0,2.0,1.0,36 to 50
+159.0,43.0,No,Travel_Rarely,2.0,2.0,Medical,4.0,F,4.0,1.0,3.0,1.0,No,12.0,3.0,4.0,2.0,3.0,2.0,5.0,3.0,1.0,4.0,36 to 50
+272.0,36.0,No,Travel_Rarely,5.0,4.0,Life Sciences,2.0,F,2.0,1.0,1.0,9.0,Yes,14.0,3.0,4.0,1.0,3.0,4.0,1.0,1.0,0.0,0.0,36 to 50
+3.0,33.0,No,Travel_Frequently,1.0,3.0,Life Sciences,3.0,F,4.0,2.0,1.0,2.0,No,19.0,3.0,1.0,2.0,3.0,3.0,5.0,3.0,1.0,3.0,21 to 35
+120.0,30.0,No,Travel_Frequently,1.0,2.0,Medical,3.0,F,3.0,2.0,4.0,1.0,No,23.0,4.0,4.0,0.0,2.0,3.0,12.0,8.0,3.0,7.0,21 to 35
+264.0,59.0,No,Travel_Rarely,25.0,3.0,Life Sciences,1.0,F,3.0,3.0,1.0,7.0,No,11.0,3.0,4.0,0.0,3.0,2.0,21.0,16.0,7.0,9.0,51 or more
+309.0,36.0,No,Travel_Rarely,8.0,3.0,Technical Degree,3.0,F,3.0,3.0,3.0,1.0,No,13.0,3.0,2.0,3.0,2.0,3.0,17.0,14.0,12.0,8.0,36 to 50
+55.0,36.0,No,Travel_Frequently,11.0,3.0,Life Sciences,2.0,M,2.0,2.0,2.0,1.0,No,13.0,3.0,3.0,0.0,3.0,3.0,6.0,5.0,0.0,3.0,36 to 50
+191.0,29.0,No,Travel_Rarely,2.0,3.0,Life Sciences,3.0,M,3.0,1.0,2.0,0.0,No,23.0,4.0,4.0,1.0,3.0,3.0,5.0,4.0,0.0,4.0,21 to 35
+273.0,35.0,No,Travel_Rarely,1.0,4.0,Marketing,3.0,M,2.0,2.0,1.0,0.0,No,14.0,3.0,2.0,0.0,2.0,3.0,15.0,13.0,2.0,8.0,21 to 35
+252.0,38.0,No,Non-Travel,6.0,3.0,Medical,2.0,F,1.0,2.0,4.0,7.0,Yes,12.0,3.0,4.0,3.0,3.0,3.0,13.0,11.0,1.0,9.0,36 to 50
+129.0,23.0,No,Travel_Rarely,2.0,1.0,Technical Degree,3.0,M,3.0,1.0,1.0,3.0,No,13.0,3.0,3.0,1.0,3.0,3.0,0.0,0.0,0.0,0.0,21 to 35
+137.0,50.0,No,Travel_Frequently,1.0,3.0,Life Sciences,1.0,F,3.0,5.0,2.0,3.0,Yes,19.0,3.0,1.0,0.0,1.0,2.0,8.0,3.0,0.0,7.0,36 to 50
+100.0,36.0,No,Travel_Frequently,11.0,2.0,Technical Degree,2.0,F,3.0,3.0,4.0,0.0,No,14.0,3.0,3.0,1.0,6.0,3.0,9.0,7.0,2.0,8.0,36 to 50
+227.0,58.0,Yes,Travel_Rarely,23.0,4.0,Medical,4.0,F,3.0,3.0,4.0,1.0,No,12.0,3.0,4.0,1.0,3.0,2.0,40.0,10.0,15.0,6.0,51 or more
+182.0,50.0,No,Travel_Frequently,12.0,3.0,Marketing,3.0,F,3.0,3.0,4.0,4.0,No,11.0,3.0,4.0,0.0,3.0,3.0,2.0,2.0,2.0,1.0,36 to 50
+76.0,30.0,No,Travel_Rarely,5.0,3.0,Technical Degree,4.0,F,3.0,1.0,1.0,5.0,No,14.0,3.0,4.0,1.0,3.0,3.0,3.0,2.0,2.0,2.0,21 to 35
+60.0,41.0,No,Travel_Rarely,9.0,4.0,Life Sciences,3.0,M,3.0,1.0,1.0,2.0,No,21.0,4.0,4.0,1.0,2.0,3.0,5.0,0.0,1.0,4.0,36 to 50
+87.0,32.0,No,Travel_Frequently,8.0,3.0,Marketing,2.0,F,3.0,3.0,4.0,1.0,No,14.0,3.0,4.0,0.0,2.0,3.0,9.0,8.0,3.0,7.0,21 to 35
+200.0,27.0,No,Non-Travel,9.0,3.0,Medical,4.0,M,3.0,1.0,2.0,6.0,No,18.0,3.0,4.0,1.0,1.0,1.0,2.0,2.0,2.0,2.0,21 to 35
+33.0,50.0,No,Travel_Rarely,11.0,3.0,Life Sciences,3.0,F,3.0,5.0,2.0,3.0,No,15.0,3.0,2.0,0.0,5.0,3.0,5.0,4.0,4.0,4.0,36 to 50
+166.0,33.0,No,Travel_Rarely,2.0,3.0,Life Sciences,3.0,M,3.0,1.0,4.0,0.0,No,14.0,3.0,1.0,0.0,2.0,4.0,3.0,1.0,0.0,2.0,21 to 35
+79.0,38.0,No,Travel_Rarely,9.0,2.0,Life Sciences,3.0,F,3.0,1.0,4.0,1.0,No,12.0,3.0,3.0,0.0,3.0,3.0,2.0,2.0,2.0,1.0,36 to 50
+257.0,31.0,No,Travel_Rarely,12.0,1.0,Medical,3.0,F,3.0,1.0,4.0,8.0,Yes,23.0,4.0,3.0,1.0,0.0,3.0,4.0,2.0,0.0,2.0,21 to 35
+164.0,41.0,Yes,Travel_Rarely,20.0,2.0,Marketing,2.0,F,3.0,1.0,2.0,1.0,Yes,22.0,4.0,4.0,0.0,5.0,2.0,4.0,3.0,0.0,2.0,36 to 50
+189.0,34.0,No,Travel_Frequently,2.0,1.0,Life Sciences,4.0,M,2.0,2.0,3.0,1.0,No,17.0,3.0,3.0,0.0,2.0,2.0,10.0,9.0,1.0,9.0,21 to 35
+9.0,51.0,No,Travel_Rarely,3.0,3.0,Medical,4.0,F,3.0,4.0,2.0,3.0,No,18.0,3.0,3.0,0.0,6.0,3.0,7.0,7.0,1.0,0.0,51 or more
+106.0,43.0,No,Non-Travel,7.0,3.0,Medical,4.0,M,4.0,1.0,4.0,4.0,No,14.0,3.0,4.0,3.0,3.0,4.0,5.0,4.0,2.0,2.0,36 to 50
+201.0,38.0,No,Travel_Rarely,2.0,4.0,Life Sciences,4.0,M,3.0,2.0,3.0,9.0,No,14.0,3.0,2.0,0.0,3.0,3.0,1.0,0.0,0.0,0.0,36 to 50
+299.0,38.0,No,Travel_Rarely,29.0,3.0,Technical Degree,4.0,M,3.0,2.0,4.0,3.0,No,18.0,3.0,1.0,1.0,3.0,1.0,7.0,7.0,1.0,7.0,36 to 50
+148.0,29.0,Yes,Travel_Rarely,27.0,3.0,Marketing,2.0,F,3.0,3.0,4.0,1.0,No,22.0,4.0,4.0,3.0,3.0,2.0,10.0,4.0,1.0,9.0,21 to 35
+202.0,36.0,No,Travel_Frequently,18.0,1.0,Medical,2.0,F,3.0,1.0,4.0,1.0,No,13.0,3.0,1.0,0.0,2.0,3.0,8.0,1.0,1.0,7.0,36 to 50
+113.0,40.0,No,Non-Travel,9.0,5.0,Life Sciences,4.0,M,2.0,2.0,4.0,9.0,No,14.0,3.0,4.0,1.0,5.0,1.0,3.0,2.0,0.0,2.0,36 to 50
+198.0,51.0,No,Travel_Rarely,8.0,4.0,Life Sciences,2.0,M,2.0,3.0,2.0,5.0,No,16.0,3.0,4.0,2.0,5.0,1.0,10.0,9.0,4.0,7.0,51 or more
+308.0,30.0,Yes,Travel_Frequently,26.0,4.0,Marketing,3.0,F,2.0,2.0,1.0,5.0,No,15.0,3.0,3.0,0.0,5.0,2.0,6.0,3.0,0.0,1.0,21 to 35
+152.0,45.0,No,Non-Travel,6.0,3.0,Medical,4.0,F,2.0,3.0,4.0,6.0,No,12.0,3.0,4.0,0.0,2.0,3.0,19.0,7.0,12.0,8.0,36 to 50
+226.0,38.0,No,Travel_Rarely,3.0,3.0,Life Sciences,1.0,M,3.0,3.0,3.0,0.0,No,12.0,3.0,3.0,2.0,6.0,2.0,16.0,10.0,5.0,13.0,36 to 50
+284.0,29.0,No,Travel_Frequently,1.0,1.0,Medical,2.0,F,3.0,3.0,4.0,1.0,No,14.0,3.0,4.0,1.0,5.0,3.0,11.0,10.0,4.0,1.0,21 to 35
+122.0,59.0,No,Travel_Rarely,6.0,2.0,Medical,2.0,M,3.0,1.0,3.0,8.0,No,17.0,3.0,4.0,0.0,2.0,2.0,2.0,2.0,2.0,2.0,51 or more
+105.0,50.0,No,Travel_Rarely,1.0,4.0,Medical,4.0,F,3.0,5.0,4.0,3.0,No,11.0,3.0,3.0,1.0,3.0,2.0,7.0,0.0,0.0,6.0,36 to 50
+6.0,43.0,No,Travel_Rarely,16.0,3.0,Marketing,4.0,F,3.0,4.0,4.0,5.0,Yes,22.0,4.0,3.0,1.0,3.0,3.0,17.0,13.0,1.0,9.0,36 to 50
+173.0,33.0,Yes,Travel_Rarely,2.0,2.0,Life Sciences,1.0,F,3.0,1.0,1.0,7.0,No,20.0,4.0,1.0,0.0,3.0,4.0,9.0,7.0,1.0,7.0,21 to 35
+115.0,33.0,No,Travel_Rarely,5.0,4.0,Life Sciences,3.0,F,2.0,1.0,4.0,1.0,No,13.0,3.0,3.0,1.0,2.0,2.0,2.0,2.0,0.0,2.0,21 to 35
+218.0,25.0,No,Travel_Rarely,1.0,3.0,Life Sciences,1.0,F,3.0,2.0,3.0,0.0,No,12.0,3.0,4.0,2.0,3.0,3.0,4.0,2.0,1.0,2.0,21 to 35
+31.0,32.0,No,Travel_Rarely,2.0,1.0,Technical Degree,4.0,M,2.0,2.0,1.0,4.0,No,13.0,3.0,4.0,0.0,5.0,3.0,6.0,2.0,0.0,4.0,21 to 35
+39.0,28.0,Yes,Travel_Rarely,2.0,4.0,Life Sciences,1.0,M,3.0,1.0,3.0,2.0,No,11.0,3.0,3.0,0.0,5.0,1.0,0.0,0.0,0.0,0.0,21 to 35
+128.0,37.0,No,Non-Travel,1.0,4.0,Medical,1.0,F,3.0,3.0,4.0,2.0,Yes,18.0,3.0,1.0,2.0,2.0,3.0,5.0,2.0,0.0,2.0,36 to 50
+291.0,55.0,No,Travel_Rarely,20.0,2.0,Technical Degree,2.0,M,3.0,2.0,4.0,3.0,Yes,19.0,3.0,4.0,1.0,4.0,3.0,10.0,7.0,0.0,8.0,51 or more
+210.0,44.0,Yes,Travel_Frequently,24.0,3.0,Life Sciences,4.0,M,3.0,1.0,3.0,3.0,Yes,22.0,4.0,4.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,36 to 50
+160.0,26.0,Yes,Travel_Rarely,16.0,4.0,Medical,1.0,M,3.0,1.0,2.0,2.0,Yes,13.0,3.0,4.0,1.0,2.0,3.0,3.0,2.0,0.0,2.0,21 to 35
+256.0,28.0,No,Travel_Rarely,8.0,2.0,Life Sciences,4.0,F,3.0,1.0,4.0,1.0,No,21.0,4.0,4.0,0.0,3.0,3.0,5.0,3.0,0.0,2.0,21 to 35
+215.0,26.0,Yes,Travel_Rarely,4.0,4.0,Marketing,4.0,M,2.0,2.0,4.0,1.0,Yes,12.0,3.0,2.0,0.0,0.0,3.0,8.0,7.0,7.0,4.0,21 to 35
+77.0,51.0,No,Travel_Rarely,2.0,3.0,Medical,4.0,M,1.0,2.0,2.0,5.0,No,18.0,3.0,4.0,1.0,3.0,3.0,4.0,1.0,1.0,2.0,51 or more
+165.0,31.0,No,Travel_Rarely,2.0,4.0,Life Sciences,3.0,M,3.0,1.0,4.0,0.0,Yes,18.0,3.0,2.0,1.0,2.0,1.0,2.0,2.0,2.0,2.0,21 to 35
+19.0,33.0,No,Travel_Frequently,5.0,4.0,Life Sciences,4.0,F,3.0,3.0,2.0,6.0,No,11.0,3.0,2.0,2.0,2.0,3.0,10.0,6.0,8.0,8.0,21 to 35
+141.0,49.0,No,Travel_Rarely,1.0,2.0,Technical Degree,3.0,F,2.0,4.0,3.0,7.0,Yes,12.0,3.0,4.0,0.0,2.0,3.0,7.0,1.0,0.0,7.0,36 to 50
+295.0,32.0,No,Travel_Rarely,8.0,2.0,Technical Degree,3.0,F,2.0,2.0,2.0,1.0,Yes,11.0,3.0,4.0,0.0,2.0,3.0,13.0,12.0,11.0,9.0,21 to 35
+50.0,31.0,No,Travel_Frequently,7.0,2.0,Life Sciences,3.0,F,2.0,3.0,3.0,1.0,No,24.0,4.0,1.0,1.0,2.0,3.0,10.0,9.0,8.0,9.0,21 to 35
+265.0,43.0,No,Travel_Rarely,7.0,3.0,Life Sciences,3.0,F,3.0,3.0,1.0,8.0,No,16.0,3.0,1.0,1.0,1.0,2.0,1.0,0.0,0.0,0.0,36 to 50
+183.0,27.0,No,Travel_Rarely,8.0,4.0,Marketing,2.0,F,3.0,2.0,2.0,1.0,No,18.0,3.0,1.0,1.0,3.0,3.0,8.0,7.0,0.0,7.0,21 to 35
+236.0,38.0,No,Travel_Rarely,15.0,2.0,Life Sciences,3.0,M,2.0,3.0,4.0,0.0,Yes,14.0,3.0,2.0,1.0,3.0,3.0,11.0,10.0,2.0,9.0,36 to 50
+196.0,47.0,No,Travel_Frequently,4.0,1.0,Medical,2.0,M,3.0,2.0,3.0,3.0,No,19.0,3.0,1.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,36 to 50
+279.0,42.0,No,Travel_Rarely,23.0,5.0,Life Sciences,1.0,F,3.0,4.0,4.0,2.0,No,14.0,3.0,2.0,0.0,2.0,3.0,1.0,0.0,0.0,0.0,36 to 50
+248.0,42.0,No,Travel_Rarely,2.0,1.0,Technical Degree,3.0,M,3.0,1.0,3.0,0.0,Yes,11.0,3.0,3.0,1.0,5.0,3.0,3.0,2.0,1.0,0.0,36 to 50
+123.0,40.0,No,Travel_Rarely,10.0,4.0,Life Sciences,4.0,F,4.0,1.0,3.0,3.0,Yes,13.0,3.0,3.0,1.0,3.0,3.0,7.0,7.0,1.0,7.0,36 to 50
+187.0,46.0,No,Non-Travel,7.0,4.0,Medical,3.0,F,3.0,2.0,3.0,2.0,No,14.0,3.0,3.0,0.0,2.0,4.0,1.0,0.0,0.0,0.0,36 to 50
+86.0,21.0,Yes,Travel_Rarely,12.0,3.0,Life Sciences,3.0,F,4.0,1.0,2.0,1.0,No,15.0,3.0,4.0,0.0,0.0,3.0,1.0,0.0,0.0,0.0,21 to 35
+124.0,29.0,No,Travel_Rarely,23.0,3.0,Life Sciences,4.0,M,3.0,1.0,4.0,9.0,No,16.0,3.0,4.0,0.0,4.0,3.0,3.0,2.0,1.0,2.0,21 to 35
+170.0,49.0,No,Travel_Rarely,7.0,3.0,Other,2.0,M,2.0,3.0,3.0,8.0,No,24.0,4.0,3.0,0.0,2.0,3.0,5.0,2.0,0.0,0.0,36 to 50
+266.0,36.0,No,Travel_Rarely,2.0,3.0,Life Sciences,4.0,F,3.0,1.0,3.0,4.0,No,13.0,3.0,2.0,1.0,3.0,3.0,2.0,2.0,2.0,2.0,36 to 50
+146.0,55.0,No,Travel_Rarely,2.0,3.0,Life Sciences,3.0,F,3.0,4.0,4.0,2.0,Yes,13.0,3.0,3.0,0.0,2.0,3.0,5.0,4.0,1.0,2.0,51 or more
+161.0,26.0,Yes,Travel_Frequently,3.0,1.0,Technical Degree,3.0,M,3.0,1.0,1.0,0.0,No,22.0,4.0,3.0,0.0,2.0,3.0,6.0,4.0,0.0,4.0,21 to 35
+280.0,40.0,No,Travel_Rarely,2.0,2.0,Marketing,4.0,F,3.0,2.0,2.0,7.0,No,12.0,3.0,3.0,2.0,5.0,3.0,5.0,4.0,1.0,3.0,36 to 50
+163.0,31.0,No,Travel_Rarely,7.0,2.0,Medical,2.0,F,3.0,2.0,1.0,1.0,No,12.0,3.0,2.0,1.0,5.0,1.0,13.0,10.0,3.0,12.0,21 to 35
+82.0,43.0,No,Travel_Frequently,21.0,3.0,Medical,4.0,M,3.0,1.0,4.0,7.0,No,20.0,4.0,1.0,1.0,1.0,3.0,3.0,2.0,1.0,2.0,36 to 50
+255.0,52.0,No,Travel_Rarely,3.0,3.0,Medical,4.0,M,2.0,3.0,3.0,2.0,Yes,14.0,3.0,3.0,0.0,4.0,3.0,5.0,4.0,0.0,4.0,51 or more
+25.0,40.0,No,Travel_Rarely,2.0,4.0,Life Sciences,3.0,F,3.0,5.0,3.0,0.0,No,14.0,3.0,4.0,0.0,2.0,3.0,20.0,15.0,1.0,12.0,36 to 50
+17.0,47.0,No,Travel_Rarely,2.0,2.0,Medical,1.0,F,3.0,2.0,4.0,5.0,No,13.0,3.0,3.0,3.0,2.0,3.0,5.0,0.0,0.0,4.0,36 to 50
+14.0,34.0,No,Travel_Rarely,2.0,4.0,Life Sciences,4.0,M,2.0,1.0,3.0,3.0,No,12.0,3.0,3.0,1.0,3.0,3.0,7.0,3.0,5.0,7.0,21 to 35
+172.0,46.0,No,Travel_Rarely,10.0,3.0,Marketing,3.0,F,2.0,3.0,4.0,2.0,Yes,19.0,3.0,3.0,1.0,3.0,3.0,3.0,2.0,1.0,2.0,36 to 50
+250.0,33.0,Yes,Travel_Rarely,10.0,1.0,Medical,1.0,M,1.0,1.0,4.0,7.0,No,13.0,3.0,1.0,3.0,2.0,3.0,4.0,3.0,1.0,3.0,21 to 35
+101.0,35.0,No,Travel_Rarely,16.0,3.0,Life Sciences,4.0,M,3.0,3.0,3.0,4.0,Yes,12.0,3.0,3.0,0.0,2.0,3.0,8.0,7.0,0.0,0.0,21 to 35
+114.0,39.0,No,Travel_Frequently,8.0,1.0,Life Sciences,3.0,F,3.0,1.0,3.0,1.0,No,11.0,3.0,1.0,1.0,3.0,3.0,8.0,3.0,0.0,7.0,36 to 50
+142.0,26.0,Yes,Travel_Frequently,17.0,4.0,Life Sciences,2.0,F,3.0,1.0,3.0,0.0,Yes,11.0,3.0,2.0,1.0,2.0,2.0,7.0,7.0,1.0,0.0,21 to 35
+155.0,40.0,No,Non-Travel,28.0,3.0,Other,3.0,M,1.0,3.0,1.0,3.0,No,15.0,3.0,3.0,1.0,2.0,3.0,1.0,0.0,0.0,1.0,36 to 50
+311.0,41.0,No,Non-Travel,2.0,4.0,Other,1.0,F,2.0,2.0,3.0,2.0,Yes,17.0,3.0,1.0,0.0,3.0,3.0,8.0,7.0,0.0,7.0,36 to 50
+36.0,37.0,No,Non-Travel,9.0,4.0,Medical,1.0,M,3.0,3.0,2.0,1.0,No,13.0,3.0,4.0,1.0,6.0,3.0,9.0,5.0,7.0,7.0,36 to 50
+209.0,50.0,No,Travel_Frequently,3.0,3.0,Medical,1.0,M,3.0,5.0,2.0,1.0,No,11.0,3.0,3.0,1.0,2.0,3.0,32.0,5.0,10.0,7.0,36 to 50
+78.0,24.0,Yes,Travel_Frequently,7.0,3.0,Life Sciences,1.0,F,3.0,1.0,3.0,1.0,Yes,16.0,3.0,4.0,1.0,4.0,3.0,6.0,3.0,1.0,2.0,21 to 35
+292.0,35.0,No,Travel_Rarely,25.0,2.0,Other,1.0,M,2.0,2.0,4.0,4.0,No,14.0,3.0,4.0,0.0,3.0,3.0,3.0,2.0,0.0,2.0,21 to 35
+214.0,31.0,No,Travel_Rarely,6.0,4.0,Medical,1.0,M,4.0,2.0,4.0,4.0,No,22.0,4.0,4.0,2.0,4.0,4.0,7.0,7.0,5.0,7.0,21 to 35
+15.0,37.0,No,Travel_Rarely,2.0,3.0,Marketing,4.0,M,3.0,2.0,3.0,4.0,Yes,11.0,3.0,3.0,1.0,3.0,2.0,3.0,0.0,1.0,0.0,36 to 50
+229.0,38.0,No,Travel_Rarely,1.0,1.0,Life Sciences,3.0,F,3.0,1.0,1.0,3.0,No,17.0,3.0,4.0,0.0,3.0,2.0,0.0,0.0,0.0,0.0,36 to 50
+287.0,34.0,No,Travel_Rarely,14.0,3.0,Technical Degree,3.0,F,3.0,1.0,3.0,1.0,Yes,18.0,3.0,4.0,2.0,3.0,3.0,8.0,2.0,0.0,6.0,21 to 35
+276.0,35.0,No,Travel_Rarely,6.0,4.0,Life Sciences,2.0,M,1.0,2.0,4.0,1.0,No,13.0,3.0,2.0,0.0,3.0,3.0,17.0,11.0,11.0,8.0,21 to 35
+199.0,25.0,No,Travel_Rarely,8.0,3.0,Life Sciences,4.0,M,4.0,2.0,2.0,0.0,No,22.0,4.0,3.0,1.0,4.0,3.0,3.0,2.0,1.0,2.0,21 to 35
+35.0,50.0,No,Travel_Rarely,28.0,1.0,Medical,4.0,M,4.0,1.0,3.0,1.0,Yes,11.0,3.0,3.0,3.0,3.0,3.0,20.0,8.0,3.0,8.0,36 to 50
+216.0,24.0,Yes,Travel_Rarely,3.0,2.0,Life Sciences,1.0,F,3.0,2.0,3.0,9.0,No,14.0,3.0,1.0,0.0,3.0,3.0,2.0,2.0,2.0,0.0,21 to 35
+175.0,39.0,No,Travel_Rarely,2.0,4.0,Technical Degree,4.0,F,2.0,2.0,3.0,1.0,No,11.0,3.0,1.0,0.0,4.0,3.0,20.0,7.0,11.0,10.0,36 to 50
+140.0,38.0,No,Travel_Rarely,1.0,4.0,Life Sciences,2.0,F,4.0,2.0,4.0,0.0,No,13.0,3.0,3.0,0.0,4.0,2.0,9.0,7.0,1.0,8.0,36 to 50
+136.0,27.0,No,Travel_Rarely,1.0,2.0,Life Sciences,3.0,F,3.0,3.0,1.0,1.0,No,11.0,3.0,4.0,0.0,3.0,3.0,9.0,7.0,0.0,7.0,21 to 35
+112.0,60.0,No,Travel_Rarely,16.0,4.0,Marketing,1.0,M,3.0,2.0,1.0,8.0,No,14.0,3.0,4.0,0.0,1.0,3.0,2.0,2.0,2.0,2.0,51 or more
+297.0,47.0,No,Travel_Frequently,3.0,3.0,Medical,4.0,F,3.0,4.0,3.0,9.0,Yes,12.0,3.0,4.0,2.0,2.0,2.0,22.0,2.0,11.0,13.0,36 to 50
+219.0,39.0,No,Travel_Rarely,3.0,3.0,Human Resources,3.0,F,4.0,2.0,2.0,9.0,No,15.0,3.0,3.0,1.0,3.0,1.0,8.0,3.0,3.0,6.0,36 to 50
+73.0,27.0,No,Travel_Rarely,7.0,3.0,Medical,4.0,F,2.0,2.0,1.0,8.0,No,19.0,3.0,1.0,0.0,2.0,1.0,7.0,6.0,0.0,7.0,21 to 35
+305.0,38.0,No,Travel_Rarely,2.0,5.0,Medical,4.0,M,3.0,1.0,3.0,6.0,Yes,13.0,3.0,2.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,36 to 50
+26.0,36.0,No,Non-Travel,8.0,4.0,Life Sciences,1.0,M,2.0,3.0,1.0,1.0,No,15.0,3.0,2.0,0.0,1.0,3.0,10.0,7.0,0.0,9.0,36 to 50
+63.0,38.0,No,Travel_Frequently,2.0,4.0,Life Sciences,1.0,F,4.0,2.0,1.0,6.0,Yes,12.0,3.0,4.0,0.0,2.0,3.0,15.0,7.0,4.0,12.0,36 to 50
+85.0,30.0,No,Travel_Rarely,1.0,3.0,Life Sciences,4.0,M,1.0,1.0,3.0,3.0,No,21.0,4.0,3.0,2.0,2.0,3.0,2.0,2.0,0.0,2.0,21 to 35
+51.0,42.0,No,Travel_Frequently,8.0,3.0,Life Sciences,2.0,M,3.0,5.0,4.0,1.0,No,13.0,3.0,2.0,1.0,4.0,2.0,24.0,7.0,14.0,9.0,36 to 50
+43.0,50.0,No,Travel_Rarely,2.0,3.0,Medical,3.0,M,3.0,4.0,3.0,5.0,No,16.0,3.0,4.0,0.0,3.0,3.0,4.0,3.0,0.0,3.0,36 to 50
+145.0,33.0,Yes,Travel_Rarely,16.0,3.0,Marketing,1.0,F,3.0,2.0,1.0,5.0,No,15.0,3.0,3.0,0.0,3.0,3.0,3.0,2.0,0.0,2.0,21 to 35
+21.0,58.0,Yes,Travel_Rarely,2.0,4.0,Life Sciences,4.0,M,3.0,5.0,2.0,7.0,Yes,12.0,3.0,4.0,0.0,2.0,3.0,31.0,15.0,13.0,8.0,51 or more
+5.0,32.0,No,Travel_Rarely,4.0,3.0,Life Sciences,3.0,F,2.0,2.0,3.0,1.0,No,12.0,3.0,3.0,1.0,3.0,3.0,14.0,13.0,6.0,8.0,21 to 35
+174.0,45.0,No,Travel_Rarely,2.0,3.0,Life Sciences,2.0,F,2.0,1.0,3.0,1.0,No,14.0,3.0,4.0,0.0,3.0,3.0,1.0,0.0,0.0,0.0,36 to 50
+197.0,42.0,No,Travel_Rarely,29.0,3.0,Life Sciences,2.0,M,3.0,2.0,2.0,1.0,No,13.0,3.0,4.0,1.0,3.0,2.0,9.0,8.0,7.0,8.0,36 to 50
+34.0,49.0,Yes,Travel_Rarely,11.0,3.0,Marketing,3.0,F,3.0,3.0,4.0,1.0,No,18.0,3.0,1.0,2.0,3.0,4.0,9.0,8.0,7.0,7.0,36 to 50
+230.0,27.0,No,Travel_Rarely,5.0,1.0,Technical Degree,3.0,M,2.0,3.0,4.0,1.0,Yes,16.0,3.0,2.0,1.0,3.0,3.0,9.0,8.0,0.0,8.0,21 to 35
+133.0,26.0,Yes,Travel_Frequently,5.0,2.0,Medical,3.0,F,2.0,1.0,3.0,1.0,Yes,14.0,3.0,1.0,1.0,2.0,3.0,8.0,7.0,1.0,7.0,21 to 35
+167.0,25.0,No,Travel_Rarely,2.0,1.0,Medical,1.0,M,4.0,1.0,1.0,7.0,No,13.0,3.0,3.0,0.0,3.0,2.0,4.0,3.0,0.0,1.0,21 to 35
+135.0,35.0,No,Travel_Rarely,27.0,1.0,Medical,3.0,F,2.0,1.0,1.0,1.0,No,11.0,3.0,4.0,0.0,3.0,2.0,6.0,5.0,1.0,1.0,21 to 35
+119.0,36.0,No,Travel_Rarely,1.0,2.0,Life Sciences,2.0,M,3.0,2.0,4.0,1.0,Yes,14.0,3.0,4.0,1.0,1.0,2.0,18.0,14.0,4.0,11.0,36 to 50
+92.0,30.0,No,Travel_Frequently,5.0,4.0,Life Sciences,2.0,M,2.0,1.0,4.0,9.0,No,12.0,3.0,2.0,1.0,3.0,2.0,5.0,4.0,0.0,3.0,21 to 35
+153.0,53.0,No,Travel_Rarely,7.0,2.0,Marketing,1.0,F,2.0,3.0,4.0,7.0,Yes,18.0,3.0,4.0,1.0,3.0,3.0,5.0,2.0,0.0,4.0,51 or more
+83.0,44.0,No,Travel_Rarely,8.0,4.0,Life Sciences,1.0,M,4.0,1.0,4.0,2.0,Yes,24.0,4.0,3.0,1.0,2.0,2.0,3.0,2.0,0.0,2.0,36 to 50
+23.0,35.0,No,Travel_Rarely,9.0,3.0,Life Sciences,4.0,F,2.0,3.0,3.0,1.0,Yes,20.0,4.0,2.0,1.0,2.0,3.0,17.0,14.0,5.0,15.0,21 to 35
+139.0,35.0,Yes,Travel_Frequently,25.0,4.0,Life Sciences,4.0,F,3.0,1.0,2.0,1.0,Yes,19.0,3.0,1.0,1.0,3.0,2.0,10.0,2.0,7.0,8.0,21 to 35
+8.0,32.0,No,Non-Travel,1.0,3.0,Life Sciences,4.0,M,3.0,1.0,4.0,0.0,No,12.0,3.0,2.0,1.0,2.0,3.0,3.0,0.0,0.0,2.0,21 to 35
+185.0,25.0,No,Travel_Rarely,4.0,1.0,Marketing,3.0,M,2.0,2.0,1.0,1.0,No,12.0,3.0,1.0,0.0,1.0,4.0,5.0,2.0,0.0,3.0,21 to 35
+206.0,49.0,No,Travel_Rarely,1.0,3.0,Technical Degree,3.0,F,3.0,1.0,1.0,2.0,No,16.0,3.0,2.0,1.0,2.0,3.0,4.0,2.0,0.0,2.0,36 to 50
+157.0,32.0,No,Travel_Frequently,5.0,2.0,Life Sciences,2.0,M,3.0,2.0,2.0,1.0,No,14.0,3.0,4.0,1.0,3.0,3.0,10.0,8.0,5.0,3.0,21 to 35
+277.0,42.0,No,Travel_Rarely,3.0,3.0,Life Sciences,3.0,F,4.0,2.0,4.0,2.0,Yes,13.0,3.0,2.0,1.0,1.0,2.0,5.0,3.0,1.0,3.0,36 to 50
+171.0,29.0,Yes,Travel_Rarely,1.0,3.0,Medical,2.0,F,2.0,1.0,3.0,6.0,Yes,19.0,3.0,3.0,3.0,3.0,3.0,3.0,2.0,0.0,2.0,21 to 35
+88.0,37.0,No,Travel_Frequently,21.0,2.0,Medical,3.0,F,3.0,1.0,4.0,5.0,No,15.0,3.0,2.0,1.0,3.0,3.0,5.0,4.0,0.0,0.0,36 to 50
+194.0,47.0,No,Travel_Rarely,2.0,2.0,Marketing,3.0,F,3.0,2.0,4.0,0.0,Yes,22.0,4.0,1.0,1.0,2.0,3.0,7.0,6.0,7.0,7.0,36 to 50
+65.0,33.0,No,Travel_Rarely,3.0,2.0,Human Resources,4.0,M,3.0,1.0,2.0,3.0,Yes,11.0,3.0,3.0,1.0,4.0,4.0,4.0,3.0,0.0,3.0,21 to 35
+147.0,29.0,No,Travel_Rarely,7.0,1.0,Medical,1.0,F,2.0,1.0,4.0,6.0,No,14.0,3.0,3.0,3.0,5.0,3.0,4.0,3.0,0.0,3.0,21 to 35
+30.0,21.0,Yes,Travel_Rarely,18.0,1.0,Other,4.0,F,3.0,1.0,4.0,1.0,No,19.0,3.0,1.0,0.0,3.0,2.0,1.0,0.0,0.0,0.0,21 to 35
+2.0,36.0,No,Travel_Rarely,14.0,1.0,Life Sciences,3.0,M,3.0,2.0,4.0,0.0,Yes,17.0,3.0,1.0,1.0,2.0,2.0,16.0,8.0,4.0,11.0,36 to 50
+169.0,41.0,Yes,Travel_Rarely,2.0,4.0,Life Sciences,2.0,F,1.0,1.0,4.0,4.0,Yes,13.0,3.0,3.0,1.0,1.0,2.0,7.0,7.0,1.0,0.0,36 to 50
+267.0,31.0,No,Non-Travel,20.0,2.0,Marketing,4.0,F,3.0,2.0,3.0,1.0,No,13.0,3.0,4.0,1.0,2.0,2.0,9.0,8.0,0.0,0.0,21 to 35
+180.0,38.0,No,Travel_Rarely,1.0,3.0,Technical Degree,4.0,F,3.0,3.0,1.0,1.0,No,13.0,3.0,2.0,1.0,3.0,3.0,15.0,12.0,5.0,11.0,36 to 50
+245.0,40.0,No,Travel_Frequently,9.0,4.0,Medical,4.0,M,3.0,1.0,2.0,8.0,Yes,14.0,3.0,4.0,1.0,2.0,3.0,1.0,1.0,0.0,0.0,36 to 50
+61.0,33.0,No,Travel_Rarely,1.0,3.0,Life Sciences,2.0,F,2.0,2.0,4.0,0.0,No,14.0,3.0,1.0,0.0,3.0,3.0,5.0,0.0,1.0,4.0,21 to 35
+70.0,37.0,Yes,Travel_Rarely,1.0,4.0,Life Sciences,1.0,M,2.0,3.0,3.0,5.0,No,11.0,3.0,3.0,0.0,2.0,1.0,14.0,1.0,11.0,7.0,36 to 50
+111.0,35.0,No,Travel_Rarely,18.0,3.0,Medical,3.0,F,3.0,2.0,3.0,1.0,No,16.0,3.0,2.0,0.0,3.0,3.0,5.0,2.0,1.0,0.0,21 to 35
+132.0,38.0,No,Non-Travel,10.0,3.0,Technical Degree,3.0,F,3.0,2.0,4.0,1.0,Yes,13.0,3.0,2.0,0.0,1.0,3.0,5.0,3.0,1.0,3.0,36 to 50
+217.0,33.0,No,Travel_Rarely,13.0,1.0,Life Sciences,2.0,F,3.0,1.0,4.0,3.0,No,18.0,3.0,1.0,0.0,4.0,3.0,3.0,2.0,0.0,2.0,21 to 35
+118.0,45.0,No,Travel_Rarely,1.0,4.0,Medical,4.0,F,3.0,1.0,4.0,3.0,No,14.0,3.0,4.0,2.0,2.0,3.0,5.0,3.0,0.0,2.0,36 to 50
+271.0,33.0,No,Travel_Frequently,1.0,4.0,Other,3.0,F,4.0,2.0,2.0,1.0,Yes,13.0,3.0,1.0,1.0,2.0,3.0,6.0,5.0,1.0,2.0,21 to 35
+108.0,24.0,No,Travel_Rarely,17.0,1.0,Medical,4.0,F,2.0,2.0,3.0,1.0,No,15.0,3.0,2.0,2.0,6.0,3.0,4.0,2.0,3.0,2.0,21 to 35
+56.0,35.0,Yes,Travel_Rarely,14.0,4.0,Other,3.0,M,2.0,1.0,2.0,1.0,Yes,24.0,4.0,4.0,1.0,2.0,1.0,4.0,2.0,0.0,2.0,21 to 35
+234.0,31.0,No,Travel_Frequently,1.0,1.0,Life Sciences,3.0,F,3.0,2.0,1.0,1.0,No,12.0,3.0,3.0,1.0,1.0,3.0,4.0,3.0,0.0,3.0,21 to 35
+239.0,35.0,No,Travel_Rarely,25.0,4.0,Medical,3.0,F,3.0,3.0,3.0,1.0,Yes,11.0,3.0,3.0,1.0,3.0,2.0,16.0,10.0,10.0,1.0,21 to 35
+289.0,30.0,Yes,Travel_Frequently,5.0,3.0,Medical,2.0,F,3.0,1.0,2.0,0.0,No,17.0,3.0,1.0,0.0,3.0,3.0,3.0,2.0,1.0,2.0,21 to 35
+107.0,39.0,No,Travel_Rarely,1.0,1.0,Life Sciences,4.0,F,2.0,4.0,4.0,1.0,No,16.0,3.0,3.0,1.0,3.0,3.0,21.0,6.0,11.0,8.0,36 to 50
+275.0,35.0,No,Travel_Rarely,10.0,3.0,Other,2.0,M,3.0,1.0,4.0,1.0,No,20.0,4.0,1.0,1.0,4.0,2.0,3.0,2.0,1.0,2.0,21 to 35
+7.0,36.0,Yes,Travel_Rarely,16.0,4.0,Life Sciences,3.0,F,4.0,1.0,1.0,1.0,No,16.0,3.0,3.0,0.0,1.0,3.0,17.0,13.0,15.0,14.0,36 to 50
+228.0,28.0,No,Travel_Rarely,10.0,1.0,Medical,4.0,M,3.0,1.0,2.0,1.0,No,22.0,4.0,2.0,0.0,5.0,3.0,1.0,0.0,0.0,0.0,21 to 35
+296.0,38.0,No,Travel_Frequently,3.0,4.0,Other,3.0,M,3.0,1.0,3.0,3.0,No,16.0,3.0,1.0,1.0,2.0,3.0,2.0,2.0,2.0,2.0,36 to 50
+126.0,37.0,No,Travel_Rarely,3.0,3.0,Other,4.0,F,3.0,2.0,2.0,3.0,No,15.0,3.0,1.0,0.0,3.0,2.0,4.0,3.0,0.0,1.0,36 to 50
+176.0,46.0,No,Travel_Rarely,1.0,4.0,Medical,4.0,M,3.0,5.0,4.0,9.0,No,17.0,3.0,4.0,2.0,0.0,3.0,2.0,2.0,2.0,2.0,36 to 50
+247.0,46.0,No,Travel_Rarely,8.0,4.0,Life Sciences,4.0,F,2.0,2.0,1.0,8.0,Yes,23.0,4.0,1.0,3.0,2.0,3.0,16.0,13.0,1.0,7.0,36 to 50
+283.0,40.0,No,Travel_Rarely,20.0,4.0,Technical Degree,1.0,M,3.0,3.0,4.0,4.0,No,20.0,4.0,4.0,1.0,6.0,3.0,11.0,10.0,11.0,1.0,36 to 50
+156.0,55.0,No,Travel_Frequently,2.0,1.0,Life Sciences,4.0,M,3.0,3.0,2.0,3.0,No,18.0,3.0,2.0,1.0,4.0,3.0,3.0,2.0,1.0,2.0,51 or more
+208.0,28.0,No,Travel_Rarely,10.0,3.0,Other,3.0,F,3.0,2.0,3.0,3.0,No,13.0,3.0,4.0,0.0,4.0,4.0,8.0,7.0,1.0,7.0,21 to 35
+285.0,28.0,No,Travel_Rarely,15.0,2.0,Life Sciences,1.0,M,3.0,1.0,3.0,1.0,No,16.0,3.0,4.0,1.0,5.0,2.0,4.0,2.0,2.0,2.0,21 to 35
+38.0,29.0,No,Travel_Rarely,28.0,4.0,Life Sciences,3.0,F,3.0,1.0,4.0,4.0,No,22.0,4.0,1.0,1.0,1.0,3.0,7.0,5.0,1.0,7.0,21 to 35
+213.0,38.0,No,Travel_Rarely,2.0,2.0,Marketing,4.0,M,3.0,3.0,2.0,7.0,No,16.0,3.0,3.0,0.0,2.0,3.0,1.0,0.0,0.0,0.0,36 to 50
+237.0,21.0,No,Travel_Rarely,1.0,1.0,Technical Degree,4.0,F,2.0,1.0,2.0,1.0,Yes,11.0,3.0,3.0,0.0,6.0,4.0,2.0,2.0,2.0,2.0,21 to 35
+91.0,35.0,No,Travel_Frequently,11.0,2.0,Marketing,4.0,M,3.0,2.0,4.0,1.0,No,11.0,3.0,4.0,1.0,3.0,3.0,5.0,2.0,0.0,2.0,21 to 35
+138.0,41.0,No,Travel_Rarely,12.0,4.0,Life Sciences,2.0,M,3.0,1.0,4.0,3.0,Yes,11.0,3.0,1.0,1.0,4.0,3.0,1.0,0.0,0.0,0.0,36 to 50
+269.0,27.0,No,Travel_Rarely,6.0,3.0,Life Sciences,4.0,M,2.0,1.0,3.0,1.0,No,13.0,3.0,3.0,1.0,0.0,3.0,4.0,2.0,2.0,2.0,21 to 35
+54.0,42.0,No,Travel_Rarely,4.0,4.0,Marketing,2.0,M,3.0,2.0,1.0,7.0,No,13.0,3.0,4.0,0.0,3.0,4.0,6.0,4.0,1.0,5.0,36 to 50
+81.0,28.0,Yes,Travel_Rarely,12.0,1.0,Life Sciences,3.0,F,3.0,1.0,4.0,1.0,Yes,11.0,3.0,4.0,0.0,4.0,2.0,1.0,1.0,0.0,0.0,21 to 35
+94.0,35.0,No,Travel_Rarely,2.0,3.0,Life Sciences,3.0,M,2.0,3.0,2.0,2.0,No,18.0,3.0,2.0,1.0,2.0,4.0,7.0,7.0,6.0,4.0,21 to 35
+274.0,56.0,No,Travel_Rarely,4.0,4.0,Technical Degree,4.0,F,3.0,5.0,1.0,4.0,No,13.0,3.0,4.0,1.0,2.0,3.0,5.0,2.0,4.0,2.0,51 or more
+11.0,45.0,No,Travel_Rarely,7.0,3.0,Medical,1.0,F,3.0,1.0,3.0,4.0,Yes,19.0,3.0,3.0,1.0,2.0,2.0,3.0,2.0,0.0,2.0,36 to 50
+281.0,41.0,Yes,Non-Travel,5.0,2.0,Life Sciences,1.0,M,2.0,1.0,1.0,6.0,No,17.0,3.0,1.0,1.0,2.0,1.0,1.0,0.0,0.0,0.0,36 to 50
+93.0,50.0,No,Travel_Frequently,2.0,3.0,Medical,4.0,F,3.0,4.0,1.0,2.0,No,22.0,4.0,3.0,1.0,3.0,3.0,2.0,2.0,2.0,2.0,36 to 50
+268.0,36.0,No,Travel_Rarely,6.0,4.0,Life Sciences,3.0,M,1.0,1.0,3.0,1.0,No,14.0,3.0,3.0,1.0,4.0,3.0,7.0,7.0,1.0,7.0,36 to 50
+225.0,32.0,No,Travel_Frequently,13.0,3.0,Other,3.0,F,2.0,1.0,2.0,1.0,No,20.0,4.0,3.0,1.0,2.0,3.0,2.0,2.0,2.0,2.0,21 to 35
+131.0,32.0,No,Travel_Frequently,2.0,2.0,Life Sciences,4.0,F,3.0,2.0,3.0,4.0,Yes,14.0,3.0,4.0,0.0,2.0,3.0,8.0,7.0,0.0,7.0,21 to 35
+178.0,44.0,No,Travel_Rarely,2.0,1.0,Life Sciences,1.0,F,4.0,1.0,4.0,1.0,No,13.0,3.0,4.0,1.0,5.0,3.0,10.0,5.0,7.0,7.0,36 to 50
+69.0,29.0,No,Travel_Rarely,1.0,3.0,Life Sciences,1.0,F,3.0,1.0,4.0,1.0,No,15.0,3.0,1.0,3.0,5.0,3.0,3.0,2.0,1.0,2.0,21 to 35
+68.0,49.0,No,Travel_Rarely,4.0,2.0,Medical,1.0,M,2.0,5.0,3.0,2.0,No,13.0,3.0,3.0,1.0,2.0,4.0,1.0,0.0,0.0,0.0,36 to 50
+13.0,27.0,No,Travel_Rarely,4.0,2.0,Life Sciences,1.0,M,3.0,1.0,3.0,1.0,No,11.0,3.0,2.0,3.0,2.0,3.0,5.0,3.0,0.0,3.0,21 to 35
+102.0,29.0,No,Travel_Rarely,1.0,3.0,Life Sciences,4.0,F,2.0,4.0,4.0,3.0,No,14.0,3.0,2.0,2.0,2.0,2.0,7.0,7.0,1.0,7.0,21 to 35
+49.0,33.0,No,Travel_Rarely,10.0,5.0,Marketing,4.0,M,4.0,3.0,3.0,0.0,Yes,14.0,3.0,4.0,2.0,3.0,3.0,9.0,8.0,0.0,8.0,21 to 35
+28.0,55.0,No,Non-Travel,8.0,1.0,Medical,4.0,M,2.0,4.0,2.0,1.0,Yes,15.0,3.0,4.0,1.0,3.0,3.0,33.0,9.0,15.0,0.0,51 or more
+22.0,46.0,No,Travel_Rarely,4.0,2.0,Marketing,4.0,F,2.0,5.0,2.0,2.0,No,14.0,3.0,3.0,1.0,2.0,3.0,11.0,4.0,0.0,8.0,36 to 50
+47.0,34.0,No,Travel_Rarely,2.0,3.0,Marketing,3.0,F,3.0,2.0,1.0,0.0,Yes,12.0,3.0,4.0,0.0,3.0,3.0,3.0,2.0,0.0,2.0,21 to 35
+294.0,34.0,No,Travel_Frequently,19.0,3.0,Medical,3.0,F,3.0,2.0,2.0,4.0,No,13.0,3.0,3.0,2.0,2.0,4.0,11.0,8.0,5.0,10.0,21 to 35
+303.0,30.0,No,Travel_Rarely,6.0,3.0,Technical Degree,1.0,F,2.0,2.0,4.0,0.0,No,12.0,3.0,1.0,1.0,6.0,3.0,9.0,2.0,6.0,7.0,21 to 35
+66.0,41.0,No,Non-Travel,10.0,2.0,Medical,3.0,M,1.0,2.0,2.0,1.0,No,13.0,3.0,1.0,0.0,4.0,3.0,19.0,2.0,11.0,9.0,36 to 50
+75.0,31.0,Yes,Travel_Frequently,1.0,3.0,Life Sciences,4.0,F,3.0,1.0,2.0,1.0,Yes,11.0,3.0,1.0,0.0,2.0,4.0,3.0,2.0,2.0,2.0,21 to 35
+84.0,34.0,No,Travel_Rarely,15.0,2.0,Medical,3.0,F,3.0,2.0,1.0,1.0,No,12.0,3.0,4.0,0.0,6.0,4.0,10.0,8.0,9.0,6.0,21 to 35
+224.0,35.0,No,Travel_Rarely,1.0,3.0,Medical,4.0,F,2.0,2.0,4.0,0.0,No,12.0,3.0,2.0,1.0,0.0,3.0,9.0,7.0,0.0,0.0,21 to 35
+223.0,25.0,No,Travel_Rarely,18.0,1.0,Life Sciences,1.0,M,4.0,2.0,3.0,2.0,No,11.0,3.0,2.0,0.0,3.0,2.0,3.0,2.0,1.0,2.0,21 to 35
+168.0,27.0,No,Travel_Rarely,10.0,3.0,Marketing,4.0,F,2.0,2.0,4.0,1.0,Yes,11.0,3.0,4.0,0.0,3.0,3.0,6.0,2.0,4.0,4.0,21 to 35
+290.0,26.0,No,Travel_Rarely,2.0,1.0,Medical,1.0,M,2.0,1.0,4.0,0.0,No,12.0,3.0,4.0,0.0,2.0,3.0,4.0,3.0,1.0,1.0,21 to 35
+212.0,37.0,No,Travel_Rarely,11.0,3.0,Medical,1.0,F,3.0,1.0,3.0,4.0,No,18.0,3.0,1.0,0.0,6.0,3.0,3.0,2.0,0.0,2.0,36 to 50
+304.0,54.0,No,Travel_Rarely,1.0,3.0,Medical,4.0,F,3.0,4.0,4.0,6.0,No,19.0,3.0,4.0,0.0,3.0,2.0,20.0,7.0,12.0,7.0,51 or more
+97.0,37.0,No,Non-Travel,5.0,2.0,Technical Degree,3.0,M,4.0,1.0,3.0,0.0,No,14.0,3.0,1.0,0.0,2.0,1.0,6.0,5.0,1.0,3.0,36 to 50
+221.0,24.0,No,Travel_Rarely,4.0,1.0,Medical,4.0,F,3.0,2.0,3.0,1.0,Yes,12.0,3.0,3.0,2.0,3.0,3.0,5.0,4.0,0.0,3.0,21 to 35
+99.0,41.0,No,Travel_Rarely,5.0,5.0,Medical,2.0,M,4.0,1.0,3.0,2.0,Yes,12.0,3.0,1.0,0.0,5.0,2.0,4.0,2.0,0.0,3.0,36 to 50
+233.0,39.0,Yes,Non-Travel,2.0,3.0,Life Sciences,1.0,F,2.0,1.0,1.0,2.0,Yes,23.0,4.0,2.0,0.0,2.0,4.0,1.0,0.0,0.0,0.0,36 to 50
+64.0,45.0,No,Travel_Rarely,20.0,3.0,Medical,2.0,M,1.0,3.0,1.0,2.0,Yes,18.0,3.0,2.0,1.0,2.0,3.0,7.0,7.0,0.0,7.0,36 to 50
+235.0,45.0,No,Travel_Rarely,29.0,3.0,Technical Degree,2.0,M,3.0,3.0,4.0,4.0,Yes,18.0,3.0,4.0,2.0,4.0,4.0,3.0,1.0,1.0,2.0,36 to 50
+46.0,53.0,No,Travel_Rarely,2.0,3.0,Medical,4.0,M,4.0,4.0,2.0,4.0,No,12.0,3.0,2.0,0.0,2.0,2.0,9.0,8.0,8.0,8.0,51 or more
+150.0,49.0,No,Travel_Rarely,5.0,4.0,Technical Degree,1.0,M,3.0,2.0,3.0,2.0,No,14.0,3.0,2.0,1.0,0.0,2.0,3.0,2.0,1.0,2.0,36 to 50
+231.0,44.0,No,Travel_Rarely,20.0,3.0,Life Sciences,4.0,M,3.0,1.0,2.0,1.0,No,13.0,3.0,3.0,0.0,3.0,2.0,5.0,2.0,1.0,3.0,36 to 50
+98.0,42.0,No,Travel_Frequently,9.0,2.0,Medical,1.0,F,3.0,1.0,4.0,1.0,No,13.0,3.0,3.0,0.0,3.0,3.0,12.0,9.0,5.0,8.0,36 to 50
+10.0,34.0,No,Travel_Frequently,15.0,3.0,Medical,2.0,M,3.0,4.0,1.0,7.0,No,14.0,3.0,4.0,2.0,3.0,2.0,14.0,8.0,6.0,9.0,21 to 35
+24.0,33.0,No,Travel_Rarely,4.0,4.0,Medical,1.0,F,2.0,1.0,2.0,8.0,No,11.0,3.0,4.0,0.0,5.0,3.0,5.0,4.0,0.0,2.0,21 to 35
+243.0,28.0,Yes,Travel_Frequently,2.0,2.0,Medical,3.0,M,2.0,1.0,1.0,7.0,No,11.0,3.0,3.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,21 to 35
+293.0,28.0,No,Travel_Rarely,29.0,1.0,Life Sciences,3.0,M,1.0,2.0,2.0,1.0,No,14.0,3.0,2.0,2.0,2.0,2.0,8.0,6.0,1.0,7.0,21 to 35
+45.0,32.0,No,Travel_Rarely,10.0,3.0,Medical,3.0,M,3.0,3.0,4.0,2.0,No,25.0,4.0,2.0,0.0,5.0,4.0,5.0,2.0,0.0,0.0,21 to 35
+192.0,54.0,No,Travel_Frequently,11.0,4.0,Medical,2.0,F,3.0,4.0,4.0,3.0,No,20.0,4.0,1.0,1.0,2.0,3.0,14.0,9.0,1.0,12.0,51 or more
+203.0,31.0,Yes,Travel_Frequently,3.0,3.0,Life Sciences,4.0,F,3.0,1.0,3.0,1.0,No,12.0,3.0,1.0,0.0,2.0,1.0,7.0,2.0,7.0,7.0,21 to 35
+193.0,42.0,No,Travel_Rarely,2.0,3.0,Medical,3.0,M,2.0,1.0,2.0,4.0,No,14.0,3.0,2.0,1.0,3.0,3.0,1.0,0.0,0.0,0.0,36 to 50
+207.0,35.0,Yes,Travel_Rarely,2.0,3.0,Life Sciences,1.0,F,3.0,1.0,1.0,1.0,Yes,12.0,3.0,4.0,1.0,2.0,3.0,1.0,0.0,0.0,0.0,21 to 35
+244.0,38.0,Yes,Travel_Rarely,2.0,3.0,Medical,3.0,M,3.0,2.0,2.0,4.0,No,11.0,3.0,1.0,2.0,2.0,3.0,5.0,2.0,1.0,4.0,36 to 50
+204.0,26.0,No,Travel_Rarely,3.0,3.0,Life Sciences,1.0,F,3.0,1.0,4.0,1.0,No,21.0,4.0,1.0,0.0,5.0,3.0,1.0,0.0,0.0,0.0,21 to 35
+151.0,36.0,No,Travel_Rarely,1.0,4.0,Life Sciences,2.0,F,3.0,2.0,3.0,6.0,No,13.0,3.0,1.0,0.0,5.0,3.0,1.0,0.0,0.0,0.0,36 to 50
+188.0,23.0,No,Travel_Rarely,10.0,3.0,Technical Degree,4.0,M,4.0,1.0,3.0,2.0,No,16.0,3.0,4.0,1.0,2.0,3.0,2.0,2.0,2.0,2.0,21 to 35
+261.0,40.0,No,Travel_Rarely,14.0,2.0,Life Sciences,4.0,F,3.0,2.0,1.0,1.0,No,15.0,3.0,3.0,1.0,2.0,3.0,5.0,4.0,1.0,2.0,36 to 50
+306.0,22.0,No,Non-Travel,26.0,2.0,Other,2.0,F,2.0,1.0,3.0,1.0,Yes,14.0,3.0,2.0,0.0,2.0,2.0,4.0,2.0,1.0,3.0,21 to 35
+27.0,32.0,No,Travel_Rarely,5.0,4.0,Other,2.0,F,4.0,1.0,4.0,3.0,No,17.0,3.0,4.0,2.0,3.0,3.0,3.0,2.0,0.0,2.0,21 to 35
+44.0,36.0,No,Travel_Rarely,12.0,4.0,Life Sciences,3.0,F,3.0,2.0,3.0,9.0,Yes,12.0,3.0,2.0,2.0,2.0,3.0,3.0,2.0,1.0,1.0,36 to 50
+241.0,49.0,No,Travel_Rarely,25.0,4.0,Life Sciences,3.0,F,3.0,1.0,1.0,1.0,No,14.0,3.0,4.0,1.0,3.0,2.0,9.0,6.0,1.0,4.0,36 to 50
+260.0,28.0,No,Travel_Rarely,27.0,3.0,Medical,2.0,F,1.0,2.0,1.0,0.0,No,21.0,4.0,2.0,1.0,5.0,2.0,5.0,3.0,0.0,0.0,21 to 35
+57.0,47.0,No,Travel_Rarely,26.0,4.0,Life Sciences,4.0,F,3.0,5.0,3.0,3.0,No,11.0,3.0,3.0,1.0,2.0,3.0,5.0,2.0,1.0,0.0,36 to 50
+242.0,39.0,No,Travel_Frequently,4.0,3.0,Medical,1.0,F,3.0,2.0,3.0,0.0,No,13.0,3.0,4.0,0.0,2.0,1.0,9.0,2.0,3.0,8.0,36 to 50
+310.0,37.0,No,Travel_Rarely,10.0,3.0,Medical,2.0,F,3.0,1.0,2.0,1.0,No,11.0,3.0,1.0,1.0,2.0,1.0,8.0,4.0,7.0,7.0,36 to 50
+48.0,24.0,No,Travel_Frequently,2.0,1.0,Technical Degree,1.0,F,3.0,1.0,4.0,1.0,Yes,13.0,3.0,3.0,0.0,2.0,3.0,6.0,3.0,1.0,3.0,21 to 35
+254.0,27.0,No,Travel_Rarely,8.0,3.0,Medical,2.0,F,4.0,1.0,3.0,7.0,No,17.0,3.0,1.0,0.0,0.0,3.0,3.0,2.0,0.0,2.0,21 to 35
+154.0,40.0,Yes,Travel_Rarely,7.0,3.0,Life Sciences,1.0,M,3.0,1.0,1.0,3.0,Yes,14.0,3.0,2.0,0.0,3.0,1.0,4.0,2.0,0.0,3.0,36 to 50
+298.0,36.0,No,Travel_Rarely,5.0,4.0,Life Sciences,2.0,F,3.0,3.0,1.0,4.0,No,12.0,3.0,3.0,2.0,6.0,3.0,3.0,2.0,0.0,2.0,36 to 50
+253.0,50.0,No,Travel_Rarely,17.0,5.0,Life Sciences,4.0,F,2.0,3.0,1.0,5.0,No,15.0,3.0,3.0,3.0,3.0,3.0,14.0,11.0,1.0,11.0,36 to 50
+181.0,34.0,No,Travel_Rarely,3.0,3.0,Life Sciences,4.0,F,3.0,2.0,2.0,1.0,No,12.0,3.0,3.0,1.0,2.0,3.0,11.0,8.0,7.0,9.0,21 to 35
+278.0,31.0,No,Travel_Rarely,5.0,4.0,Life Sciences,1.0,F,3.0,2.0,4.0,1.0,No,11.0,3.0,1.0,2.0,2.0,3.0,10.0,0.0,0.0,2.0,21 to 35
+282.0,38.0,No,Travel_Frequently,2.0,3.0,Medical,4.0,F,2.0,1.0,2.0,1.0,No,22.0,4.0,2.0,0.0,3.0,3.0,4.0,3.0,3.0,3.0,36 to 50
+179.0,33.0,No,Non-Travel,16.0,3.0,Life Sciences,3.0,F,3.0,2.0,4.0,1.0,Yes,25.0,4.0,3.0,1.0,2.0,3.0,6.0,5.0,1.0,2.0,21 to 35
+240.0,38.0,No,Travel_Rarely,4.0,2.0,Medical,4.0,F,3.0,1.0,3.0,7.0,No,19.0,3.0,4.0,1.0,5.0,2.0,0.0,0.0,0.0,0.0,36 to 50
+262.0,48.0,Yes,Travel_Frequently,7.0,2.0,Medical,4.0,F,3.0,1.0,3.0,2.0,Yes,11.0,3.0,3.0,2.0,3.0,3.0,9.0,7.0,7.0,7.0,36 to 50
+259.0,32.0,Yes,Travel_Rarely,2.0,4.0,Life Sciences,4.0,M,3.0,1.0,2.0,1.0,No,12.0,3.0,1.0,0.0,2.0,3.0,1.0,0.0,0.0,0.0,21 to 35
+96.0,43.0,No,Travel_Rarely,2.0,3.0,Medical,4.0,M,3.0,2.0,4.0,1.0,Yes,17.0,3.0,1.0,1.0,3.0,3.0,10.0,9.0,8.0,8.0,36 to 50
+222.0,24.0,No,Travel_Rarely,9.0,3.0,Medical,3.0,M,4.0,1.0,3.0,1.0,No,16.0,3.0,4.0,1.0,1.0,3.0,5.0,3.0,0.0,4.0,21 to 35
+4.0,29.0,No,Travel_Rarely,9.0,4.0,Medical,4.0,F,3.0,1.0,3.0,9.0,No,17.0,3.0,3.0,1.0,2.0,3.0,5.0,3.0,1.0,2.0,21 to 35
+300.0,40.0,No,Travel_Rarely,8.0,2.0,Life Sciences,2.0,F,3.0,2.0,1.0,2.0,Yes,16.0,3.0,2.0,1.0,3.0,3.0,1.0,0.0,0.0,0.0,36 to 50
+121.0,32.0,Yes,Travel_Rarely,1.0,2.0,Life Sciences,1.0,M,1.0,2.0,2.0,6.0,No,15.0,3.0,2.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,21 to 35
+53.0,40.0,No,Travel_Rarely,7.0,4.0,Medical,2.0,M,3.0,5.0,2.0,1.0,No,14.0,3.0,2.0,0.0,3.0,2.0,21.0,8.0,12.0,8.0,36 to 50
+177.0,29.0,Yes,Travel_Rarely,9.0,3.0,Marketing,2.0,F,1.0,1.0,2.0,1.0,No,13.0,3.0,3.0,0.0,3.0,3.0,2.0,2.0,2.0,2.0,21 to 35
+42.0,33.0,No,Non-Travel,2.0,3.0,Marketing,4.0,F,3.0,2.0,2.0,8.0,No,15.0,3.0,4.0,0.0,2.0,2.0,11.0,7.0,1.0,7.0,21 to 35
+220.0,38.0,No,Travel_Frequently,2.0,2.0,Medical,3.0,F,2.0,1.0,2.0,4.0,No,14.0,3.0,2.0,1.0,4.0,2.0,6.0,1.0,0.0,5.0,36 to 50
+52.0,43.0,Yes,Travel_Frequently,17.0,3.0,Technical Degree,3.0,M,2.0,1.0,3.0,9.0,Yes,16.0,3.0,4.0,1.0,4.0,3.0,1.0,0.0,0.0,0.0,36 to 50
+110.0,28.0,No,Travel_Rarely,1.0,3.0,Life Sciences,3.0,M,3.0,1.0,4.0,1.0,No,11.0,3.0,3.0,1.0,6.0,4.0,5.0,3.0,0.0,3.0,21 to 35
+263.0,35.0,No,Non-Travel,2.0,2.0,Medical,2.0,M,3.0,2.0,4.0,2.0,No,14.0,3.0,3.0,1.0,6.0,3.0,7.0,7.0,1.0,7.0,21 to 35
+127.0,34.0,Yes,Travel_Frequently,9.0,4.0,Life Sciences,4.0,M,3.0,2.0,1.0,4.0,No,17.0,3.0,3.0,1.0,3.0,2.0,7.0,1.0,0.0,7.0,21 to 35
+12.0,39.0,No,Travel_Frequently,20.0,3.0,Life Sciences,3.0,M,3.0,2.0,4.0,2.0,No,18.0,3.0,4.0,1.0,6.0,3.0,2.0,1.0,2.0,2.0,36 to 50
+125.0,30.0,No,Travel_Rarely,10.0,3.0,Medical,1.0,F,3.0,3.0,3.0,9.0,No,14.0,3.0,2.0,0.0,3.0,3.0,7.0,7.0,0.0,2.0,21 to 35
+71.0,34.0,No,Travel_Rarely,8.0,2.0,Technical Degree,2.0,M,4.0,2.0,3.0,1.0,No,21.0,4.0,3.0,2.0,5.0,3.0,10.0,8.0,4.0,8.0,21 to 35
+301.0,35.0,No,Travel_Rarely,23.0,4.0,Medical,2.0,M,1.0,1.0,3.0,0.0,No,16.0,3.0,2.0,1.0,2.0,4.0,5.0,4.0,0.0,3.0,21 to 35
+40.0,27.0,No,Travel_Frequently,5.0,2.0,Life Sciences,4.0,F,3.0,1.0,4.0,0.0,Yes,14.0,3.0,3.0,0.0,3.0,2.0,5.0,4.0,0.0,2.0,21 to 35
+270.0,29.0,No,Travel_Rarely,29.0,1.0,Life Sciences,4.0,M,1.0,2.0,3.0,8.0,No,17.0,3.0,4.0,2.0,3.0,3.0,7.0,0.0,1.0,6.0,21 to 35
+41.0,46.0,No,Travel_Rarely,3.0,3.0,Technical Degree,1.0,F,4.0,4.0,1.0,2.0,No,12.0,3.0,4.0,1.0,5.0,3.0,19.0,17.0,2.0,8.0,36 to 50
+205.0,27.0,No,Travel_Rarely,23.0,1.0,Medical,2.0,F,2.0,2.0,3.0,1.0,No,21.0,4.0,4.0,1.0,5.0,3.0,9.0,8.0,5.0,8.0,21 to 35
+80.0,43.0,No,Travel_Rarely,6.0,3.0,Medical,1.0,F,2.0,5.0,3.0,7.0,No,13.0,3.0,4.0,0.0,2.0,3.0,16.0,12.0,6.0,14.0,36 to 50
+302.0,48.0,No,Travel_Rarely,10.0,3.0,Life Sciences,4.0,M,2.0,5.0,2.0,4.0,No,12.0,3.0,4.0,0.0,3.0,3.0,22.0,10.0,12.0,9.0,36 to 50
+59.0,27.0,No,Travel_Frequently,15.0,3.0,Life Sciences,4.0,F,2.0,1.0,1.0,0.0,No,19.0,3.0,4.0,1.0,2.0,2.0,7.0,6.0,7.0,3.0,21 to 35
+288.0,55.0,No,Travel_Rarely,2.0,4.0,Technical Degree,2.0,M,2.0,1.0,4.0,8.0,No,20.0,4.0,2.0,1.0,2.0,4.0,5.0,2.0,0.0,4.0,51 or more
+95.0,28.0,No,Travel_Rarely,3.0,3.0,Medical,2.0,F,3.0,1.0,2.0,1.0,No,19.0,3.0,4.0,1.0,3.0,3.0,1.0,0.0,0.0,0.0,21 to 35
+72.0,22.0,Yes,Travel_Rarely,7.0,1.0,Life Sciences,4.0,M,3.0,1.0,2.0,1.0,Yes,23.0,4.0,1.0,0.0,2.0,3.0,1.0,0.0,0.0,0.0,21 to 35
+109.0,36.0,No,Travel_Rarely,10.0,4.0,Technical Degree,2.0,F,2.0,2.0,3.0,1.0,Yes,13.0,3.0,1.0,1.0,4.0,3.0,10.0,9.0,1.0,7.0,36 to 50
+149.0,37.0,No,Travel_Rarely,7.0,4.0,Medical,4.0,M,3.0,2.0,1.0,5.0,Yes,22.0,4.0,3.0,1.0,2.0,3.0,5.0,3.0,0.0,4.0,36 to 50
+20.0,36.0,No,Travel_Frequently,2.0,1.0,Human Resources,2.0,M,2.0,2.0,4.0,1.0,No,21.0,4.0,4.0,0.0,2.0,2.0,10.0,1.0,0.0,8.0,36 to 50
+117.0,27.0,No,Travel_Rarely,2.0,2.0,Medical,1.0,F,4.0,2.0,3.0,0.0,No,14.0,3.0,2.0,0.0,5.0,2.0,8.0,7.0,0.0,7.0,21 to 35
+62.0,34.0,No,Travel_Rarely,3.0,1.0,Medical,4.0,F,2.0,2.0,4.0,3.0,Yes,12.0,3.0,3.0,0.0,3.0,2.0,4.0,2.0,0.0,1.0,21 to 35
+307.0,33.0,No,Travel_Rarely,10.0,4.0,Marketing,2.0,M,3.0,2.0,3.0,1.0,No,14.0,3.0,2.0,0.0,2.0,2.0,10.0,4.0,0.0,9.0,21 to 35
+58.0,34.0,No,Travel_Frequently,22.0,4.0,Other,3.0,M,2.0,2.0,4.0,1.0,Yes,15.0,3.0,2.0,0.0,3.0,3.0,15.0,10.0,6.0,11.0,21 to 35
+195.0,28.0,Yes,Travel_Rarely,13.0,2.0,Marketing,4.0,F,3.0,2.0,3.0,3.0,Yes,11.0,3.0,4.0,0.0,0.0,3.0,2.0,0.0,2.0,2.0,21 to 35
+32.0,58.0,No,Travel_Rarely,21.0,3.0,Life Sciences,4.0,F,3.0,4.0,4.0,4.0,Yes,13.0,3.0,3.0,1.0,2.0,2.0,1.0,0.0,0.0,0.0,51 or more
+134.0,32.0,Yes,Travel_Frequently,5.0,2.0,Life Sciences,1.0,F,4.0,1.0,3.0,3.0,Yes,14.0,3.0,1.0,0.0,2.0,3.0,4.0,1.0,0.0,3.0,21 to 35
+37.0,34.0,No,Travel_Rarely,13.0,4.0,Medical,4.0,M,3.0,3.0,3.0,1.0,No,18.0,3.0,3.0,1.0,2.0,2.0,8.0,7.0,1.0,1.0,21 to 35
+89.0,32.0,No,Non-Travel,15.0,4.0,Medical,3.0,F,3.0,2.0,4.0,5.0,No,18.0,3.0,2.0,1.0,6.0,3.0,5.0,1.0,1.0,2.0,21 to 35
+232.0,27.0,No,Travel_Rarely,9.0,3.0,Marketing,4.0,M,3.0,2.0,4.0,1.0,No,14.0,3.0,1.0,0.0,5.0,3.0,7.0,7.0,0.0,7.0,21 to 35
+16.0,33.0,No,Travel_Frequently,7.0,2.0,Life Sciences,4.0,M,3.0,2.0,3.0,1.0,No,20.0,4.0,3.0,3.0,2.0,3.0,9.0,7.0,2.0,8.0,21 to 35
+251.0,31.0,No,Travel_Rarely,2.0,1.0,Medical,4.0,F,1.0,1.0,4.0,1.0,Yes,11.0,3.0,3.0,3.0,4.0,3.0,1.0,0.0,0.0,0.0,21 to 35
+130.0,31.0,No,Non-Travel,10.0,3.0,Medical,3.0,F,3.0,3.0,3.0,4.0,No,20.0,4.0,3.0,1.0,2.0,4.0,11.0,7.0,4.0,8.0,21 to 35
+67.0,40.0,No,Travel_Rarely,2.0,2.0,Marketing,2.0,F,3.0,2.0,2.0,3.0,No,14.0,3.0,3.0,1.0,4.0,3.0,11.0,8.0,5.0,10.0,36 to 50
+190.0,30.0,No,Travel_Rarely,1.0,2.0,Medical,4.0,M,3.0,1.0,2.0,1.0,No,13.0,3.0,3.0,0.0,6.0,2.0,12.0,8.0,1.0,7.0,21 to 35
+144.0,42.0,No,Travel_Rarely,18.0,4.0,Life Sciences,4.0,M,3.0,2.0,1.0,6.0,Yes,17.0,3.0,3.0,1.0,3.0,2.0,4.0,3.0,1.0,2.0,36 to 50
+186.0,47.0,No,Non-Travel,1.0,1.0,Medical,3.0,F,3.0,3.0,2.0,0.0,No,18.0,3.0,1.0,2.0,3.0,1.0,13.0,8.0,5.0,12.0,36 to 50
+90.0,37.0,No,Travel_Rarely,10.0,3.0,Life Sciences,3.0,F,4.0,3.0,4.0,1.0,Yes,25.0,4.0,1.0,1.0,2.0,3.0,16.0,11.0,6.0,8.0,36 to 50
+162.0,29.0,Yes,Travel_Rarely,1.0,4.0,Medical,1.0,M,3.0,1.0,4.0,9.0,Yes,14.0,3.0,2.0,3.0,3.0,4.0,2.0,2.0,2.0,2.0,21 to 35
+29.0,34.0,No,Travel_Rarely,28.0,3.0,Marketing,4.0,F,2.0,2.0,3.0,1.0,No,21.0,4.0,4.0,2.0,2.0,3.0,8.0,7.0,1.0,7.0,21 to 35
+246.0,35.0,No,Travel_Rarely,26.0,4.0,Life Sciences,3.0,F,3.0,3.0,4.0,1.0,Yes,16.0,3.0,3.0,0.0,2.0,3.0,9.0,0.0,1.0,7.0,21 to 35
+74.0,45.0,No,Travel_Rarely,20.0,3.0,Life Sciences,4.0,F,3.0,2.0,3.0,8.0,No,15.0,3.0,3.0,0.0,3.0,3.0,5.0,3.0,0.0,1.0,36 to 50
+249.0,35.0,No,Travel_Frequently,18.0,4.0,Life Sciences,3.0,M,3.0,2.0,3.0,1.0,Yes,14.0,3.0,4.0,2.0,2.0,4.0,10.0,2.0,0.0,2.0,21 to 35
+286.0,29.0,No,Travel_Rarely,13.0,2.0,Other,4.0,M,2.0,2.0,2.0,4.0,Yes,13.0,3.0,1.0,1.0,2.0,3.0,4.0,3.0,0.0,3.0,21 to 35
+158.0,49.0,No,Travel_Frequently,2.0,3.0,Medical,4.0,M,2.0,2.0,2.0,2.0,No,14.0,3.0,4.0,0.0,3.0,2.0,9.0,6.0,0.0,8.0,36 to 50
