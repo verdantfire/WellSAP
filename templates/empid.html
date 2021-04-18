@@ -30,8 +30,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-center">
     <h2>Enter Employee ID</h2>
-    <form name="wellform" action="{{ url_for('result')}}"method="post">
-      <input type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto" name="emp-id" required="required" />
+    <form name="wellform" action="{{ url_for('result')}}" method="post">
+      <input type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto" id="employee_id" placeholder="ID" name="employee_id" required="required" />
       <br>
       <button type="submit" class="btn btn-primary btn-block btn-large w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Wellness Report</button>
     </form>

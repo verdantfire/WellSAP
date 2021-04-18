@@ -58,7 +58,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         }
         &.plattform {
           color: limegreen;
-          a.btn {
+          &:btn {
             color: limegreen;
             &:hover {
               background-color: limegreen;
@@ -93,8 +93,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
           transform: uppercase;
           decoration: none;
         }
-        @include transition(0.2s ease-in-out);
-        @include border-radius(.3rem);
       }</style>
   <div class="w3-center">
     <h2>Wellness Report</h2>
@@ -116,28 +114,22 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         </div>
         <div class="table-cell plattform">
             <h3>Workplace Wellness Score</h3>
-            {{ Workplace_wellness_score }}
+            {{ workplace_wellness_score }}
         </div>
 
         <div class="table-cell plattform">
             <ul>
-                <li>{{ sub_score_1 }}</li>
-                <li>{{ sub_score_2 }}</li>
-                <li>{{ sub_score_3 }}</li>
+                <li>Physical Score: {{ physical }}</li>
+                <li>Social Score: {{ social }}</li>
             </ul>
         </div>
         <div class="table-cell plattform">
-            <ul>
-                <li>{{ sub_score_1 }}</li>
-                <li>{{ sub_score_2 }}</li>
-                <li>{{ sub_score_3 }}</li>
-            </ul>
         </div>
         <div class="table-cell plattform">
             <ul>
-                <li>{{ sub_score_1 }}</li>
-                <li>{{ sub_score_2 }}</li>
-                <li>{{ sub_score_3 }}</li>
+                <li>Employee Satisfaction Score: {{ emp_satifaction }}</li>
+                <li>Environment Satisfaction Score: {{ env_satisfaction }}</li>
+                <li>Work Life Balance Score: {{ work_life_balance }}</li>
             </ul>
         </div>
       </div>

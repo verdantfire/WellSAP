@@ -1,11 +1,11 @@
 from numpy.core.arrayprint import array2string
 import pandas as pd
 import numpy as np
-from score import score
+from scripts.score import score
 
-hr_data = pd.read_csv('./../dataset/hr_data.csv',header=0,index_col='Employee_ID')
-attrition_data = pd.read_csv('./../dataset/attrition_data.csv',header=0,index_col='Employee_ID')
-lifestyle_data = pd.read_csv('./../dataset/lifestyle_data.csv',header=0,index_col='Employee_ID')
+hr_data = pd.read_csv('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\dataset\\hr_data.csv',header=0,index_col='Employee_ID')
+attrition_data = pd.read_csv('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\dataset\\attrition_data.csv',header=0,index_col='Employee_ID')
+lifestyle_data = pd.read_csv('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\dataset\\lifestyle_data_simplified.csv',header=0,index_col='Employee_ID')
 
 
 def data_id(employee_id):
@@ -26,12 +26,13 @@ def data_id(employee_id):
     data['PLACES_VISITED'] = lifestyle_data.loc[employee_id, 'PLACES_VISITED']    
     data['CORE_CIRCLE'] = lifestyle_data.loc[employee_id, 'CORE_CIRCLE']    
     data['SUPPORTING_OTHERS'] = lifestyle_data.loc[employee_id, 'SUPPORTING_OTHERS']    
+    data['DAILY_STEPS'] = lifestyle_data.loc[employee_id, 'DAILY_STEPS']    
     data['SOCIAL_NETWORK'] = lifestyle_data.loc[employee_id, 'SOCIAL_NETWORK']    
     data['SLEEP_HOURS'] = lifestyle_data.loc[employee_id, 'SLEEP_HOURS']    
     data['WEEKLY_MEDITATION'] = lifestyle_data.loc[employee_id, 'WEEKLY_MEDITATION']    
     data['DAILY_SHOUTING'] = lifestyle_data.loc[employee_id, 'DAILY_SHOUTING']    
     data['MaritalStatusID'] = hr_data.loc[employee_id, 'MaritalStatusID']
-    data['RelationshipSatisfaction'] = hr_data.loc[employee_id, 'RelationshipSatisfaction']
+    data['RelationshipSatisfaction'] = attrition_data.loc[employee_id, 'RelationshipSatisfaction']
 
 
     #Work Life
@@ -46,18 +47,18 @@ def data_id(employee_id):
     data['Absences'] = hr_data.loc[employee_id, 'Absences']
     data['Salary'] = hr_data.loc[employee_id, 'Salary']
     data['EngagementSurvey'] = hr_data.loc[employee_id, 'EngagementSurvey']
-    data['PerformanceRating'] = hr_data.loc[employee_id, 'PerformanceRating']
-    data['YearsAtCompany'] = hr_data.loc[employee_id, 'YearsAtCompany']
-    data['YearsInCurrentRole'] = hr_data.loc[employee_id, 'YearsInCurrentRole']
-    data['YearsSinceLastPromotion'] = hr_data.loc[employee_id, 'YearsSinceLastPromotion']
-    data['YearsWithCurrManager'] = hr_data.loc[employee_id, 'YearsWithCurrManager']
-    data['PercentSalaryHike'] = hr_data.loc[employee_id, 'PercentSalaryHike']
-    data['JobSatisfaction'] = hr_data.loc[employee_id, 'JobSatisfaction']
-    data['StockOptionLevel'] = hr_data.loc[employee_id, 'StockOptionLevel']
-    data['TrainingTimesLastYear'] = hr_data.loc[employee_id, 'TrainingTimesLastYear']
-    data['JobLevel'] = hr_data.loc[employee_id, 'JobLevel']
-    data['OverTime'] = hr_data.loc[employee_id, 'OverTime']
-    data['NumCompaniesWorked'] = hr_data.loc[employee_id, 'NumCompaniesWorked']
+    data['PerformanceRating'] = attrition_data.loc[employee_id, 'PerformanceRating']
+    data['YearsAtCompany'] = attrition_data.loc[employee_id, 'YearsAtCompany']
+    data['YearsInCurrentRole'] = attrition_data.loc[employee_id, 'YearsInCurrentRole']
+    data['YearsSinceLastPromotion'] = attrition_data.loc[employee_id, 'YearsSinceLastPromotion']
+    data['YearsWithCurrManager'] = attrition_data.loc[employee_id, 'YearsWithCurrManager']
+    data['PercentSalaryHike'] = attrition_data.loc[employee_id, 'PercentSalaryHike']
+    data['JobSatisfaction'] = attrition_data.loc[employee_id, 'JobSatisfaction']
+    data['StockOptionLevel'] = attrition_data.loc[employee_id, 'StockOptionLevel']
+    data['TrainingTimesLastYear'] = attrition_data.loc[employee_id, 'TrainingTimesLastYear']
+    data['JobLevel'] = attrition_data.loc[employee_id, 'JobLevel']
+    data['OverTime'] = attrition_data.loc[employee_id, 'OverTime']
+    data['NumCompaniesWorked'] = attrition_data.loc[employee_id, 'NumCompaniesWorked']
 
     data['FromDiversityJobFairID'] = hr_data.loc[employee_id, 'FromDiversityJobFairID']
     data['CitizenDesc'] = hr_data.loc[employee_id, 'CitizenDesc']
@@ -74,6 +75,5 @@ def data_id(employee_id):
     data['ACHIEVEMENT'] = lifestyle_data.loc[employee_id, 'ACHIEVEMENT']
     data['SUFFICIENT_INCOME'] = lifestyle_data.loc[employee_id, 'SUFFICIENT_INCOME']
     data['PERSONAL_AWARDS'] = lifestyle_data.loc[employee_id, 'PERSONAL_AWARDS']
-
 
     return score(data)
