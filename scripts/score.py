@@ -3,6 +3,8 @@ import statistics
 import math
 
 from .personal_score import personal
+from .personal_score import physical
+from .personal_score import social
 from .workplace_score import emp_satifaction
 from .workplace_score import env_satisfaction
 from .workplace_score import work_life_balance
@@ -13,6 +15,8 @@ def score(data):
 
     personal_keys = ['FRUITS_VEGGIES', 'DAILY_STRESS', 'BMI_RANGE', 'DONATION', 'PLACES_VISITED', 'CORE_CIRCLE', 'SUPPORTING_OTHERS', 'SOCIAL_NETWORK', 'SLEEP_HOURS', 'WEEKLY_MEDITATION', 'DAILY_SHOUTING', 'MaritalStatusID', 'Age_Group', 'Gender', 'RelationshipSatisfaction']
     personal = personal({key: data[key] for key in personal_keys}) 
+    physical = physical({key: data[key] for key in personal_keys})
+    social = social({key: data[key] for key in personal_keys})
     
     emp_satifaction_keys = ['Age_Group', 'FromDiversityJobFairID', 'CitizenDesc', 'HispanicLatino', 'RaceDesc', 'Gender', 'Attrition', 'BusinessTravel', 'DistanceFromHome', 'JobInvolvement']
     emp_satifaction = emp_satifaction({key: data[key] for key in emp_satifaction_keys})
@@ -40,4 +44,12 @@ def score(data):
     else:
         score = statistics.harmonic_mean([personal, workplace, subjective])
 
-    return score
+    return {"Wellness score": score,
+            "Personal Wellness Score": personal,
+            "Workplace Wellness Score": workplace,
+            "Subjective Wellness Score": subjective,
+            "Physical Wellness Score": physical,
+            "Social Wellness Score": social,
+            "Employee Satisfaction": emp_satifaction,
+            "Environment Satisfaction": env_satisfaction,
+            "Work Life Balance": work_life_balance}
