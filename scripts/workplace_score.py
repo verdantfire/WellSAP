@@ -4,51 +4,51 @@ import math
 import statistics 
 
 def emp_satisfaction(dict):
-    age=joblib.load(open('./../scaler_and_encoder/emp_satisfaction_age_encoder.pkl'))
+    age=joblib.load(open('./../scaler_and _encoder/emp_satisfaction_age_encoder.pkl'))
     dict['Age_Group']=age.transform(dict['Age_Group']).astype('category')
 
-    gender=joblib.load(open('./../scaler_and_encoder/emp_satisfaction_gender_encoder.pkl'))
+    gender=joblib.load(open('./../scaler_and _encoder/emp_satisfaction_gender_encoder.pkl'))
     dict['Gender']=gender.transform(dict['Gender']).astype('category')
 
-    overtime_encoder=joblib.load(open('./../scaler_and_encoder/emp_satisfaction_overtime_encoder.pkl'))
+    overtime_encoder=joblib.load(open('./../scaler_and _encoder/emp_satisfaction_overtime_encoder.pkl'))
     dict['OverTime']=overtime_encoder.transform(dict['OverTime']).astype('category')
 
-    X=pd.DataFrame.from_dict(dict)
-    scaler=joblib.load(open('./../scaler_and_encoder/scaler_emp_satisfaction.pkl'))
-    transformed_X=scaler.tranform(X)
-    model=joblib.load(open('./../models/new_workplace_wellbeing_emp_satisfaction.pkl'))
-    return model.predict(transformed_X)
+    scaler=joblib.load(open('./../scaler_and _encoder/scaler_emp_satisfaction.pkl'))
+    input_f = [[dict[key] for key in dict.keys()]]
+    input_f=scaler.tranform(input_f)
+    model=joblib.load(open('./../models/workplace_wellbeing_emp_satisfaction.pkl'))
+    return model.predict(input_f)
 
 def env_satisfaction(dict):
-    age=joblib.load(open('./../scaler_and_encoder/env_age_encoder.pkl'))
+    age=joblib.load(open('./../scaler_and _encoder/env_age_encoder.pkl'))
     dict['Age_Group']=age.transform(dict['Age_Group']).astype('category')
 
-    gender=joblib.load(open('./../scaler_and_encoder/env_gender_encoder.pkl'))
+    gender=joblib.load(open('./../scaler_and _encoder/env_gender_encoder.pkl'))
     dict['Gender']=gender.transform(dict['Gender']).astype('category')
 
-    job_diversity=joblib.load(open('./../scaler_and_encoder/env_job_diversity_encoder.pkl'))
+    job_diversity=joblib.load(open('./../scaler_and _encoder/env_job_diversity_encoder.pkl'))
     dict['FromDiversityJobFairID']=job_diversity.transform(dict['FromDiversityJobFairID']).astype('category')
 
-    citi_encoder=joblib.load(open('./../scaler_and_encoder/env_citizendesc_encoder.pkl'))
+    citi_encoder=joblib.load(open('./../scaler_and _encoder/env_citizendesc_encoder.pkl'))
     dict['CitizenDesc']=citi_encoder.transform(dict['CitizenDesc']).astype('category')
 
-    his_encoder=joblib.load(open('./../scaler_and_encoder/env_HispanicLatino_encoder.pkl'))
+    his_encoder=joblib.load(open('./../scaler_and _encoder/env_HispanicLatino_encoder.pkl'))
     dict['HispanicLatino']=his_encoder.tranform(dict['HispanicLatino']).astype('category')
 
-    race_encoder=joblib.load(open('./../scaler_and_encoder/env_racedesc_encoder.pkl'))
+    race_encoder=joblib.load(open('./../scaler_and _encoder/env_racedesc_encoder.pkl'))
     dict['RaceDesc']=race_encoder.tranform(dict['RaceDesc']).astype('category')
 
-    attri_encoder=joblib.load(open('./../scaler_and_encoder/env_attri_encoder.pkl'))
+    attri_encoder=joblib.load(open('./../scaler_and _encoder/env_attri_encoder.pkl'))
     dict['Attrition']=attri_encoder.transform(dict['Attrition']).astype('category')
 
-    busi_encoder=joblib.load(open('./../scaler_and_encoder/env_busi_encoder.pkl'))
+    busi_encoder=joblib.load(open('./../scaler_and _encoder/env_busi_encoder.pkl'))
     dict['BusinessTravel']=busi_encoder.transfrom(dict['BusinessTravel']).astype('category')
 
-    X=pd.DataFrame.from_dict(dict)
-    scaler=joblib.load(open('./../scaler_and_encoder/env_minmax_scaler.pkl'))
-    transformed_X=scaler.tranform(X)
-    model=joblib.load(open('./../models/new_workplace_wellbeing_emp_satisfaction.pkl'))
-    return model.predict(transformed_X)
+    scaler=joblib.load(open('./../scaler_and _encoder/env_minmax_scaler.pkl'))
+    [dict['JobInvolvement'],dict['DistanceFromHome']]=scaler.tranform([dict['JobInvolvement'],dict['DistanceFromHome']])
+    model=joblib.load(open('./../models/workplace_wellbeing_env_satisfaction.pkl'))
+    input_f = [[dict[key] for key in dict.keys()]]
+    return model.predict(input_f)
 
 def work_life_balance(data):
     gender_encoder = joblib.load('./../scaler_and _encoder/work_balance_gender_encoder.pkl')
