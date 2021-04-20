@@ -5,7 +5,7 @@ import math
 def subjective(dict):
 
     dict['LIVE_VISION']=(dict['LIVE_VISION']/10)*100
-    dict['SUFFICIENT_INCOME']=((dict['SUFFICIENT_INCOME']-1)/2)*100
+    dict['SUFFICIENT_INCOME']=((dict['SUFFICIENT_INCOME']-1))*50+50
     dict['ACHIEVEMENT']=(dict['ACHIEVEMENT']/10)*100
     dict['PERSONAL_AWARDS']=(dict['PERSONAL_AWARDS']/10)*100
 

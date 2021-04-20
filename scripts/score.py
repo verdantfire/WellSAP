@@ -20,13 +20,12 @@ def score(data):
     social_score = social({key: data[key] for key in personal_keys})
     
     emp_satisfaction_keys = ['Age_Group', 'PerfScoreID', 'SpecialProjectsCount', 'DaysLateLast30', 'Absences', 'Salary', 'EngagementSurvey', 'Gender', 'PercentSalaryHike', 'PerformanceRating', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager', 'JobSatisfaction', 'StockOptionLevel', 'TrainingTimesLastYear', 'JobLevel', 'OverTime', 'NumCompaniesWorked']
-    emp_satisfaction_score = emp_satisfaction({key: data[key] for key in emp_satisfaction_keys})
-    
+    emp_satisfaction_score = emp_satisfaction({key: data[key] for key in emp_satisfaction_keys})/5*100   
     env_satisfaction_keys = ['Age_Group', 'FromDiversityJobFairID', 'CitizenDesc', 'HispanicLatino', 'RaceDesc', 'Gender', 'Attrition', 'BusinessTravel', 'DistanceFromHome', 'JobInvolvement']
-    env_satisfaction_score = env_satisfaction({key: data[key] for key in env_satisfaction_keys})
+    env_satisfaction_score = env_satisfaction({key: data[key] for key in env_satisfaction_keys})/4*100
     
     work_life_balance_keys = ['TODO_COMPLETED', 'LOST_VACATION', 'TIME_FOR_PASSION', 'FLOW', 'Age_Group', 'Gender']
-    work_life_balance_score = work_life_balance({key: data[key] for key in work_life_balance_keys})
+    work_life_balance_score = work_life_balance({key: data[key] for key in work_life_balance_keys})/4*100
     
     workplace_score = workplace(emp_satisfaction_score, env_satisfaction_score, work_life_balance_score)
 
