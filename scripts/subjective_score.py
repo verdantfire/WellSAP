@@ -4,10 +4,10 @@ import math
 
 def subjective(dict):
 
-    dict['LIVE_VISION']=dict['LIVE_VISION']/10
-    dict['SUFFICIENT_INCOME']=(dict['SUFFICIENT_INCOME']-1)/2
-    dict['ACHIEVEMENT']=dict['ACHIEVEMENT']/10
-    dict['PERSONAL_AWARDS']=dict['PERSONAL_AWARDS']/10
+    dict['LIVE_VISION']=(dict['LIVE_VISION']/10)*100
+    dict['SUFFICIENT_INCOME']=((dict['SUFFICIENT_INCOME']-1)/2)*100
+    dict['ACHIEVEMENT']=(dict['ACHIEVEMENT']/10)*100
+    dict['PERSONAL_AWARDS']=(dict['PERSONAL_AWARDS']/10)*100
 
     if(dict['LIVE_VISION']==0 or dict['SUFFICIENT_INCOME']==0 or dict['ACHIEVEMENT']==0 or dict['PERSONAL_AWARDS']==0):
         dict['LIVE_VISION']=dict['LIVE_VISION']+1
@@ -20,6 +20,7 @@ def subjective(dict):
         am=(dict['LIVE_VISION']+dict['SUFFICIENT_INCOME']+dict['ACHIEVEMENT']+dict['PERSONAL_AWARDS'])/4
         hm=(gm*gm)/am
     else:
-       hm=harmonic_mean([dict['LIVE_VISION'],dict['SUFFICIENT_INCOME'],dict['ACHIEVEMENT'],dict['PERSONAL_AWARDS']])
-        
+       hm=harmonic_mean([dict['LIVE_VISION'],dict['SUFFICIENT_INCOME'],dict['ACHIEVEMENT'],dict['PERSONAL_AWARDS']])    
     return hm
+
+
