@@ -16,7 +16,7 @@ def subjective(dict):
         dict['PERSONAL_AWARDS']=dict['PERSONAL_AWARDS']+1
         sum=math.log10(dict['LIVE_VISION']) + math.log10(dict['SUFFICIENT_INCOME']) + math.log10(dict['ACHIEVEMENT'])+ math.log10(dict['PERSONAL_AWARDS'])       
         gm=sum/4
-        gm=math.pow(10,gm)
+        gm=math.pow(10,gm)-1
         am=(dict['LIVE_VISION']+dict['SUFFICIENT_INCOME']+dict['ACHIEVEMENT']+dict['PERSONAL_AWARDS'])/4
         hm=(gm*gm)/am
     else:
