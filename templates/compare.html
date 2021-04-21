@@ -69,6 +69,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         }
         &.noborder {
             color: limegreen;
+            width: calc(5%);
+            border-width: 0;
           &:btn {
             color: limegreen;
             &:hover {
@@ -76,7 +78,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
               border-color: limegreen;
               color: white;
             }
-            border-width: 0;
           }
         }
       }
@@ -84,7 +85,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       /* Table columns
       ================================== */
       .table-cell  {
-        width: calc(33.33% - 1px);
+        width: calc(14.28% - 1px);
         &.cell-feature {
             @media only screen and (max-width : 768px) {
                 width: 100%;
@@ -109,84 +110,78 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-center">
     <h2>Wellness Report</h2>
     <h5>On a Scale of 100</h5>
-    <h3> Name: {{ employee_name }} <br>Age Group: {{ Age_Group }} <br>Gender: {{ Gender }}</h3>
+    <h4> Name: {{ employee_name }} <br>Age Group: {{ Age_Group }} <br>Gender: {{ Gender }}</h4>
     <div class="table">
         <div class="table-cell plattform"></div>
         <div class="table-cell plattform">
-          <h3>Wellness Score</h3>
+          <h4>Wellness Score</h4>
           {{ wellness_score }}
         </div>
         <div class="table-cell plattform"></div>
 
-        <div class="table-cell noborder"></div>
+        <div class="table-cell noborder" style="width: calc(5%)"></div>
 
         <div class="table-cell plattform"></div>
         <div class="table-cell plattform">
-          <h3>Average Wellness Score</h3>
+          <h4>Average Wellness Score</h4>
           {{ wellness_score_avg }}
         </div>
         <div class="table-cell plattform"></div>
 
         <div class="table-cell plattform">
-            <h3>Personal Wellness Score</h3>
+            <h4>Personal Wellness Score</h4>
             {{ personal_wellness_score }}
         </div>
         <div class="table-cell plattform">
-            <h3>Subjective Wellness Score</h3>
+            <h4>Subjective Wellness Score</h4>
             {{ subjective_wellness_score }}
         </div>
         <div class="table-cell plattform">
-            <h3>Workplace Wellness Score</h3>
+            <h4>Workplace Wellness Score</h4>
             {{ workplace_wellness_score }}
         </div>
 
-        <div class="table-cell noborder"></div>
+        <div class="table-cell noborder" style="width: calc(5%)"></div>
 
         <div class="table-cell plattform">
-            <h3>Personal Wellness Score</h3>
+            <h4>Personal Wellness Score</h4>
             {{ personal_wellness_score_avg }}
         </div>
         <div class="table-cell plattform">
-            <h3>Subjective Wellness Score</h3>
+            <h4>Subjective Wellness Score</h4>
             {{ subjective_wellness_score_avg }}
         </div>
         <div class="table-cell plattform">
-            <h3>Workplace Wellness Score</h3>
+            <h4>Workplace Wellness Score</h4>
             {{ workplace_wellness_score_avg }}
         </div>
 
         <div class="table-cell plattform">
-            <ul>
-                <li>Physical Score: {{ physical }}</li>
-                <li>Social Score: {{ social }}</li>
-            </ul>
+                <p>Physical Score: {{ physical }}</p>
+              <p>Social Score: {{ social }}</p>
         </div>
         <div class="table-cell plattform">
         </div>
         <div class="table-cell plattform">
-            <ul>
-                <li>Employee Satisfaction Score: {{ emp_satifaction }}</li>
-                <li>Environment Satisfaction Score: {{ env_satisfaction }}</li>
-                <li>Work Life Balance Score: {{ work_life_balance }}</li>
-            </ul>
+
+        <p>Employee Satisfaction Score: {{ emp_satifaction }}</p>
+        <p>Environment Satisfaction Score: {{ env_satisfaction }}</p>
+        <p>Work Life Balance Score: {{ work_life_balance }}</p>
+
         </div>
 
-        <div class="table-cell noborder"></div>
+        <div class="table-cell noborder" style="width: calc(5%)"></div>
 
         <div class="table-cell plattform">
-            <ul>
-                <li>Physical Score: {{ physical_avg }}</li>
-                <li>Social Score: {{ social_avg }}</li>
-            </ul>
+              <p>Physical Score: {{ physical_avg }}</p>
+              <p>Social Score: {{ social_avg }}</p>
         </div>
         <div class="table-cell plattform">
         </div>
         <div class="table-cell plattform">
-            <ul>
-                <li>Employee Satisfaction Score: {{ emp_satifaction_avg }}</li>
-                <li>Environment Satisfaction Score: {{ env_satisfaction_avg }}</li>
-                <li>Work Life Balance Score: {{ work_life_balance_avg }}</li>
-            </ul>
+          <p>Employee Satisfaction Score: {{ emp_satifaction_avg }}</p>
+            <p>Environment Satisfaction Score: {{ env_satisfaction_avg }}</p>
+              <p>Work Life Balance Score: {{ work_life_balance_avg }}</p>
         </div>
       </div>
   </div>
