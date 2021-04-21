@@ -1,5 +1,4 @@
 import joblib
-import pandas  as pd
 import math 
 import statistics 
 
@@ -19,9 +18,10 @@ def emp_satisfaction(dict):
     scaler_f=scaler.transform(scaler_f)
     for i in list(range(0,len(columns))):
         dict[columns[i]] = scaler_f[0][i]
+
     input_f = [[dict[key] for key in dict.keys()]]
     model=joblib.load('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\models\\workplace_wellbeing_emp_satisfaction.pkl')
-    return model.predict(input_f)
+    return int(model.predict(input_f)[0])
 
 def env_satisfaction(dict):
     age=joblib.load('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\scaler_and _encoder\\env_age_encoder.pkl')
@@ -54,9 +54,10 @@ def env_satisfaction(dict):
     scaler_f=scaler.transform(scaler_f)
     for i in list(range(0,len(columns))):
         dict[columns[i]] = scaler_f[0][i]
+
     model=joblib.load('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\models\\workplace_wellbeing_env_satisfaction.pkl')
     input_f = [[dict[key] for key in dict.keys()]]
-    return model.predict(input_f)
+    return int(model.predict(input_f)[0])
 
 def work_life_balance(data):
     gender_encoder = joblib.load('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\scaler_and _encoder\\work_balance_gender_encoder.pkl')
@@ -68,21 +69,17 @@ def work_life_balance(data):
     model = joblib.load('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\models\\workplace_wellbeing_balance_model.pkl')
     input_f = [[data[key] for key in data.keys()]]
 
-    return model.predict(input_f)
+    return int(model.predict(input_f)[0])
 
 def workplace(emp,env,bal):
-    print("HERE",emp[0],env[0],bal[0])
     if emp==0 or env==0 or bal==0:
-        emp_gm = math.log(emp+1)
-        env_gm = math.log(env+1)
-        bal_gm = math.log(bal+1)
-        gm = (emp_gm + env_gm + bal_gm) / 3
+        gm = (math.log(emp+1) + math.log(env+1) + math.log(bal+1)) / 3
         gm = math.pow(10,gm) - 1
         am = (emp+env+bal) / 3
         workplace_score = gm**2/am
     
     else:
-        workplace_score = statistics.harmonic_mean([emp[0],env[0],bal[0]])
+        workplace_score = statistics.harmonic_mean([emp,env,bal])
 
     return workplace_score
     

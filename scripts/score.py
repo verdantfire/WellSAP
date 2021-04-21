@@ -15,42 +15,43 @@ def score(data):
 
     #print(data)
     personal_keys = ['FRUITS_VEGGIES', 'DAILY_STRESS', 'BMI_RANGE', 'DONATION', 'PLACES_VISITED', 'CORE_CIRCLE', 'SUPPORTING_OTHERS', 'DAILY_STEPS','SOCIAL_NETWORK', 'SLEEP_HOURS', 'WEEKLY_MEDITATION', 'DAILY_SHOUTING', 'MaritalStatusID', 'Age_Group', 'Gender', 'RelationshipSatisfaction']
-    personal_score = personal({key: data[key] for key in personal_keys}) 
-    physical_score = physical({key: data[key] for key in personal_keys})
-    social_score = social({key: data[key] for key in personal_keys})
+    personal_score = (personal({key: data[key] for key in personal_keys}))*100/7
+    physical_score = (physical({key: data[key] for key in personal_keys}))*100/7
+    social_score = (social({key: data[key] for key in personal_keys}))*100/7
     
     emp_satisfaction_keys = ['Age_Group', 'PerfScoreID', 'SpecialProjectsCount', 'DaysLateLast30', 'Absences', 'Salary', 'EngagementSurvey', 'Gender', 'PercentSalaryHike', 'PerformanceRating', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager', 'JobSatisfaction', 'StockOptionLevel', 'TrainingTimesLastYear', 'JobLevel', 'OverTime', 'NumCompaniesWorked']
-    emp_satisfaction_score = emp_satisfaction({key: data[key] for key in emp_satisfaction_keys})/5*100   
+    emp_satisfaction_score = emp_satisfaction({key: data[key] for key in emp_satisfaction_keys})*100/5   
+    
     env_satisfaction_keys = ['Age_Group', 'FromDiversityJobFairID', 'CitizenDesc', 'HispanicLatino', 'RaceDesc', 'Gender', 'Attrition', 'BusinessTravel', 'DistanceFromHome', 'JobInvolvement']
-    env_satisfaction_score = env_satisfaction({key: data[key] for key in env_satisfaction_keys})/4*100
+    env_satisfaction_score = env_satisfaction({key: data[key] for key in env_satisfaction_keys})*100/4
     
     work_life_balance_keys = ['TODO_COMPLETED', 'LOST_VACATION', 'TIME_FOR_PASSION', 'FLOW', 'Age_Group', 'Gender']
-    work_life_balance_score = work_life_balance({key: data[key] for key in work_life_balance_keys})/4*100
+    work_life_balance_score = work_life_balance({key: data[key] for key in work_life_balance_keys})*100/4
     
     workplace_score = workplace(emp_satisfaction_score, env_satisfaction_score, work_life_balance_score)
 
     subjective_keys = ['LIVE_VISION', 'ACHIEVEMENT', 'SUFFICIENT_INCOME', 'PERSONAL_AWARDS']
     subjective_score = subjective({key: data[key] for key in subjective_keys})
 
-    if personal == 0 or workplace == 0 or subjective == 0:
-        personal_gm = math.log(personal+1)
-        workplace_gm = math.log(workplace+1)
-        subjective_gm = math.log(subjective+1)
-        gm = (personal_gm + workplace_gm + subjective_gm) / 3
+    if personal_score == 0 or workplace_score == 0 or subjective_score == 0:
+        gm = (math.log(personal_score+1) + math.log(workplace_score+1) + math.log(subjective_score+1)) / 3
         gm = math.pow(10,gm) - 1
-        am = (personal + workplace + subjective) / 3
-        score = gm**2/am
+        am = (personal_score + workplace_score + subjective_score) / 3
+        final_score = gm**2/am
     
     else:
-        print("CHAL JA BHAI PLS",personal_score, workplace_score, subjective_score)
-        score = statistics.harmonic_mean([personal_score[0], workplace_score, subjective_score])
+        final_score = statistics.harmonic_mean([personal_score, workplace_score, subjective_score])
 
-    return {"Wellness score": score,
-            "Personal Wellness Score": personal_score[0],
+    return {"Employee Name": data['employee_name'],
+            "Employee ID": data['employee_id'],
+            "Age": data['Age_Group'],
+            "Gender": data['Gender'],
+            "Wellness score": final_score,
+            "Personal Wellness Score": personal_score,
             "Workplace Wellness Score": workplace_score,
             "Subjective Wellness Score": subjective_score,
             "Physical Wellness Score": physical_score,
             "Social Wellness Score": social_score,
-            "Employee Satisfaction": emp_satisfaction_score[0],
-            "Environment Satisfaction": env_satisfaction_score[0],
-            "Work Life Balance": work_life_balance_score[0]}
+            "Employee Satisfaction": emp_satisfaction_score,
+            "Environment Satisfaction": env_satisfaction_score,
+            "Work Life Balance": work_life_balance_score}

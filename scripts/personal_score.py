@@ -1,7 +1,6 @@
 import joblib
 
 def personal(data):
-    print(data)
     gender_encoder = joblib.load('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\scaler_and _encoder\\personal_gender_encoder.pkl')
     data['Gender'] = gender_encoder.transform([data['Gender']])
 
@@ -11,8 +10,7 @@ def personal(data):
     model = joblib.load('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\models\\personal_wellbeing_model.pkl')
     input_f = [[data[key] for key in data.keys()]] 
 
-    print(input_f)
-    return model.predict(input_f)
+    return model.predict(input_f)[0]
 
 def physical(data):
     model = joblib.load('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\models\\personal_wellbeing_model.pkl')
