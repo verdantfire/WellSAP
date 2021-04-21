@@ -12,7 +12,6 @@ def data_id(employee_id):
     data = {}
     
     #Basic Info
-    data['employee_id'] = employee_id
     data['employee_name'] = hr_data.loc[employee_id, 'Employee_Name']
     data['Age_Group'] = attrition_data.loc[employee_id, 'Age_Group']
     data['Gender'] = attrition_data.loc[employee_id, 'Gender']

@@ -42,7 +42,6 @@ def score(data):
         final_score = statistics.harmonic_mean([personal_score, workplace_score, subjective_score])
 
     return {"Employee Name": data['employee_name'],
-            "Employee ID": data['employee_id'],
             "Age": data['Age_Group'],
             "Gender": data['Gender'],
             "Wellness score": final_score,
