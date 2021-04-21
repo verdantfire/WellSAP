@@ -38,15 +38,22 @@ def result():
            # return render_template('result.html', employee_name = "Lorem Ipsum", Age_Group = '69', Gender = 'AH64 Apache Longbow', wellness_score = results["Wellness score"],personal_wellness_score = results["Personal Wellness Score"],workplace_wellness_score = results["Workplace Wellness Score"],subjective_wellness_score = results["Subjective Wellness Score"],physical = results["Physical Wellness Score"],social = results["Social Wellness Score"] ,emp_satifaction = results["Employee Satisfaction"],env_satisfaction = results["Environment Satisfaction"],work_life_balance = results["Work Life Balance"])
         else:
             data = {}
+            str_fields = ['employee_name','Age_Group','Gender', 'OverTime','CitizenDesc','HispanicLatino','RaceDesc','Attrition','BusinessTravel','SUFFICIENT_INCOME']
             #global results
             # getting input with name = fname in HTML form
-            print('--- original order ---')
             for key, val in request.form.items():
                 data[key] = val
-
+            
+            for k,v in data.items():
+                try:
+                    data[k] = int(float(v))
+                except:
+                    continue
+            for k,v in data.items():    
+                print(k,v,type(v))
+            print('BF',results)
             results = score(data)
-            #session['report_results'] = results
-
+            print(results)
             return render_template('result.html', employee_name = results['Employee Name'], Age_Group = results['Age'], Gender = results['Gender'], wellness_score = results["Wellness score"], personal_wellness_score = results["Personal Wellness Score"],workplace_wellness_score = results["Workplace Wellness Score"],subjective_wellness_score = results["Subjective Wellness Score"],physical = results["Physical Wellness Score"],social = results["Social Wellness Score"] ,emp_satifaction = results["Employee Satisfaction"],env_satisfaction = results["Environment Satisfaction"],work_life_balance = results["Work Life Balance"])
             #return render_template('result.html', employee_name = "Lorem Ipsum", Age_Group = '69', Gender = 'AH64 Apache Longbow', wellness_score = results["Wellness score"],personal_wellness_score = results["Personal Wellness Score"],workplace_wellness_score = results["Workplace Wellness Score"],subjective_wellness_score = results["Subjective Wellness Score"],physical = results["Physical Wellness Score"],social = results["Social Wellness Score"] ,emp_satifaction = results["Employee Satisfaction"],env_satisfaction = results["Environment Satisfaction"],work_life_balance = results["Work Life Balance"])
 
