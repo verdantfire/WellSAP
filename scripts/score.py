@@ -1,6 +1,5 @@
 import math
 import statistics
-import math
 
 from scripts.personal_score import personal
 from scripts.personal_score import physical
@@ -20,7 +19,7 @@ def score(data):
     social_score = (social({key: data[key] for key in personal_keys}))*100/7
     
     emp_satisfaction_keys = ['Age_Group', 'PerfScoreID', 'SpecialProjectsCount', 'DaysLateLast30', 'Absences', 'Salary', 'EngagementSurvey', 'Gender', 'PercentSalaryHike', 'PerformanceRating', 'YearsAtCompany', 'YearsInCurrentRole', 'YearsSinceLastPromotion', 'YearsWithCurrManager', 'JobSatisfaction', 'StockOptionLevel', 'TrainingTimesLastYear', 'JobLevel', 'OverTime', 'NumCompaniesWorked']
-    emp_satisfaction_score = emp_satisfaction({key: data[key] for key in emp_satisfaction_keys})*100/5   
+    emp_satisfaction_score = emp_satisfaction({key: data[key] for key in emp_satisfaction_keys})*100/5
     
     env_satisfaction_keys = ['Age_Group', 'FromDiversityJobFairID', 'CitizenDesc', 'HispanicLatino', 'RaceDesc', 'Gender', 'Attrition', 'BusinessTravel', 'DistanceFromHome', 'JobInvolvement']
     env_satisfaction_score = env_satisfaction({key: data[key] for key in env_satisfaction_keys})*100/4

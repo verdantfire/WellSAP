@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 from scripts.score import score
 
-hr_data = pd.read_csv('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\dataset\\hr_data.csv',header=0,index_col='Employee_ID')
-attrition_data = pd.read_csv('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\dataset\\attrition_data.csv',header=0,index_col='Employee_ID')
-lifestyle_data = pd.read_csv('C:\\Users\\Himanshu Ruhela\\WellSAP\\WellSAP\\dataset\\lifestyle_data_simplified.csv',header=0,index_col='Employee_ID')
+hr_data = pd.read_csv('./dataset/hr_data.csv',header=0,index_col='Employee_ID')
+attrition_data = pd.read_csv('./dataset/attrition_data.csv',header=0,index_col='Employee_ID')
+lifestyle_data = pd.read_csv('./dataset/lifestyle_data_simplified.csv',header=0,index_col='Employee_ID')
 
 
 def data_id(employee_id):
