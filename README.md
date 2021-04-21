@@ -42,7 +42,7 @@ $ python3 app.py
 
 ## Demonstration of Project
 1.  [Presentation of Project](https://docs.google.com/presentation/d/1cv6sRxbPHTNtnwxooYTCTiAdCu6XyFfHw2Ha6z4JWoc/edit?usp=sharing)
-2.  Demo Video
+2.  [Demo Video](https://drive.google.com/drive/folders/1WIqDrKngXVZRenDsv8A9dB8Acoycg--R?usp=sharing)
 ## Screenshots
 #### 1. Home Page
 <img src="screenshots/home_page.png" width="400">
@@ -55,6 +55,9 @@ $ python3 app.py
 
 ####  4. Employee Wellness Report Page
 <img src="screenshots/wellness_report_page.png" width="400">
+
+#### 5. Employee Wellness Comparison Page
+<img src="screenshots/compare.png" width="400">
 
 ## Contributors
 1.  [*Aadit Agarwal*](https://github.com/aaditagarwal/)
