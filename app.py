@@ -49,11 +49,7 @@ def result():
                     data[k] = int(float(v))
                 except:
                     continue
-            for k,v in data.items():    
-                print(k,v,type(v))
-            print('BF',results)
             results = score(data)
-            print(results)
             return render_template('result.html', employee_name = results['Employee Name'], Age_Group = results['Age'], Gender = results['Gender'], wellness_score = results["Wellness score"], personal_wellness_score = results["Personal Wellness Score"],workplace_wellness_score = results["Workplace Wellness Score"],subjective_wellness_score = results["Subjective Wellness Score"],physical = results["Physical Wellness Score"],social = results["Social Wellness Score"] ,emp_satifaction = results["Employee Satisfaction"],env_satisfaction = results["Environment Satisfaction"],work_life_balance = results["Work Life Balance"])
             #return render_template('result.html', employee_name = "Lorem Ipsum", Age_Group = '69', Gender = 'AH64 Apache Longbow', wellness_score = results["Wellness score"],personal_wellness_score = results["Personal Wellness Score"],workplace_wellness_score = results["Workplace Wellness Score"],subjective_wellness_score = results["Subjective Wellness Score"],physical = results["Physical Wellness Score"],social = results["Social Wellness Score"] ,emp_satifaction = results["Employee Satisfaction"],env_satisfaction = results["Environment Satisfaction"],work_life_balance = results["Work Life Balance"])
 
