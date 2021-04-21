@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>WellSAP Wellness Report</title>
+<title>WellSAP Wellness Report Comparison</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -67,6 +67,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
             }
           }
         }
+        &.noborder {
+            color: limegreen;
+          &:btn {
+            color: limegreen;
+            &:hover {
+              background-color: limegreen;
+              border-color: limegreen;
+              color: white;
+            }
+            border-width: 0;
+          }
+        }
       }
       
       /* Table columns
@@ -105,6 +117,15 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         </div>
         <div class="table-cell plattform"></div>
 
+        <div class="table-cell noborder"></div>
+
+        <div class="table-cell plattform"></div>
+        <div class="table-cell plattform">
+          <h3>Average Wellness Score</h3>
+          {{ wellness_score_avg }}
+        </div>
+        <div class="table-cell plattform"></div>
+
         <div class="table-cell plattform">
             <h3>Personal Wellness Score</h3>
             {{ personal_wellness_score }}
@@ -116,6 +137,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         <div class="table-cell plattform">
             <h3>Workplace Wellness Score</h3>
             {{ workplace_wellness_score }}
+        </div>
+
+        <div class="table-cell noborder"></div>
+
+        <div class="table-cell plattform">
+            <h3>Personal Wellness Score</h3>
+            {{ personal_wellness_score_avg }}
+        </div>
+        <div class="table-cell plattform">
+            <h3>Subjective Wellness Score</h3>
+            {{ subjective_wellness_score_avg }}
+        </div>
+        <div class="table-cell plattform">
+            <h3>Workplace Wellness Score</h3>
+            {{ workplace_wellness_score_avg }}
         </div>
 
         <div class="table-cell plattform">
@@ -133,12 +169,27 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                 <li>Work Life Balance Score: {{ work_life_balance }}</li>
             </ul>
         </div>
+
+        <div class="table-cell noborder"></div>
+
+        <div class="table-cell plattform">
+            <ul>
+                <li>Physical Score: {{ physical_avg }}</li>
+                <li>Social Score: {{ social_avg }}</li>
+            </ul>
+        </div>
+        <div class="table-cell plattform">
+        </div>
+        <div class="table-cell plattform">
+            <ul>
+                <li>Employee Satisfaction Score: {{ emp_satifaction_avg }}</li>
+                <li>Environment Satisfaction Score: {{ env_satisfaction_avg }}</li>
+                <li>Work Life Balance Score: {{ work_life_balance_avg }}</li>
+            </ul>
+        </div>
       </div>
-      <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><a href="{{ url_for('compare') }}">Compare Report</a></button>
-      <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><a href="{{ url_for('home') }}">Home</a></button>
   </div>
 </div>
-
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
     <h1 class="w3-margin w3-xlarge">Health is a state of the body.<br>Wellness is a state of being.</h1>

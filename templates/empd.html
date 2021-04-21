@@ -12,6 +12,65 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
 </style>
+<script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+ $("#btn1").click(function () {
+  $("#employee_name").val("Chace, Beatrice ");
+  $("#Age_Group").val("21 to 35");
+  $("#Gender").val("F");
+  $("#FRUITS_VEGGIES").val("5");
+  $("#DAILY_STRESS").val("5");
+  $("#BMI_RANGE").val("2");
+  $("#DONATION").val("5");
+  $("#PLACES_VISITED").val("6");
+  $("#CORE_CIRCLE").val("6");
+  $("#SUPPORTING_OTHERS").val("5");
+  $("#DAILY_STEPS").val("6");
+  $("#SOCIAL_NETWORK").val("7");
+  $("#SLEEP_HOURS").val("6.96");
+  $("#WEEKLY_MEDITATION").val("4.8");
+  $("#DAILY_SHOUTING").val("3.32");
+  $("#MaritalStatusID").val("0");
+  $("#RelationshipSatisfaction").val("4.0");
+  $("#TODO_COMPLETED").val("5");
+  $("#LOST_VACATION").val("3");
+  $("#TIME_FOR_PASSION").val("2.8");
+  $("#FLOW").val("2.8");
+  $("#PerfScoreID").val("3");
+  $("#SpecialProjectsCount").val("0");
+  $("#DaysLateLast30").val("0");
+  $("#Absences").val("11");
+  $("#Salary").val("61656");
+  $("#EngagementSurvey").val("5.0");
+  $("#PerformanceRating").val("3.0");
+  $("#YearsAtCompany").val("11.0");
+  $("#YearsInCurrentRole").val("7.0");
+  $("#YearsSinceLastPromotion").val("1.0");
+  $("#YearsWithCurrManager").val("7.0");
+  $("#PercentSalaryHike").val("15.0");
+  $("#JobSatisfaction").val("2.0");
+  $("#StockOptionLevel").val("0.0");
+  $("#TrainingTimesLastYear").val("2.0");
+  $("#JobLevel").val("2.0");
+  $("#OverTime").val("No");
+  $("#NumCompaniesWorked").val("8.0");
+  $("#FromDiversityJobFairID").val("0");
+  $("#CitizenDesc").val("US Citizen");
+  $("#HispanicLatino").val("No");
+  $("#RaceDesc").val("White");
+  $("#Attrition").val("No");
+  $("#BusinessTravel").val("Non-Travel");
+  $("#DistanceFromHome").val("2.0");
+  $("#JobInvolvement").val("3.0");
+  $("#LIVE_VISION").val("10");
+  $("#ACHIEVEMENT").val("4");
+  $("#SUFFICIENT_INCOME").val("2");
+  $("#PERSONAL_AWARDS").val("6");
+});
+});
+</script>
 <body>
 
 <!-- Navbar -->
@@ -29,10 +88,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-center">
     <h2>Enter Employee Details</h2>
+    <button id="btn1" type="submit" class="w3-button w3-black w3-large w3-margin-top" onclick="transferField()">Fill Values</button>
+    <!--<input type="button" onclick="transferField(this.value)" value="Test">-->
     <form name="wellform" action="{{ url_for('result')}}" method="post" class="w3-center">
         <!--<input id="employee_id" placeholder="ID" name="employee_id" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
         <input id="emp-name" placeholder="Name" name="emp-name" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />-->
-<input id="employee_name" placeholder="Name" name="employee_name" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
+<input id="employee_name" placeholder="Name" name="employee_name" value ="" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
 <input id="Age_Group" placeholder="Age Group" name="Age_Group" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
 <input id="Gender" placeholder="Gender" name="Gender" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
 <input id="FRUITS_VEGGIES" placeholder="Fruit and Vegetable Intake" name="FRUITS_VEGGIES" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
@@ -42,6 +103,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <input id="PLACES_VISITED" placeholder="Places Visited" name="PLACES_VISITED" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
 <input id="CORE_CIRCLE" placeholder="Social Circle" name="CORE_CIRCLE" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
 <input id="SUPPORTING_OTHERS" placeholder="Supporting Colleagues" name="SUPPORTING_OTHERS" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
+<input id="DAILY_STEPS" placeholder="Daily Steps" name="DAILY_STEPS" type="text" class=w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
 <input id="SOCIAL_NETWORK" placeholder="Social Network" name="SOCIAL_NETWORK" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
 <input id="SLEEP_HOURS" placeholder="Sleeping Duration (h)" name="SLEEP_HOURS" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
 <input id="WEEKLY_MEDITATION" placeholder="Meditation (h)" name="WEEKLY_MEDITATION" type="text" class="w3-input w3-hover-red w3-round-large" style="width:30%;margin: auto;margin-bottom:20px" required="required" />
@@ -94,20 +156,66 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
- <a href="https://sap-code.hackerearth.com/" target="_blank">WellSAP : Made by Team 42 for Code with SAP Labs India</a>
+ <a href="https://github.com/aaditagarwal/WellSAP" target="_blank">WellSAP : Made by Team 42 for Code with SAP Labs India</a>
 </footer>
 
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
+<!-- <script>
+function transferField() { 
+  const myMap = new MyMap();
+  mymap.put("employee_name", "Chace, Beatrice ");
+  mymap.put("Age_Group", "21 to 35");
+  mymap.put("Gender", "F");
+  mymap.put("FRUITS_VEGGIES", "5");
+  mymap.put("DAILY_STRESS", "5");
+  mymap.put("BMI_RANGE", "2");
+  mymap.put("DONATION", "5");
+  mymap.put("PLACES_VISITED", "6");
+  mymap.put("CORE_CIRCLE", "6");
+  mymap.put("SUPPORTING_OTHERS", "5");
+  mymap.put("DAILY_STEPS", "6");
+  mymap.put("SOCIAL_NETWORK", "7");
+  mymap.put("SLEEP_HOURS", "6.96");
+  mymap.put("WEEKLY_MEDITATION", "4.8");
+  mymap.put("DAILY_SHOUTING", "3.32");
+  mymap.put("MaritalStatusID", "0");
+  mymap.put("RelationshipSatisfaction", "4.0");
+  mymap.put("TODO_COMPLETED", "5");
+  mymap.put("LOST_VACATION", "3");
+  mymap.put("TIME_FOR_PASSION", "2.8");
+  mymap.put("FLOW", "2.8");
+  mymap.put("PerfScoreID", "3");
+  mymap.put("SpecialProjectsCount", "0");
+  mymap.put("DaysLateLast30", "0");
+  mymap.put("Absences", "11");
+  mymap.put("Salary", "61656");
+  mymap.put("EngagementSurvey", "5.0");
+  mymap.put("PerformanceRating", "3.0");
+  mymap.put("YearsAtCompany", "11.0");
+  mymap.put("YearsInCurrentRole", "7.0");
+  mymap.put("YearsSinceLastPromotion", "1.0");
+  mymap.put("YearsWithCurrManager", "7.0");
+  mymap.put("PercentSalaryHike", "15.0");
+  mymap.put("JobSatisfaction", "2.0");
+  mymap.put("StockOptionLevel", "0.0");
+  mymap.put("TrainingTimesLastYear", "2.0");
+  mymap.put("JobLevel", "2.0");
+  mymap.put("OverTime", "No");
+  mymap.put("NumCompaniesWorked", "8.0");
+  mymap.put("FromDiversityJobFairID", "0");
+  mymap.put("CitizenDesc", "US Citizen");
+  mymap.put("HispanicLatino", "No");
+  mymap.put("RaceDesc", "White");
+  mymap.put("Attrition", "No");
+  mymap.put("BusinessTravel", "Non-Travel");
+  mymap.put("DistanceFromHome", "2.0");
+  mymap.put("JobInvolvement", "3.0");
+  mymap.put("LIVE_VISION", "10");
+  mymap.put("ACHIEVEMENT", "4");
+  mymap.put("SUFFICIENT_INCOME", "2");
+  mymap.put("PERSONAL_AWARDS", "6");
+  myMap.forEach(document.wellform.k.value = v);
   }
-}
-</script>
+</script> -->
 
 </body>
 </html>
