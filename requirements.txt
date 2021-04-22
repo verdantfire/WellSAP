@@ -5,8 +5,6 @@ gunicorn==20.1.0
 itsdangerous==1.1.0
 jinja2==2.11.2
 markupsafe==1.1.1
-numpy-base==1.19.1
-openssl==1.1.1h
 pip==21.0.1
 psycopg2==2.8.6
 python==3.8.5
