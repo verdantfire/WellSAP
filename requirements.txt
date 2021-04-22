@@ -4,10 +4,6 @@ flask==1.1.2
 gunicorn==20.1.0
 itsdangerous==1.1.0
 jinja2==2.11.2
-libgcc-ng==9.1.0
-libgfortran-ng==7.3.0
-libopenblas==0.3.10
-libstdcxx-ng==9.1.0
 markupsafe==1.1.1
 ncurses==6.2
 numpy-base==1.19.1
@@ -15,7 +11,6 @@ openssl==1.1.1h
 pip==21.0.1
 psycopg2==2.8.6
 python==3.8.5
-python-dateutil==2.8.1
 readline==8.1
 scikit-learn==0.23.2
 scipy==1.5.2
