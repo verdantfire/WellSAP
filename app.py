@@ -38,7 +38,6 @@ def result():
            # return render_template('result.html', employee_name = "Lorem Ipsum", Age_Group = '69', Gender = 'AH64 Apache Longbow', wellness_score = results["Wellness score"],personal_wellness_score = results["Personal Wellness Score"],workplace_wellness_score = results["Workplace Wellness Score"],subjective_wellness_score = results["Subjective Wellness Score"],physical = results["Physical Wellness Score"],social = results["Social Wellness Score"] ,emp_satifaction = results["Employee Satisfaction"],env_satisfaction = results["Environment Satisfaction"],work_life_balance = results["Work Life Balance"])
         else:
             data = {}
-            str_fields = ['employee_name','Age_Group','Gender', 'OverTime','CitizenDesc','HispanicLatino','RaceDesc','Attrition','BusinessTravel','SUFFICIENT_INCOME']
             #global results
             # getting input with name = fname in HTML form
             for key, val in request.form.items():
@@ -67,5 +66,9 @@ def compare():
 
     return render_template('compare.html', employee_name = results["Employee Name"], Age_Group = results["Age"], Gender = results["Gender"], wellness_score = results["Wellness score"],personal_wellness_score = results["Personal Wellness Score"],workplace_wellness_score = results["Workplace Wellness Score"],subjective_wellness_score = results["Subjective Wellness Score"],physical = results["Physical Wellness Score"],social = results["Social Wellness Score"] ,emp_satifaction = results["Employee Satisfaction"],env_satisfaction = results["Environment Satisfaction"],work_life_balance = results["Work Life Balance"], wellness_score_avg = results_avg["Wellness score"], personal_wellness_score_avg = results_avg["Personal Wellness Score"],workplace_wellness_score_avg = results_avg["Workplace Wellness Score"],subjective_wellness_score_avg = results_avg["Subjective Wellness Score"],physical_avg = results_avg["Physical Wellness Score"],social_avg = results_avg["Social Wellness Score"] ,emp_satifaction_avg = results_avg["Employee Satisfaction"],env_satisfaction_avg = results_avg["Environment Satisfaction"],work_life_balance_avg = results_avg["Work Life Balance"])
 
+@app.route('/about')
+@app.route('/about_us')
+def about():
+    return render_template('about.html')
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)

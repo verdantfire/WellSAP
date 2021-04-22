@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>WellSAP About Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.ws-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="ws-top">
+  <div class="ws-bar ws-red ws-card ws-left-align ws-large">
+    <a class="ws-bar-item ws-button ws-hide-medium ws-hide-large ws-right ws-padding-large ws-hover-white ws-large ws-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="{{ url_for('home') }}" class="ws-bar-item ws-button ws-padding-large ws-white">Home</a>
+    <a href="{{ url_for('about') }}" class="ws-bar-item ws-button ws-padding-large ws-white">About</a>
+  </div></div>
+
+<!-- Header -->
+<header class="ws-container ws-red ws-center" style="padding:128px 16px">
+  <h1 class="ws-margin ws-jumbo">Well<img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/SAP-Logo.svg" alt="SAP" height=80px  style="vertical-align:top;margin:10px 0px"/></h1>
+  </header>
+
+  <div class="ws-row-padding ws-padding-64 ws-container">
+    <div>
+        <ul>
+<h2 id="introduction">Introduction</h2>
+
+<li>Wellness is not a single entity, multiple factors are involved behind an individual’s wellness.</li>
+<li>We have created clusters of an individual’s acquirable data points to form different Level-2 wellness scores, which are then combined to form broader Level-1 wellness scores and ultimately a Final overall Wellness score is calculated.</li>
+<li>The wellness is first broken into broader clusters (Level-1) which divide the individual’s wellness into Work, Personal and Mental.</li>
+<li>Then the broader clusters are again broken down into focused clusters (Level-2) which anchor on specific activities and aspects of the employee such as work life balance, physical aspect, work environment, social activity, and job satisfaction.</li>
+<li>This approach helps understand the wellness on a nuclear level and allows the company to analyze the organization’s wellness on multiple levels and work on focused aspects to improve it rather than vast approaches. <h2 id="objectives">Objectives</h2>
+</li>
+<li>Identification of metrics related to wellness of an employee</li>
+<li>Provide a Wellness score for an employee
+2.1  Both physical and mental wellbeing to be considered.
+2.2  Relevancy for most of the organization&#39;s population to avoid skewed data.</li>
+<li>Identification of the collective metrics to come up with more meaningful strategy for wellness programs.<h2 id="clusters">Clusters</h2>
+The final level of Wellness score is divided into broader Level-1 wellness scores. The Level-1 Wellness are then again sub divided into focused Level-2 Wellness scores.<h4 id="-level-1-wellness-"><strong>Level-1 Wellness</strong>:</h4>
+</li>
+<li><em>Personal Score</em>: These features reflect the personal attributes of the employee such as physical and social wellbeing of an employee.</li>
+<li><em>Workplace Score</em>: These features reflect all aspects of the working life of the employee from the quality of working environment to how the employee feel about their work and finally how they are able to balance their work with their lives.</li>
+<li><em>Subjective Score</em>:  These features show the way individuals behave as well as their psychological state.<h4 id="-personal-level-2-wellness-"><strong>Personal Level-2 Wellness</strong>:</h4>
+</li>
+<li><em>Physical Score</em>: These features show the daily physical habits and behaviour related to overall health and quality of life of the employee.</li>
+<li><em>Social Score</em>: These feature reflect about supportive relationships of the employee with individuals, groups and communities.<h4 id="-workplace-level-2-wellness-"><strong>Workplace Level-2 Wellness</strong>:</h4>
+</li>
+<li><em>Work-Life Balance</em>: These features contemplate the equilibrium between the employee’s personal life and career.</li>
+<li><em>Employee Satisfaction</em>: These features indicate the satisfaction of the employee with their job and all aspects related to it.</li>
+<li><em>Work Environment Satisfaction</em>: These features depict the employee’s satisfaction with the environment in which they operate and work.<!-- <img src="{{ url_for('static', filename='images/clusters.png') }}" width="700"> -->
+<h2 id="limitations">Limitations</h2>
+</li>
+<li>This is a Proof of Concept of the proposed solution.</li>
+<li>We have used randomly acquired datasets which do not reflect the insights obtainable from real-world data.</li>
+<li>Given the nature of data, the models generated are not reliable but only serve the purpose of implementation.</li>
+<li>For the proper functioning of the solution, the models need to be trained on organization’s internal data, which would be reliable and would provide the user with better understanding of the solution and deliver efficient results.<h2 id="instruction">Instruction</h2>
+<pre><code><span class="hljs-variable">$ </span>conda env create -f environment.yml
+<span class="hljs-variable">$ </span>conda activate well_sap
+<span class="hljs-variable">$ </span>python3 app.py
+</code></pre></li>
+</ul>
+<pre><code>
+</code></pre><p><strong>Note</strong>:</p>
+<ol>
+<li>Make sure you have Anaconda installed</li>
+<li>If the website doesn&#39;t load itself, On your default browser, open <a href="127.0.0.1:5000/home"><code>127.0.0.1:5000/</code></a></li>
+</ol>
+<h2 id="demonstration-of-project">Demonstration of Project</h2>
+<ol>
+<li><a href="https://docs.google.com/presentation/d/1cv6sRxbPHTNtnwxooYTCTiAdCu6XyFfHw2Ha6z4JWoc/edit?usp=sharing">Presentation of Project</a></li>
+<li><a href="https://drive.google.com/drive/folders/1WIqDrKngXVZRenDsv8A9dB8Acoycg--R?usp=sharing">Demo Video</a>
+</ol>    
+    <div class="ws-center">
+    <h2 id="screenshots">Screenshots</h2>
+    <h4 id="1-home-page">1. Home Page</h4>
+    <img src="{{ url_for('static', filename='images/home_page.png') }}" width="600"></li>
+    <h4 id="2-employee-id-page">2. Employee ID Page</h4>
+    <img src="{{ url_for('static', filename='images/employee_id_page.png') }}" width="600">
+    <br>
+    <h4 id="3-employee-form-page">3. Employee Form Page</h4>
+    <img src="{{ url_for('static', filename='images/employee_form_page.png') }}" width="600">
+    <br>
+    <h4 id="4-employee-wellness-report-page">4. Employee Wellness Report Page</h4>
+    <img src="{{ url_for('static', filename='images/wellness_report_page.png') }}" width="600">
+    <br>
+    <h4 id="5-employee-wellness-comparison-page">5. Employee Wellness Comparison Page</h4>
+    <img src="{{ url_for('static', filename='images/compare.png') }}" width="600">
+
+<h2 id="contributors">Contributors</h2>
+<ol>
+<li><em>Aadit Agarwal</em><a href="https://github.com/aaditagarwal/"><img src = "{{ url_for('static', filename='images/github_icon.png') }}" width="30" style="padding-left:10px;"><a href="https://www.linkedin.com/in/aadit-agarwal-114599175/" ><img src = "{{ url_for('static', filename='images/linkedin_icon.png') }}" width="30" style="padding-left:10px;"></a></li>
+<li><em>Aastha Jain</em><a href="https://github.com/aasthajain12/"><img src = "{{ url_for('static', filename='images/github_icon.png') }}" width="30" style="padding-left:10px;"></a><a href="https://www.linkedin.com/in/aastha-jain-0599b4175/" ><img src = "{{ url_for('static', filename='images/linkedin_icon.png') }}" width="30" style="padding-left:10px;"></a></li>
+<li><em>Himanshu Ruhela</em><a href="https://github.com/verdantfire/"><img src = "{{ url_for('static', filename='images/github_icon.png') }}" width="30" style="padding-left:10px;"></a><a href="https://www.linkedin.com/in/himanshu-ruhela/" ><img src = "{{ url_for('static', filename='images/linkedin_icon.png') }}" width="30" style="padding-left:10px;"></a></li>
+</ol>
+</div>
+
+    </div>
+</div>
+<div class="ws-container ws-black ws-center ws-opacity ws-padding-64">
+    <h1 class="ws-margin ws-xlarge">Health is a state of the body.<br>Wellness is a state of being.</h1>
+</div>
+
+<!-- Footer -->
+<footer class="ws-container ws-padding-64 ws-center ws-opacity">  
+ <a href="https://github.com/aaditagarwal/WellSAP" target="_blank">WellSAP : Made by Team 42 for Code with SAP Labs India</a>
+</footer>
+
+</body>
+</html>
