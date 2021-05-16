@@ -104,8 +104,8 @@ def result():
                     
 @app.route('/compare', methods=['GET','POST'])
 def compare():
-    global results
-    global programs
+    # global results
+    # global programs
     results_avg = {"Wellness score":51.932, "Personal Wellness Score": 42.857,
             "Workplace Wellness Score": 71.539,
             "Subjective Wellness Score": 48.885,
@@ -119,9 +119,6 @@ def compare():
 
 @app.route('/programs_info')
 def programs_info():
-    global results
-    global programs
-
     programs = wellness_programs(results)
     while len(programs)!=9:
         programs.append("")
