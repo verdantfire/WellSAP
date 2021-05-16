@@ -47,17 +47,26 @@ $ python3 app.py
 #### 1. Home Page
 <img src="screenshots/home_page.png" width="400">
 
-#### 2. Employee ID Page
+#### 2. About Page
+<img src="screenshots/about_page.png" width="400">
+
+#### 3. Employee ID Page
 <img src="screenshots/employee_id_page.png" width="400">
 
-####  3. Employee Form Page
+#### 4. Employee Form Page
 <img src="screenshots/employee_form_page.png" width="400">
 
-####  4. Employee Wellness Report Page
+#### 5. Employee Document Upload Page
+<img src="screenshots/employee_doc.png" width="400">
+
+#### 6. Employee Wellness Report Page
 <img src="screenshots/wellness_report_page.png" width="400">
 
-#### 5. Employee Wellness Comparison Page
+#### 7. Employee Wellness Comparison Page
 <img src="screenshots/compare.png" width="400">
+
+#### 8. Employee Wellness Programs Page
+<img src="screenshots/wellness_programs.png" width="400">
 
 ## Contributors
 1.  [*Aadit Agarwal*](https://github.com/aaditagarwal/)
