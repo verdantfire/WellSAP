@@ -20,6 +20,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a class="ws-bar-item ws-button ws-hide-medium ws-hide-large ws-right ws-padding-large ws-hover-white ws-large ws-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="{{ url_for('home') }}" class="ws-bar-item ws-button ws-padding-large ws-white">Home</a>
     <a href="{{ url_for('about') }}" class="ws-bar-item ws-button ws-padding-large ws-white">About</a>
+    <a href="{{ url_for('programs_info') }}" class="ws-bar-item ws-button ws-padding-large ws-white">Wellness Programs</a>
   </div>
 
 </div>
@@ -136,6 +137,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
             </ul>
         </div>
       </div>
+      <br>
+      <br>
+      <h3>Suggested Wellness Programs : {{ programs_count }}, {{ program_0 }} </h3>
+      <h5>(Check <a href="{{ url_for('programs_info') }}">Wellness Programs</a> Tab for more information on these suggestions.</h5>
       <button class="ws-button ws-black ws-padding-large ws-large ws-margin-top"><a href="{{ url_for('compare') }}">Compare Report</a></button>
       <button class="ws-button ws-black ws-padding-large ws-large ws-margin-top"><a href="{{ url_for('home') }}">Home</a></button>
   </div>

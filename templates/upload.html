@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>WellSAP Home Page</title>
+<title>WellSAP Upload Page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}"/>
@@ -25,11 +25,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Header -->
 <header class="ws-container ws-red ws-center" style="padding:128px 16px">
-  <h1 class="ws-margin ws-jumbo">Well<img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/SAP-Logo.svg" alt="SAP" height=80px  style="vertical-align:top;margin:10px 0px"/></h1>
-  <button class="ws-button ws-black ws-padding-large ws-large ws-margin-top"><a href="{{ url_for('empid') }}">Enter Employee ID</a></button>
-  <button class="ws-button ws-black ws-padding-large ws-large ws-margin-top"><a href="{{ url_for('empd') }}">Enter Employee Details</a></button>
-  <button class="ws-button ws-black ws-padding-large ws-large ws-margin-top"><a href="{{ url_for('upload') }}">Upload Employee Record</a></button><br><br>
-  <button class="ws-button ws-black ws-padding-small ws-small ws-margin-top"> <a href="https://github.com/aaditagarwal/WellSAP/raw/main/static/files/sample.csv" download> Download Sample CSV Record</a></button>
+    <form name="wellform" action="{{ url_for('result')}}" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileupload" id="fileToUpload"><br><br>
+        <button type="submit" class="btn btn-primary btn-block btn-large ws-button ws-black ws-padding-large ws-large ws-margin-top">Upload File (.csv)</button>
+    </form>
 </header>
 
 <div class="ws-container ws-black ws-center ws-opacity ws-padding-64">

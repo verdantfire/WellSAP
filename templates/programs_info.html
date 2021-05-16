@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>WellSAP Home Page</title>
+<title>WellSAP Wellness Programs</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}"/>
@@ -20,17 +20,29 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a class="ws-bar-item ws-button ws-hide-medium ws-hide-large ws-right ws-padding-large ws-hover-white ws-large ws-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="{{ url_for('home') }}" class="ws-bar-item ws-button ws-padding-large ws-white">Home</a>
     <a href="{{ url_for('about') }}" class="ws-bar-item ws-button ws-padding-large ws-white">About</a>
-
-  </div></div>
+    <a href="{{ url_for('programs_info') }}" class="ws-bar-item ws-button ws-padding-large ws-white">Wellness Programs</a>
+  </div>
+  </div>
 
 <!-- Header -->
-<header class="ws-container ws-red ws-center" style="padding:128px 16px">
+<header class="ws-container ws-red ws-center" style="padding:70px 16px">
   <h1 class="ws-margin ws-jumbo">Well<img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/SAP-Logo.svg" alt="SAP" height=80px  style="vertical-align:top;margin:10px 0px"/></h1>
-  <button class="ws-button ws-black ws-padding-large ws-large ws-margin-top"><a href="{{ url_for('empid') }}">Enter Employee ID</a></button>
-  <button class="ws-button ws-black ws-padding-large ws-large ws-margin-top"><a href="{{ url_for('empd') }}">Enter Employee Details</a></button>
-  <button class="ws-button ws-black ws-padding-large ws-large ws-margin-top"><a href="{{ url_for('upload') }}">Upload Employee Record</a></button><br><br>
-  <button class="ws-button ws-black ws-padding-small ws-small ws-margin-top"> <a href="https://github.com/aaditagarwal/WellSAP/raw/main/static/files/sample.csv" download> Download Sample CSV Record</a></button>
 </header>
+
+<div class="ws-row-padding ws-padding-64 ws-container">
+  <div class="ws-center">
+    <h2> Suggested Wellness Programs</h2>
+    <h3 style="color: rgb(68, 64, 64);"> {{ program_0 }} </h3>
+<h3 style="color: rgb(68, 64, 64);;"> {{ program_1 }} </h3>
+<h3 style="color: rgb(68, 64, 64);;"> {{ program_2 }} </h3>
+<h3 style="color: rgb(68, 64, 64);;"> {{ program_3 }} </h3>
+<h3 style="color: rgb(68, 64, 64);;"> {{ program_4 }} </h3>
+<h3 style="color: rgb(68, 64, 64);;"> {{ program_5 }} </h3>
+<h3 style="color: rgb(68, 64, 64);;"> {{ program_6 }} </h3>
+<h3 style="color: rgb(68, 64, 64);;"> {{ program_7 }} </h3>
+<h3 style="color: rgb(68, 64, 64);;"> {{ program_8 }} </h3>
+  </div>
+</div>
 
 <div class="ws-container ws-black ws-center ws-opacity ws-padding-64">
     <h1 class="ws-margin ws-xlarge">Health is a state of the body.<br>Wellness is a state of being.</h1>
