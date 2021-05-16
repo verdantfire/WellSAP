@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Enter Employee ID - WellSAP</title>
+<title>WellSAP Upload Page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}"/>
@@ -20,25 +20,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a class="ws-bar-item ws-button ws-hide-medium ws-hide-large ws-right ws-padding-large ws-hover-white ws-large ws-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="{{ url_for('home') }}" class="ws-bar-item ws-button ws-padding-large ws-white">Home</a>
     <a href="{{ url_for('about') }}" class="ws-bar-item ws-button ws-padding-large ws-white">About</a>
-  </div>
-  </div>
+
+  </div></div>
 
 <!-- Header -->
-<header class="ws-container ws-red ws-center" style="padding:70px 16px">
-  <h1 class="ws-margin ws-jumbo">Well<img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/SAP-Logo.svg" alt="SAP" height=80px  style="vertical-align:top;margin:10px 0px"/></h1>
-</header>
-
-<div class="ws-row-padding ws-padding-64 ws-container">
-  <div class="ws-center">
-    <h2>Enter Employee ID</h2>
-    <h4>Enter a number between 1 and 311 for an employee from our dataset.</h4>
-    <form name="wellform" action="{{ url_for('result')}}" method="post">
-      <input type="text" class="ws-input ws-hover-red ws-round-large" style="width:30%;margin: auto" id="employee_id" placeholder="ID" name="employee_id" required="required" />
-      <br>
-      <button type="submit" class="btn btn-primary btn-block btn-large ws-button ws-black ws-padding-large ws-large ws-margin-top">Get Wellness Report</button>
+<header class="ws-container ws-red ws-center" style="padding:128px 16px">
+    <form name="wellform" action="{{ url_for('result')}}" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileupload" id="fileToUpload"><br><br>
+        <button type="submit" class="btn btn-primary btn-block btn-large ws-button ws-black ws-padding-large ws-large ws-margin-top">Upload File (.csv)</button>
     </form>
-  </div>
-</div>
+</header>
 
 <div class="ws-container ws-black ws-center ws-opacity ws-padding-64">
     <h1 class="ws-margin ws-xlarge">Health is a state of the body.<br>Wellness is a state of being.</h1>
