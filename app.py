@@ -122,6 +122,7 @@ def programs_info():
     global results
     global programs
 
+    programs = wellness_programs(results)
     while len(programs)!=9:
         programs.append("")
 
